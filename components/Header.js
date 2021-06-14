@@ -44,7 +44,7 @@ export default function Header(props) {
 
                           <li className={`menu-item ${asPath === "/" ? "current-menu-item" : ""}`}>
                             <Link href="/">
-                                <a> <span>Home</span> </a>
+                                <a> <span >Home</span> </a>
                             </Link>
                           </li>
 

@@ -14,3 +14,34 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2c2f3b;
+  font-weight: bold;
+  line-height: 1.16667;
+  text-rendering: optimizeLegibility;
+
+
+}
+
+.hero-header{
+  padding: 1.25em 0 .5em;
+  padding-top: 1.5em;
+
+}
+
+.hero-container{
+  background-color: #fff;
+  background-image: url(../public/images/hero.svg);
+  object-fit: cover;
+  min-height: 550px;
+}
+
+.hero-describtion{
+  /* max-width: 800px; */
+}

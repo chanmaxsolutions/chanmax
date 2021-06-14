@@ -31,26 +31,32 @@ a {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $gray-700;
-  font-weight: bold;
-  line-height: 1.16667;
-  margin: 1.25em 0 0.5em;
-  text-rendering: optimizeLegibility;
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   color: $gray-700;
+//   font-weight: bold;
+//   line-height: 1.16667;
+//   margin: 1.25em 0 0.5em;
+//   text-rendering: optimizeLegibility;
 
-  &:first-child {
-    margin-top: 0;
-  }
+//   &:first-child {
+//     margin-top: 0;
+//   }
 
-  .font-fira-sans & {
-    font-weight: 600;
-  }
-}
+//   .font-fira-sans & {
+//     font-weight: 600;
+//   }
+// }
+
+
+
+
+
+
 
 h1 {
   font-size: 2em;

@@ -1,12 +1,13 @@
 import React from 'react'
-import Header from '../components/Header'
 import SEO from '../components/SEO'
+import HomeHero from '../components/HomeHero'
 
 export default function Home() {
     return (
         <React.Fragment>
             <SEO title="Chanmax" />
-            <Header />
+            <HomeHero/>
+
         </React.Fragment>
     )
 }
