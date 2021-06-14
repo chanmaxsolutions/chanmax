@@ -1,0 +1,17 @@
+{
+  "name": "chanmax",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "next": "10.2.3",
+    "node-sass": "^5.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
