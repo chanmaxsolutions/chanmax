@@ -29,9 +29,21 @@ h6 {
 
 }
 
+p{
+  text-rendering: optimizeLegibility;
+}
+
+a{
+  text-rendering: optimizeLegibility;
+}
+
+span{
+  text-rendering: optimizeLegibility;
+}
+
 .hero-header{
   padding: 1.25em 0 .5em;
-  padding-top: 1.5em;
+  padding-top: 2em;
 
 }
 
@@ -39,9 +51,47 @@ h6 {
   background-color: #fff;
   background-image: url(../public/images/hero.svg);
   object-fit: cover;
-  min-height: 550px;
+  min-height: 500px;
 }
+
+
+  @media (max-width: 1024px) {
+    .hero-container{
+      min-height: 450px;} 
+  }
+
 
 .hero-describtion{
   /* max-width: 800px; */
+}
+
+.service-container{
+  margin: 0px auto;
+    padding: 34px 0px;
+    background: rgb(249, 248, 250);
+    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 1px;
+    min-height: 400px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+@media (max-width: 750px) {
+  .service-container{
+   box-shadow: none;
+   border-radius: 0px;
+  } 
+}
+
+.card{
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none;
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+.card-text{
+  font-size: 13px;
 }
