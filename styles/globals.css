@@ -68,8 +68,8 @@ span{
 .service-container{
   margin: 0px auto;
     padding: 34px 0px;
-    background: rgb(249, 248, 250);
-    box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 1px;
+    background: #fff;
+    box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px;
     min-height: 400px;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -94,4 +94,32 @@ span{
 
 .card-text{
   font-size: 13px;
+}
+
+
+.feature-project-container{
+  background: #ffffff;
+  min-height: 500px;
+  margin-bottom: 50px;
+}
+
+.testimonials-img{
+  border-radius: 50px;
+  background-color: #ffffff;
+  box-shadow: #0000004b 0px 0px 15px -8px !important;
+  border:3px solid #ffffff !important;
+  padding: 3px !important;
+
+}
+
+.testimonial-card{
+  box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px !important;
+  border-radius: 10px !important;
+  background-color: #fff !important;
+}
+
+@media (max-width: 750px) {
+  .testimonial-card{
+    border-radius: 0px;
+  }
 }

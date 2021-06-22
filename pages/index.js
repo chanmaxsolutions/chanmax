@@ -3,6 +3,8 @@ import SEO from '../components/SEO'
 import HomeHero from '../components/HomeHero'
 import ClientCarousel from '../components/ClientCarousel'
 import ServiceSection from '../components/ServiceSection'
+import FeatureProject from '../components/FeatureProject'
+import Testimonial from '../components/Testimonial'
 
 export default function Home() {
     return (
@@ -11,6 +13,8 @@ export default function Home() {
             <HomeHero/>
             <ClientCarousel/>
             <ServiceSection/>
+            <FeatureProject/>
+            <Testimonial/>
         </React.Fragment>
     )
 }
