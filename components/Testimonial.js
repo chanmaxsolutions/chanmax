@@ -3,6 +3,7 @@ import Image from "next/image"
 const Testimonial = () =>{
     return(
         <div className='container mb-5'>
+            <p className="card-title text-center">Logo & Branding</p>
             <h3 className='text-center'>Testimonials</h3>
             <div className='row'>
                 <div className='col-sm-4 text-center mt-4'>

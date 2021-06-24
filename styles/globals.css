@@ -75,12 +75,12 @@ span{
     border-radius: 10px;
 }
 
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
   .service-container{
    box-shadow: none;
    border-radius: 0px;
   } 
-}
+} */
 
 .card{
   background: transparent !important;
@@ -122,4 +122,64 @@ span{
   .testimonial-card{
     border-radius: 0px;
   }
+}
+
+.home-team-container{
+  min-height: 500px;
+  background-image: url(/images/team.jpg);
+  background-size: cover;
+}
+
+.home-team-heading{
+  padding-top: 150px !important;
+}
+
+.blog-card{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.blog-card-div:hover{
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.card-img-top{
+  border-radius: 10px !important;
+}
+
+.home-blog-author-image{
+  border-radius: 50px;
+  box-shadow: #0000004b 0px 0px 15px -8px !important;
+  padding: 3px !important;
+}
+
+.home-blog-author-name{
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.home-blog-author-position{
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.home-blog-container{
+  margin: 0px auto;
+    padding: 34px 20px;
+    background: #fff;
+    box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px;
+    min-height: 400px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.home-call-to-action-container{
+  min-height: 250px;
+  background-color: #ffe8aa;
+  background-image: url(/images/team.jpg);
+  background-size: cover;
+  /* background: linear-gradient(45deg, #108F64, #3EE5AC); */
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px;
 }

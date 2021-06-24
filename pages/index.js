@@ -5,6 +5,9 @@ import ClientCarousel from '../components/ClientCarousel'
 import ServiceSection from '../components/ServiceSection'
 import FeatureProject from '../components/FeatureProject'
 import Testimonial from '../components/Testimonial'
+import HomeTeam from '../components/HomeTeam'
+import HomeBlogs from '../components/HomeBlogs'
+import HomeCallToAction from '../components/HomeCallToAction'
 
 export default function Home() {
     return (
@@ -15,6 +18,9 @@ export default function Home() {
             <ServiceSection/>
             <FeatureProject/>
             <Testimonial/>
+            <HomeTeam/>
+            <HomeBlogs/>
+            <HomeCallToAction/>
         </React.Fragment>
     )
 }
