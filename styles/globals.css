@@ -75,12 +75,7 @@ span{
     border-radius: 10px;
 }
 
-/* @media (max-width: 750px) {
-  .service-container{
-   box-shadow: none;
-   border-radius: 0px;
-  } 
-} */
+
 
 .card{
   background: transparent !important;
@@ -182,4 +177,12 @@ span{
   /* background: linear-gradient(45deg, #108F64, #3EE5AC); */
   border-radius: 10px;
   box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px;
+}
+
+@media (max-width: 750px) {
+  .home-blog-container,.home-call-to-action-container,.service-container,.feature-project-container {
+   box-shadow: none;
+   border-radius: 0px;
+   margin-top: -50px !important;
+  } 
 }
