@@ -12,7 +12,7 @@ const HomeCallToAction = () => {
                 </p>
                 </div>
                 <div className='col-md-2 d-grid align-items-center'>
-                <Link href='/pricing' ><a className="button large fourth btn" style={{marginLeft:'5px', marginTop:'10px'}}>Get a Quote</a></Link>
+                <Link href='/pricing' ><a className="button btn large fourth " style={{marginLeft:'5px', marginTop:'10px'}}>Get a Quote</a></Link>
             
                 </div>
                 </div>
