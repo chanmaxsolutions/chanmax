@@ -88,19 +88,19 @@ const Footer = () => {
 
                         <div className='footer-social-icons'>
                         <Link  href='#'>
-                           <Image className='footer-social-icons-inner' src='/images/linkedin.svg' width={40} height={40} />
+                           <a><Image className='footer-social-icons-inner' src='/images/linkedin.svg' width={40} height={40} /></a>
                         </Link>
 
                         <Link  href='#'>
-                           <Image className='footer-social-icons-inner' src='/images/facebook.svg' width={40} height={40} />
+                           <a><Image className='footer-social-icons-inner' src='/images/facebook.svg' width={40} height={40} /></a>
                         </Link>
 
                         <Link  href='#'>
-                           <Image className='footer-social-icons-inner' src='/images/youtube.svg' width={40} height={40} />
+                           <a><Image className='footer-social-icons-inner' src='/images/youtube.svg' width={40} height={40} /></a>
                         </Link>
 
                         <Link  href='#'>
-                           <Image className='footer-social-icons-inner' src='/images/instagram.svg' width={40} height={40} />
+                           <a><Image className='footer-social-icons-inner' src='/images/instagram.svg' width={40} height={40} /></a>
                         </Link>
                         </div>
                     </div>

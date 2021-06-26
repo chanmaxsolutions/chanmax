@@ -11,6 +11,8 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
             rel="stylesheet"
           />
+          <link rel="stylesheet" href="dist/smooth-scrollbar.css"/>
+
         </Head>
         <body className= 'palette-blue font-nunito-sans'>
           <Main />
