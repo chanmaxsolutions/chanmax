@@ -286,5 +286,53 @@ div > button{
 }
 
 
+.page-header-container{
+  min-height: 250px;
+  background-image: url(/images/team.jpg);
+  background-size: cover;
+  background-color: rgb(1, 22, 32);
+  border-radius: 10px;
+  box-shadow:rgb(0 0 0 / 0.01) 0px 3px 20px, 0px 6px 0px #ffe8aa;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
 
-	
+
+@media (max-width: 1024px) {
+  .page-header-container{
+    margin-top: 0 !important;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+@media (max-width: 750px) {
+  .page-header-container{
+    border-radius: 0px !important;
+  }
+
+}
+
+.page-header-des{
+  color: rgb(241, 241, 241);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -48,27 +48,33 @@ export default function Header(props) {
                             </Link>
                           </li>
 
-                          <li className={`menu-item ${asPath === "/features" ? "current-menu-item" : ""}`}>
-                            <Link href="/features">
-                              <a> <span>Features</span> </a>
+                          <li className={`menu-item ${asPath === "/services" ? "current-menu-item" : ""}`}>
+                            <Link href="/services">
+                              <a> <span>Services</span> </a>
                             </Link>
                           </li>
 
-                          <li className={`menu-item ${asPath === "/pricing" ? "current-menu-item" : ""}`}>
-                            <Link href="/pricing">
-                              <a> <span>Pricing</span> </a>
+                          <li className={`menu-item ${asPath === "/works" ? "current-menu-item" : ""}`}>
+                            <Link href="/works">
+                              <a> <span>Works</span> </a>
                             </Link>
                           </li>
 
-                          <li className={`menu-item ${asPath === "/style-guide" ? "current-menu-item" : ""}`}>
-                            <Link href="/style-guide">
-                              <a> <span>Style Guide</span> </a>
+                          <li className={`menu-item ${asPath === "/about" ? "current-menu-item" : ""}`}>
+                            <Link href="/about">
+                              <a> <span>About</span> </a>
                             </Link>
                           </li>
 
-                          <li className={`menu-item menu-button ${asPath === "/signup" ? "current-menu-item" : ""}`}>
-                            <Link href="/signup">
-                              <a className="button"> <span>Sign Up</span> </a>
+                          <li className={`menu-item ${asPath === "/contact" ? "current-menu-item" : ""}`}>
+                            <Link href="/contact">
+                              <a> <span>Contact</span> </a>
+                            </Link>
+                          </li>
+
+                          <li className={`menu-item menu-button ${asPath === "/get-quote" ? "current-menu-item" : ""}`}>
+                            <Link href="/get-quote">
+                              <a className="button"> <span>Get a Quote</span> </a>
                             </Link>
                           </li>
 
