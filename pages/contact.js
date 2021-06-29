@@ -7,7 +7,7 @@ export default function Contact() {
         <React.Fragment>
             <SEO title="Chanmax" />
             <PageHeader subHead="Contact" mainHead='Reach us for your enquiry'
-            bgImg="/images/7.jpg" 
+            bgImg="/images/team.jpg" 
             des="We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​"/>
         </React.Fragment>

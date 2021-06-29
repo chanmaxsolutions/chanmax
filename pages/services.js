@@ -7,7 +7,7 @@ export default function Services() {
         <React.Fragment>
             <SEO title="Chanmax" />
             <PageHeader subHead="Services" mainHead='What we do'
-            bgImg="/images/4.jpg" 
+            bgImg="/images/team.jpg" 
             des="We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​"/>
         </React.Fragment>

@@ -1,11 +1,13 @@
 .site-header {
   background: #fff;
-  color: $gray-700;
   padding-bottom: 1em;
   padding-top: 1em;
+  z-index: 1030;
 
   a {
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
   }
 }
 
@@ -60,14 +62,14 @@
 
   .site-navigation {
     .current-menu-item {
-      color: $gray-500;
+      color: $color-primary;
     }
-
+    // #2c2f3b
     a:not(.button) {
       color: inherit;
   
       &:hover {
-        color: $gray-500;
+        color: $color-primary;
       }
     }
   }

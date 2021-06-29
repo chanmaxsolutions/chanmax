@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 export default function Header(props) {
+  
 
   const { asPath } = useRouter()
 
@@ -42,7 +43,7 @@ export default function Header(props) {
 
                         <ul className="menu">
 
-                          <li className={`menu-item ${asPath === "/" ? "current-menu-item" : ""}`}>
+                          <li className={`menu-item  ${asPath === "/" ? "current-menu-item" : ""}`}>
                             <Link href="/">
                                 <a> <span >Home</span> </a>
                             </Link>

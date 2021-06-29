@@ -7,7 +7,6 @@ body {
   scroll-behavior: smooth !important; 
 }
 
-
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -268,6 +267,7 @@ div > button{
   transition: opacity .15s ease-in-out;
   margin-top: 10px;
   width: 100%;
+  text-transform: uppercase;
 }
 
 .footer-social-icons{
