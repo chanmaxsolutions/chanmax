@@ -3,14 +3,14 @@ import Image from "next/image"
 const ContactDetails = () =>{
     return(
         <div className='container contact-details-container'>
-            <p className="card-title text-center">Logo & Branding</p>
+            {/* <p className="card-title text-center">Logo & Branding</p>
             <h3 className='text-center'>Testimonials</h3>
 
             <div className='row justify-content-md-center'>
             <div className='text-center col-md-4'>
             <p className='small'>Some quick example text to build on the card title and make up</p>
             </div>
-            </div>
+            </div> */}
             <div className='row justify-content-md-center'>
 
                 <div className='col-sm-3 text-center mt-4 '>

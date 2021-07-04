@@ -47,7 +47,7 @@ const ContactForm = () => {
       className='form-control col-md-6 contact-form-control'
       name="message"
       placeholder="Message"
-      rows='5'
+      rows='3'
       required 
     ></textarea>
     <input

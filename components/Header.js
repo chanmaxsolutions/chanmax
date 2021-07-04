@@ -73,6 +73,12 @@ export default function Header(props) {
                             </Link>
                           </li>
 
+                          <li className={`menu-item ${asPath === "/blog" ? "current-menu-item" : ""}`}>
+                            <Link href="/blog">
+                              <a> <span>Blog</span> </a>
+                            </Link>
+                          </li>
+
                           <li className={`menu-item menu-button ${asPath === "/get-quote" ? "current-menu-item" : ""}`}>
                             <Link href="/get-quote">
                               <a className="button"> <span>Get a Quote</span> </a>
@@ -94,3 +100,5 @@ export default function Header(props) {
     </div>
   )
 }
+
+
