@@ -1,7 +1,10 @@
 .site-header {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.863);
+  backdrop-filter: saturate(180%) blur(5px);
   padding-bottom: 1em;
   padding-top: 1em;
+  position: fixed;
+  width: 100%;
   z-index: 1030;
 
   a {
@@ -63,6 +66,7 @@
   .site-navigation {
     .current-menu-item {
       color: $color-primary;
+      
     }
     // #2c2f3b
     a:not(.button) {
@@ -99,9 +103,10 @@
 
   @supports (position: sticky) or (position: -webkit-sticky) {
     .site-header {
-      background: #fff;
-      position: -webkit-sticky;
-      position: sticky;
+      background: rgba(255, 255, 255, 0.863);
+      backdrop-filter: saturate(180%) blur(5px);
+      position: fixed;
+      width: 100%;
       top:0;
       z-index: 999;
 

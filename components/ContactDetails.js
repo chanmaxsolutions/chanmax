@@ -15,7 +15,7 @@ const ContactDetails = () =>{
 
                 <div className='col-sm-3 text-center mt-4 '>
                     <div className="card ">
-                    <div className="card-body text-center testimonial-card">
+                    <div className="card-body  testimonial-card">
                         <Image src="/images/icon-1.svg" className="" width={70.5} height={72} alt="..."/>
                                 <p className="card-title">Address</p>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

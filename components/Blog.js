@@ -19,7 +19,6 @@ const BlogComponent = () => {
 <Image src={content.image} width={200} height={100} layout='responsive'  objectFit='cover' className="card-img-top" alt="..."/>
 <div className="card-body blog-card">
 <h5 className="card-title"> {content.title} </h5>
-{console.log(data)}
 <p className="card-text">{content.excerpt}</p>
 
 </div>

@@ -8,7 +8,7 @@ const Blog = () => {
         <div className='bg-white'>
             <SEO title="Chanmax" />
             <PageHeader subHead="Blog" mainHead='Read Our updates'
-            bgImg="/images/team.jpg" 
+            bgImg="/images/6.jpg" 
             des="We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​"/>
             <BlogComponent/>

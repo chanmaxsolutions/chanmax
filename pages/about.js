@@ -7,7 +7,7 @@ export default function About() {
         <React.Fragment>
             <SEO title="Chanmax" />
             <PageHeader subHead="About" mainHead='Read our story'
-            bgImg="/images/team.jpg" 
+            bgImg="/images/2.jpg" 
             des="We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​"/>
         </React.Fragment>

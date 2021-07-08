@@ -7,7 +7,7 @@ export default function GetQuote() {
         <React.Fragment>
             <SEO title="Chanmax" />
             <PageHeader subHead="Get Quote" mainHead='Start a project with us'
-            bgImg="/images/team.jpg" 
+            bgImg="/images/4.jpg" 
             des="We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​"/>
         </React.Fragment>

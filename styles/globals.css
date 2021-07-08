@@ -66,9 +66,13 @@ span{
   text-rendering: optimizeLegibility;
 }
 
+div{
+  text-rendering: optimizeLegibility
+}
+
 .hero-header{
-  padding: 1.25em 0 .5em;
-  padding-top: 2em;
+  /* text-transform: capitalize; */
+
 
 }
 
@@ -77,8 +81,16 @@ span{
   background-image: url(../public/images/hero.svg);
   object-fit: cover;
   min-height: 500px;
+  position: relative;
 }
 
+
+.hero-container-row{
+  position: absolute;
+  background-color: #ffffff23;
+  height: 100%;
+  width: 100%;
+}
 
   @media (max-width: 1024px) {
     .hero-container{
@@ -86,7 +98,7 @@ span{
   }
 
 
-.hero-describtion{
+.hero-description{
   /* max-width: 800px; */
 }
 
@@ -292,24 +304,23 @@ div > button{
 
 .page-header-container{
   min-height: 400px;
-  background-image: url(/images/team.jpg);
   background-size: cover;
-  background-color: rgb(1, 22, 32);
-  /* box-shadow:rgb(0 0 0 / 0.01) 0px 3px 20px, 0px 6px 0px #ffe8aa; */
-  padding-left: 400px;
-  padding-right: 400px;
-  padding-top: 80px;
-  padding-bottom: 60px;
+  position: relative;
 }
 
 
+.page-header-row{
+  position: absolute;
+  background-color: #108f65e5;
+   /* top: 0; */
+  /* left: 0; */
+  height: 100%;
+  width: 100%;
+
+}
+
 @media (max-width: 1024px) {
   .page-header-container{
-    margin-top: 0 !important;
-    padding-top: 40px;
-    padding-bottom: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
     min-height: 300px;
   }
 
@@ -320,10 +331,6 @@ div > button{
     border-radius: 0px !important;
   }
 
-}
-
-.page-header-des{
-  color: rgb(241, 241, 241);
 }
 
 .contact-details-container{
@@ -392,6 +399,61 @@ line-height: 2.5;
   }
   
 }
+
+
+.blog-details-container-feature-image{
+  min-height: 500px;
+  background-size: cover;
+  position: relative;
+}
+
+.blog-details-row{
+  position: absolute;
+  background-color: #108f65ec;
+  /* top: 0; */
+  /* left: 0; */
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .blog-details-container-feature-image{
+    min-height: 300px;
+  }
+  
+}
+
+.service-row-container{
+  min-height: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 1000px;
+}
+
+.service-row-col-small-1{
+  min-height: 350px;
+  border-radius: 10px 0px 0px 10px;
+  background-size: cover;
+}
+
+.service-row-col-small-2{
+  min-height: 350px;
+  border-radius: 0px 10px 10px 0px;
+  background-size: cover;
+}
+
+
+
+.service-row-container-2{
+  min-height: 350px;
+  background-color: #108f64;
+  border-radius: 10px;
+  max-width: 1000px;
+
+}
+
+
+
 
 
 
