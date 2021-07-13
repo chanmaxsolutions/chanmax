@@ -443,7 +443,6 @@ line-height: 2.5;
 }
 
 
-
 .service-row-container-2{
   min-height: 350px;
   background-color: #108f64;
@@ -452,6 +451,26 @@ line-height: 2.5;
 
 }
 
+
+@media (max-width: 750px) {
+  .service-row-col-small-1{
+    border-radius: 0px;
+  }
+  
+  .service-row-col-small-2{
+    border-radius: 0px;
+  }
+
+  .service-row-container{
+    border-radius: 0px;
+  }
+
+  .service-row-container-2{
+    border-radius: 0px;
+  
+  }
+  
+}
 
 
 
