@@ -1,0 +1,48 @@
+import ServiceData from "../../data/ServiceData"
+import CallToAction from "../../components/CallToAction"
+
+const ServiceDetails = ({ServiceDatas}) => {
+    return(
+        <div>
+            
+            <div className='container-fluid service-details-container-feature-image ' style={{backgroundImage:`url(${ServiceDatas.image})`}}>
+            <div className='row justify-content-md-center blog-details-row'>
+            <div className='col-md-4 d-flex align-items-center'>
+            <div className='text-center'>
+            <span className='text-white text-uppercase '>Our Services</span>
+            <h1 className='text-white text-center'>{ServiceDatas.title}</h1>
+            </div>
+            </div>
+            
+            </div>
+            </div>
+
+            <div className='container-fluid bg-white pt-5 pb-5'>
+
+            <div className='row justify-content-md-center'>
+                    <div className='col-md-7'>
+                        
+            {ServiceDatas.body && ServiceDatas.body.map((value, i) => {
+                    return(
+                        <div key={i} className="desc" dangerouslySetInnerHTML={{__html: value}} />
+                    )
+                })}
+                    </div>
+            </div>
+            
+        </div>
+
+        <CallToAction/>
+        </div>
+    )
+}
+
+
+ServiceDetails.getInitialProps = async function ({ query }) {
+    const { id } = query;
+    const serviceId = parseInt(id)
+    const ServiceDatas = ServiceData.filter(service => service.id === serviceId);
+    return { ServiceDatas: ServiceDatas[0] };
+  };
+
+export default ServiceDetails

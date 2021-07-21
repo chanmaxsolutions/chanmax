@@ -3,7 +3,7 @@
   backdrop-filter: saturate(180%) blur(5px);
   padding-bottom: 1em;
   padding-top: 1em;
-  position: fixed;
+  position: sticky;
   width: 100%;
   z-index: 1030;
 
@@ -105,7 +105,7 @@
     .site-header {
       background: rgba(255, 255, 255, 0.863);
       backdrop-filter: saturate(180%) blur(5px);
-      position: fixed;
+      position: sticky;
       width: 100%;
       top:0;
       z-index: 999;

@@ -7,6 +7,11 @@ body {
   scroll-behavior: smooth !important; 
 }
 
+::selection{
+  background-color:#108F64;
+  color: #ffe8aa;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -407,6 +412,12 @@ line-height: 2.5;
   position: relative;
 }
 
+.service-details-container-feature-image{
+  min-height: 300px;
+  background-size: cover;
+  position: relative;
+}
+
 .blog-details-row{
   position: absolute;
   background-color: #108f65ec;
@@ -420,6 +431,10 @@ line-height: 2.5;
   .blog-details-container-feature-image{
     min-height: 300px;
   }
+
+  .service-details-container-feature-image{
+    min-height: 250px;
+  }
   
 }
 
@@ -428,6 +443,10 @@ line-height: 2.5;
   background-color: #fff;
   border-radius: 10px;
   max-width: 1000px;
+}
+
+.service-row-container:hover, .service-row-container-2:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
 }
 
 .service-row-col-small-1{
@@ -472,6 +491,10 @@ line-height: 2.5;
   
 }
 
+
+.work-image{
+  border-radius: 10px;
+}
 
 
 

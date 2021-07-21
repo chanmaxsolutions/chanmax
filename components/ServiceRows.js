@@ -1,51 +1,37 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import ServiceData from './../data/ServiceData';
 
 
 const ServiceRow = () => {
     return(
         <div>
-            <div className='container service-row-container mb-5'>
-            <div className='row'>
-                <div className='col-md-4 service-row-col-small-1' style={{backgroundImage:'url(/images/11.jpg)'}}>
+            <div className='container service-row-container  mb-md-5 mb-sm-0'>
+              <div className='row'>
+                <div className='col-md-4 service-row-col-small-1' style={{backgroundImage:`url(${ServiceData[0].image})`}}>
                 </div>
                 <div className='col-md-8 d-flex align-items-center p-4'>
                     <div>
-                    <h1>Mobile App Development</h1>
-                    <p> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-                        type and scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but also the 
-                        leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <Link href='/services'><a className='button large' >Learn More</a></Link>
+                        <h2>{ServiceData[0].title}</h2>
+                        <p className='small'>{ServiceData[0].excerpt} </p>
+                        <Link href={`/services/${ServiceData[0].id}`}><a className='button' >Learn More</a></Link>
                     </div>
                 </div>
-
             </div>
-        </div>
+         </div>
 
-        <div className='container service-row-container-2 mb-5'>
+         <div className='container service-row-container-2 mb-5'>
             <div className='row flex-sm-row-reverse'>
-               <div className='col-md-4 service-row-col-small-2' style={{backgroundImage:'url(/images/11.jpg)'}}>
+               <div className='col-md-4 service-row-col-small-2' style={{backgroundImage:`url(${ServiceData[1].image})`}}>
                 </div>
                     <div className='col-md-8 d-flex align-items-center p-4'>
                     <div>
-                    <h1 className='text-white' >Wep App Development</h1>
-                    <p className='text-white' > simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-                        type and scrambled it to make a type specimen book. 
-                        It has survived not only five centuries, but also the 
-                        leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <Link href='/services'><a className='button fourth large' >Learn More</a></Link>
+                    <h2 className='text-white' >{ServiceData[1].title}</h2>
+                    <p className='text-white small' > {ServiceData[1].excerpt} </p>
+                        <Link href={`/services/${ServiceData[1].id}`}><a className='button fourth ' >Learn More</a></Link>
                     </div>
                 </div>
-
             </div>
         </div>
-
-       
-
-        
         </div>
     )
 }

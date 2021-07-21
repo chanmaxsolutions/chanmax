@@ -1,7 +1,7 @@
 import React from 'react'
-import SEO from '../components/SEO'
-import PageHeader from '../components/PageHeader'
-import ServiceRow from '../components/ServiceRows'
+import SEO from '../../components/SEO'
+import PageHeader from '../../components/PageHeader'
+import ServiceRow from '../../components/ServiceRows'
 
 export default function Services() {
     return (
