@@ -76,9 +76,6 @@ div{
 }
 
 .hero-header{
-  /* text-transform: capitalize; */
-
-
 }
 
 .hero-container{
@@ -104,7 +101,14 @@ div{
 
 
 .hero-description{
-  /* max-width: 800px; */
+  font-size: 20px;
+}
+
+@media (max-width: 750px) {
+  .hero-description{
+    font-size: 16px;
+  }
+  
 }
 
 .service-container{

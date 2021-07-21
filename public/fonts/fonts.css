@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'QuinleeSans';
+    src: url('QuinleeSans-Regular.woff') format('woff');
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Godofthunder';
+    src: url('Godofthunder-0WO1P.ttf') format('woff');
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

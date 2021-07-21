@@ -14,12 +14,9 @@ const FeatureProject = () =>{
                 <div>
                 <p className="card-title">Logo & Branding</p>
                 <h3>Hello heading</h3>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-                Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba. Quid enim necesse est, tamquam meretricem in matronarum coetum, sic voluptatem in virtutum concilium adducere? Aliter enim explicari, quod quaeritur, non potest. Quonam, inquit, modo? Duo Reges: constructio interrete. At miser, si in flagitiosa et vitiosa vita afflueret voluptatibus. Hoc unum Aristo tenuit: praeter vitia atque virtutes negavit rem esse ullam aut fugiendam aut expetendam. 
+
+</p>
                 <Link  href="#">
                   <a className="button large">More Details</a>
                 </Link>
