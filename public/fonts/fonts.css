@@ -6,9 +6,10 @@
     text-rendering: optimizeLegibility;
 }
 
+
 @font-face {
-    font-family: 'Godofthunder';
-    src: url('Godofthunder-0WO1P.ttf') format('woff');
+    font-family: 'fighting-spirit';
+    src: url('fighting-spirit-turbo.regular.ttf') format('woff');
              font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
