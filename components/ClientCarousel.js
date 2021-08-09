@@ -49,7 +49,7 @@ const ClientCarousel = () =>{
     return (
         <div className='bg-white'>
             <div className='container p-5'>
-            <p className='pb-4' style={{fontWeight:'600'}}>Trusted and endorsed by</p>
+            <h3 className='pb-5 text-center' style={{fontWeight:'600'}}>Trusted and endorsed by</h3>
 <Slider {...settings}>
       <div>
         <img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>

@@ -3,7 +3,7 @@ const data =
     {
         "id": 1,
         "image": "/images/11_thumb.jpg",
-        "author": "Written by Admin",
+        "author": "Prashankhan Chandrapalan",
         "authorPosition":"Fonder & CEO",
         "authorImage":"/images/testimonial.jpg",
         "title": " simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
@@ -47,7 +47,7 @@ const data =
     {
         "id": 5,
         "image": "/images/9_thumb.jpg",
-        "author": "Written by Admin",
+        "author": "Prashankhan Chandrapalan",
         "authorPosition":"Fonder & CEO",
         "authorImage":"/images/testimonial.jpg",
         "title": "How your sales can work together in account-based marketing",

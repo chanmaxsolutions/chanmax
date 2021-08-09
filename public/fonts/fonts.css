@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'QuinleeSans';
     src: url('QuinleeSans-Regular.woff') format('woff');
              font-style: normal;
@@ -13,5 +13,44 @@
              font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
+} */
+
+@font-face {
+    font-family: 'ZillaSlab';
+    src: url('ZillaSlab-Bold.ttf') format('woff');
+             font-style: normal;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
 }
 
+@font-face {
+    font-family: 'ZillaSlab';
+    src: url('ZillaSlab-Regular.ttf') format('woff');
+             font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'ZillaSlab';
+    src: url('ZillaSlab-SemiBold.ttf') format('woff');
+             font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('Niramit-Regular.ttf') format('woff');
+             font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('Niramit-Medium.ttf') format('woff');
+             font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}

@@ -15,7 +15,7 @@ const ServiceRow = () => {
                     <div className='col-md-8 d-flex align-items-center p-4'>
                         <div>
                             <h2>{ServiceDataMapped.title}</h2>
-                            <p className='small'>{ServiceDataMapped.excerpt} </p>
+                            <p className=''>{ServiceDataMapped.excerpt} </p>
                             <Link href={`/services/${ServiceDataMapped.id}`}><a className='button' >Learn More</a></Link>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const ServiceRow = () => {
                      <div className='col-md-8 d-flex align-items-center p-4'>
                      <div>
                      <h2 className='text-white' >{ServiceDataMapped.title}</h2>
-                     <p className='text-white small' > {ServiceDataMapped.excerpt} </p>
+                     <p className='text-white ' > {ServiceDataMapped.excerpt} </p>
                          <Link href={`/services/${ServiceDataMapped.id}`}><a className='button fourth ' >Learn More</a></Link>
                      </div>
                  </div>

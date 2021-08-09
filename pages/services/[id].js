@@ -6,11 +6,11 @@ const ServiceDetails = ({ServiceDatas}) => {
         <div>
             
             <div className='container-fluid service-details-container-feature-image ' style={{backgroundImage:`url(${ServiceDatas.image})`}}>
-            <div className='row justify-content-md-center blog-details-row'>
-            <div className='col-md-4 d-flex align-items-center'>
+            <div className='row blog-details-row'>
+            <div className='col-md-4 cm-mt-page-header align-items-center offset-md-4'>
             <div className='text-center'>
             <span className='text-white text-uppercase '>Our Services</span>
-            <h1 className='text-white text-center'>{ServiceDatas.title}</h1>
+            <h1 className='text-white '>{ServiceDatas.title}</h1>
             </div>
             </div>
             
