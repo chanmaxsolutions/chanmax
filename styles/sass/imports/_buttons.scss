@@ -62,4 +62,12 @@
     color: rgb(0, 0, 0);
     border: 2px solid rgb(255, 177, 0);
   }
+  &.fifth {
+    background: rgb(255, 177, 0);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 177, 0);
+  }
+  &.fifth:hover {
+    opacity: 0.8;
+  }
 }

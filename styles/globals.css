@@ -80,8 +80,8 @@ div{
 }
 
 .hero-container{
-  background-color: #fff;
-  background-image: url(../public/images/hero.svg);
+  /* background-color: #331c7a; */
+  /* background-image: url(../public/images/hero.png); */
   object-fit: cover;
   min-height: 100VH;
   position: relative;
@@ -90,7 +90,8 @@ div{
 
 .hero-container-row{
   position: absolute;
-  background-color: #ffffff23;
+  background-color: #108F64;
+  /* background-image: url(../public/images/hero-me.jpg); */
   height: 100%;
   width: 100%;
 }
@@ -345,7 +346,7 @@ select, textarea{
 
 
 .page-header-container{
-  min-height: 400px;
+  min-height: 500px;
   background-size: cover;
   position: relative;
 }
@@ -353,7 +354,8 @@ select, textarea{
 
 .page-header-row{
   position: absolute;
-  background-color: #108f65e5;
+  background-color: #108F64;
+  opacity: 0.95;
    /* top: 0; */
   /* left: 0; */
   height: 100%;

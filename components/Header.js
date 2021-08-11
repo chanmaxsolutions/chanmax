@@ -1,6 +1,7 @@
 import React, { useEffect, useState} from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import WorkData from './../data/WorkData';
 
 export default function Header(props) {
   
@@ -38,7 +39,6 @@ export default function Header(props) {
     })
   },[])
 
-  console.log(HeaderChange)
 
   return (
     <>
@@ -122,14 +122,14 @@ export default function Header(props) {
     </div>  
     : 
     <div id="page" className="site">
-      <header id="masthead" className="site-header outer">
+      <header id="masthead-2" className="site-header outer">
           <div className="inner">
               <div className="site-header-inside">
 
                   <div className="site-branding">
                       <p className="site-logo">
                           <Link href="/">
-                              <a> <img src="/images/logo.svg" alt="Chanmax" /> </a>
+                              <a> <img src="/images/logo-white.svg" alt="Chanmax" /> </a>
                           </Link>
                       </p>
                   </div>
@@ -182,7 +182,7 @@ export default function Header(props) {
 
                           <li className={`menu-item menu-button ${asPath === "/get-quote" ? "current-menu-item" : ""}`}>
                             <Link href="/get-quote">
-                              <a className="button"> <span>Get a Quote</span> </a>
+                              <a className="button fourth"> <span>Get a Quote</span> </a>
                             </Link>
                           </li>
 

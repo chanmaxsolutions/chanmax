@@ -89,6 +89,32 @@
   }
 }
 
+#masthead-2 {
+  .site-branding {
+    a {
+      color: inherit;
+    }
+  }
+
+  .site-navigation {
+    .current-menu-item {
+      color: #fff;
+      
+    }
+    // #2c2f3b
+    a:not(.button) {
+      color: #fff;
+  
+      &:hover {
+        color: rgba(255, 255, 255, 0.76);
+      }
+    }
+  }
+}
+
+
+
+
 @media only screen and (min-width: 801px) {
   .menu-toggle {
     display: none;
@@ -113,10 +139,11 @@
 
   @supports (position: sticky) or (position: -webkit-sticky) {
     .site-header {
-      background: rgb(255, 255, 255);
-      // position: absolute;
+      background: rgba(255, 255, 255, 0);
+      position: absolute;
       width: 100%;
       top:0;
+      transition-timing-function: ease-in;
 
       .has--scrolled & {
         box-shadow: $box-shadow-sm;
@@ -124,7 +151,7 @@
 
     }
     .site-header-two {
-      background: #ffffffe1;
+      background: #ffffff;
       backdrop-filter: saturate(180%) blur(5px);
       position: fixed;
       width: 100%;
