@@ -114,7 +114,7 @@
   @supports (position: sticky) or (position: -webkit-sticky) {
     .site-header {
       background: rgb(255, 255, 255);
-      position: absolute;
+      // position: absolute;
       width: 100%;
       top:0;
 
