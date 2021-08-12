@@ -81,8 +81,8 @@ div{
 
 .hero-container{
   /* background-color: #331c7a; */
-  /* background-image: url(../public/images/hero.png); */
-  object-fit: cover;
+  background-image: url(../public/images/lightning-thunder.gif);
+  background-size: cover;
   min-height: 100VH;
   position: relative;
 }
@@ -90,8 +90,9 @@ div{
 
 .hero-container-row{
   position: absolute;
-  background-color: #108F64;
-  /* background-image: url(../public/images/hero-me.jpg); */
+  background-color: #108f65dc;
+  /* background-image: url(../public/images/thunder.gif); */
+  background-size: cover;
   height: 100%;
   width: 100%;
 }
