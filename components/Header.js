@@ -7,8 +7,9 @@ export default function Header(props) {
   
 
   const [HeaderChange, SetHeaderChange] = useState(false)
+  const [ScreenWidth, SetScreenWidth] = useState(window.innerWidth > 801)
   
-  // console.log(window.pageYOffset)
+  console.log(ScreenWidth)
 
   const { asPath } = useRouter()
 
@@ -24,6 +25,22 @@ export default function Header(props) {
     document.body.classList.remove('menu--opened');
   }
 
+  
+  
+  useEffect(() => {
+    
+    window.addEventListener('resize', () => {
+      console.log('resize', window.innerWidth)
+      if(window.innerWidth > 801){
+        SetScreenWidth(true)
+      }
+      else {
+        SetScreenWidth(false)
+      }
+    },false)
+  },[])
+
+  // console.log('ScreenSize', window.innerWidth)
   
 
   useEffect(() => {
@@ -42,7 +59,7 @@ export default function Header(props) {
 
   return (
     <>
-    {HeaderChange ? <div id="page" className="site ">
+    {HeaderChange || !ScreenWidth ? <div id="page" className="site ">
       <header id="masthead" className="site-header-two outer">
           <div className="inner">
               <div className="site-header-inside">
