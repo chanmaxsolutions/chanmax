@@ -11,8 +11,8 @@ const HomeHero = () =>{
                 <h1 className='hero-header text-white'> Building lightning fast Applications for Startups to Corporate</h1>
                 <p className='hero-description text-white'>We are an agency located in New York. We think strategy, craft design, develop digital 
                   and create motion. To forward your brand and business.</p>
-                  <Link href='/pricing' ><a className="button large fifth" style={{marginRight:'5px', marginTop:'10px'}}>Learn More</a></Link>
-                  <Link href='/pricing' ><a className="button large fourth" style={{marginLeft:'5px', marginTop:'10px'}}>Learn More</a></Link>
+                  <Link href='/pricing' ><a className="button large fifth home-hero-button" >Learn More</a></Link>
+                  <Link href='/pricing' ><a className="button large fourth home-hero-button-two" >Learn More</a></Link>
                 </div>
                 </div>
                 </div>

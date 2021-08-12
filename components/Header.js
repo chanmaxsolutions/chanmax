@@ -12,6 +12,7 @@ export default function Header(props) {
   console.log(ScreenWidth)
 
   const { asPath } = useRouter()
+  console.log(asPath)
 
   const menuOpenRef = React.createRef();
 
@@ -42,6 +43,11 @@ export default function Header(props) {
 
   // console.log('ScreenSize', window.innerWidth)
   
+  useEffect(() => {
+    document.body.classList.remove('menu--opened')
+  },[asPath])
+
+
 
   useEffect(() => {
     
