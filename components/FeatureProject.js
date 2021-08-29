@@ -7,8 +7,8 @@ const FeatureProject = () =>{
         <section className='container-fluid feature-project-container'>
             <div className='container'>
             <div className='row'>
-                <div className='col-lg-6 p-4'>
-                    <Image src='/images/1.jpg' width={1000} height={1000} />
+                <div className='col-lg-6' >
+                    <Image className='feature-project-bg-image' src='/images/5.jpg' width={1000} height={1000} />
                 </div>
                 <div className='col-lg-6 d-flex align-items-center p-4'>
                 <div>

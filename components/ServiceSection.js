@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const ServiceSection = () =>{
     return (
-        <div className='container service-container p-5 mt-5 mb-5'>
+        <div className='container service-container  mt-5 mb-5'>
             <h3 className='text-center'>Services</h3>
                 <div className='row'>
                     <div className="card col-lg-3 mt-3 mb-2" >
