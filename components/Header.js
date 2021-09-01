@@ -1,231 +1,255 @@
-import React, { useEffect, useState} from 'react'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+/** @format */
+
+import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import WorkData from './../data/WorkData';
 
 export default function Header(props) {
-  
+	const [HeaderChange, SetHeaderChange] = useState(false);
+	const [ScreenWidth, SetScreenWidth] = useState(window.innerWidth > 801);
 
-  const [HeaderChange, SetHeaderChange] = useState(false)
-  const [ScreenWidth, SetScreenWidth] = useState(window.innerWidth > 801)
-  
-  console.log(ScreenWidth)
+	const { asPath } = useRouter();
 
-  const { asPath } = useRouter()
-  console.log(asPath)
+	const menuOpenRef = React.createRef();
 
-  const menuOpenRef = React.createRef();
+	const handleMenuOpen = (event) => {
+		event.preventDefault();
+		document.body.classList.add('menu--opened');
+	};
 
-  const handleMenuOpen = (event) => {
-    event.preventDefault();
-    document.body.classList.add('menu--opened');
-  }
+	const handleMenuClose = (event) => {
+		event.preventDefault();
+		document.body.classList.remove('menu--opened');
+	};
 
-  const handleMenuClose = (event) => {
-    event.preventDefault();
-    document.body.classList.remove('menu--opened');
-  }
+	useEffect(() => {
+		window.addEventListener(
+			'resize',
+			() => {
+				if (window.innerWidth > 801) {
+					SetScreenWidth(true);
+				} else {
+					SetScreenWidth(false);
+				}
+			},
+			false,
+		);
+	}, []);
 
-  
-  
-  useEffect(() => {
-    
-    window.addEventListener('resize', () => {
-      console.log('resize', window.innerWidth)
-      if(window.innerWidth > 801){
-        SetScreenWidth(true)
-      }
-      else {
-        SetScreenWidth(false)
-      }
-    },false)
-  },[])
+	useEffect(() => {
+		document.body.classList.remove('menu--opened');
+	}, [asPath]);
 
-  // console.log('ScreenSize', window.innerWidth)
-  
-  useEffect(() => {
-    document.body.classList.remove('menu--opened')
-  },[asPath])
+	useEffect(() => {
+		document.addEventListener('scroll', () => {
+			if (window.scrollY > 0) {
+				SetHeaderChange(true);
+			} else {
+				SetHeaderChange(false);
+			}
+		});
+	}, []);
 
+	return (
+		<>
+			{HeaderChange || !ScreenWidth ? (
+				<div id='page' className='site '>
+					<header id='masthead' className='site-header-two outer'>
+						<div className='inner'>
+							<div className='site-header-inside'>
+								<div className='site-branding'>
+									<p className='site-logo'>
+										<Link href='/'>
+											<a>
+												{' '}
+												<img src='/images/logo.svg' alt='CHANMAX TECHNOLOGIES' />{' '}
+											</a>
+										</Link>
+									</p>
+								</div>
 
+								<nav id='main-navigation' className='site-navigation' aria-label='Main Navigation'>
+									<div className='site-nav-inside'>
+										<button id='menu-close' className='menu-toggle' onClick={handleMenuClose}>
+											<span className='screen-reader-text'>Open Menu</span>
+											<span className='icon-close' aria-hidden='true' />
+										</button>
 
-  useEffect(() => {
-    
-    document.addEventListener('scroll', () => {
-      // console.log('position', window.scrollY)
-      if(window.scrollY > 0){
-        SetHeaderChange(true)
-      }
-      else {
-        SetHeaderChange(false)
-      }
-    })
-  },[])
+										<ul className='menu'>
+											<li className={`menu-item  ${asPath === '/' ? 'current-menu-item' : ''}`}>
+												<Link href='/'>
+													<a>
+														{' '}
+														<span>Home</span>{' '}
+													</a>
+												</Link>
+											</li>
 
+											<li className={`menu-item ${asPath === '/services' ? 'current-menu-item' : ''}`}>
+												<Link href='/services'>
+													<a>
+														{' '}
+														<span>Services</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-  return (
-    <>
-    {HeaderChange || !ScreenWidth ? <div id="page" className="site ">
-      <header id="masthead" className="site-header-two outer">
-          <div className="inner">
-              <div className="site-header-inside">
+											<li className={`menu-item ${asPath === '/works' ? 'current-menu-item' : ''}`}>
+												<Link href='/works'>
+													<a>
+														{' '}
+														<span>Works</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-                  <div className="site-branding">
-                      <p className="site-logo">
-                          <Link href="/">
-                              <a> <img src="/images/logo.svg" alt="Chanmax" /> </a>
-                          </Link>
-                      </p>
-                  </div>
-                  
-                  <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
-                    <div className="site-nav-inside">
+											<li className={`menu-item ${asPath === '/about' ? 'current-menu-item' : ''}`}>
+												<Link href='/about'>
+													<a>
+														{' '}
+														<span>About us</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-                        <button id="menu-close" className="menu-toggle" onClick={handleMenuClose}>
-                            <span className="screen-reader-text">Open Menu</span>
-                            <span className="icon-close" aria-hidden="true" />
-                        </button>
+											<li className={`menu-item ${asPath === '/contact' ? 'current-menu-item' : ''}`}>
+												<Link href='/contact'>
+													<a>
+														{' '}
+														<span>Contact us</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-                        <ul className="menu">
+											<li className={`menu-item ${asPath === '/blog' ? 'current-menu-item' : ''}`}>
+												<Link href='/blog'>
+													<a>
+														{' '}
+														<span>Blog</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-                          <li className={`menu-item  ${asPath === "/" ? "current-menu-item" : ""}`}>
-                            <Link href="/">
-                                <a> <span >Home</span> </a>
-                            </Link>
-                          </li>
+											<li className={`menu-item menu-button ${asPath === '/get-quote' ? 'current-menu-item' : ''}`}>
+												<Link href='/get-quote'>
+													<a className='button'>
+														{' '}
+														<span>Get a Quote</span>{' '}
+													</a>
+												</Link>
+											</li>
+										</ul>
+									</div>
+								</nav>
 
-                          <li className={`menu-item ${asPath === "/services" ? "current-menu-item" : ""}`}>
-                            <Link href="/services">
-                              <a> <span>Services</span> </a>
-                            </Link>
-                          </li>
+								<button id='menu-open' className='menu-toggle' ref={menuOpenRef} onClick={handleMenuOpen}>
+									<span className='screen-reader-text'>Close Menu</span>
+									<span className='icon-menu' aria-hidden='true' />
+								</button>
+							</div>
+						</div>
+					</header>
+				</div>
+			) : (
+				<div id='page' className='site'>
+					<header id='masthead-2' className='site-header outer'>
+						<div className='inner'>
+							<div className='site-header-inside'>
+								<div className='site-branding'>
+									<p className='site-logo'>
+										<Link href='/'>
+											<a>
+												{' '}
+												<img src='/images/logo-white.svg' alt='CHANMAX TECHNOLOGIES' />{' '}
+											</a>
+										</Link>
+									</p>
+								</div>
 
-                          <li className={`menu-item ${asPath === "/works" ? "current-menu-item" : ""}`}>
-                            <Link href="/works">
-                              <a> <span>Works</span> </a>
-                            </Link>
-                          </li>
+								<nav id='main-navigation' className='site-navigation' aria-label='Main Navigation'>
+									<div className='site-nav-inside'>
+										<button id='menu-close' className='menu-toggle' onClick={handleMenuClose}>
+											<span className='screen-reader-text'>Open Menu</span>
+											<span className='icon-close' aria-hidden='true' />
+										</button>
 
-                          <li className={`menu-item ${asPath === "/about" ? "current-menu-item" : ""}`}>
-                            <Link href="/about">
-                              <a> <span>About us</span> </a>
-                            </Link>
-                          </li>
+										<ul className='menu'>
+											<li className={`menu-item  ${asPath === '/' ? 'current-menu-item' : ''}`}>
+												<Link href='/'>
+													<a>
+														{' '}
+														<span>Home</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-                          <li className={`menu-item ${asPath === "/contact" ? "current-menu-item" : ""}`}>
-                            <Link href="/contact">
-                              <a> <span>Contact us</span> </a>
-                            </Link>
-                          </li>
+											<li className={`menu-item ${asPath === '/services' ? 'current-menu-item' : ''}`}>
+												<Link href='/services'>
+													<a>
+														{' '}
+														<span>Services</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-                          <li className={`menu-item ${asPath === "/blog" ? "current-menu-item" : ""}`}>
-                            <Link href="/blog">
-                              <a> <span>Blog</span> </a>
-                            </Link>
-                          </li>
+											<li className={`menu-item ${asPath === '/works' ? 'current-menu-item' : ''}`}>
+												<Link href='/works'>
+													<a>
+														{' '}
+														<span>Works</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-                          <li className={`menu-item menu-button ${asPath === "/get-quote" ? "current-menu-item" : ""}`}>
-                            <Link href="/get-quote">
-                              <a className="button"> <span>Get a Quote</span> </a>
-                            </Link>
-                          </li>
+											<li className={`menu-item ${asPath === '/about' ? 'current-menu-item' : ''}`}>
+												<Link href='/about'>
+													<a>
+														{' '}
+														<span>About us</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-                        </ul>
-                    </div>
-                </nav>
+											<li className={`menu-item ${asPath === '/contact' ? 'current-menu-item' : ''}`}>
+												<Link href='/contact'>
+													<a>
+														{' '}
+														<span>Contact us</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-                <button id="menu-open" className="menu-toggle" ref={menuOpenRef} onClick={handleMenuOpen}>
-                    <span className="screen-reader-text">Close Menu</span>
-                    <span className="icon-menu" aria-hidden="true" />
-                </button>
+											<li className={`menu-item ${asPath === '/blog' ? 'current-menu-item' : ''}`}>
+												<Link href='/blog'>
+													<a>
+														{' '}
+														<span>Blog</span>{' '}
+													</a>
+												</Link>
+											</li>
 
-              </div>
-          </div>
-      </header>
-    </div>  
-    : 
-    <div id="page" className="site">
-      <header id="masthead-2" className="site-header outer">
-          <div className="inner">
-              <div className="site-header-inside">
+											<li className={`menu-item menu-button ${asPath === '/get-quote' ? 'current-menu-item' : ''}`}>
+												<Link href='/get-quote'>
+													<a className='button fourth'>
+														{' '}
+														<span>Get a Quote</span>{' '}
+													</a>
+												</Link>
+											</li>
+										</ul>
+									</div>
+								</nav>
 
-                  <div className="site-branding">
-                      <p className="site-logo">
-                          <Link href="/">
-                              <a> <img src="/images/logo-white.svg" alt="Chanmax" /> </a>
-                          </Link>
-                      </p>
-                  </div>
-                  
-                  <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
-                    <div className="site-nav-inside">
-
-                        <button id="menu-close" className="menu-toggle" onClick={handleMenuClose}>
-                            <span className="screen-reader-text">Open Menu</span>
-                            <span className="icon-close" aria-hidden="true" />
-                        </button>
-
-                        <ul className="menu">
-
-                          <li className={`menu-item  ${asPath === "/" ? "current-menu-item" : ""}`}>
-                            <Link href="/">
-                                <a> <span >Home</span> </a>
-                            </Link>
-                          </li>
-
-                          <li className={`menu-item ${asPath === "/services" ? "current-menu-item" : ""}`}>
-                            <Link href="/services">
-                              <a> <span>Services</span> </a>
-                            </Link>
-                          </li>
-
-                          <li className={`menu-item ${asPath === "/works" ? "current-menu-item" : ""}`}>
-                            <Link href="/works">
-                              <a> <span>Works</span> </a>
-                            </Link>
-                          </li>
-
-                          <li className={`menu-item ${asPath === "/about" ? "current-menu-item" : ""}`}>
-                            <Link href="/about">
-                              <a> <span>About us</span> </a>
-                            </Link>
-                          </li>
-
-                          <li className={`menu-item ${asPath === "/contact" ? "current-menu-item" : ""}`}>
-                            <Link href="/contact">
-                              <a> <span>Contact us</span> </a>
-                            </Link>
-                          </li>
-
-                          <li className={`menu-item ${asPath === "/blog" ? "current-menu-item" : ""}`}>
-                            <Link href="/blog">
-                              <a> <span>Blog</span> </a>
-                            </Link>
-                          </li>
-
-                          <li className={`menu-item menu-button ${asPath === "/get-quote" ? "current-menu-item" : ""}`}>
-                            <Link href="/get-quote">
-                              <a className="button fourth"> <span>Get a Quote</span> </a>
-                            </Link>
-                          </li>
-
-                        </ul>
-                    </div>
-                </nav>
-
-                <button id="menu-open" className="menu-toggle" ref={menuOpenRef} onClick={handleMenuOpen}>
-                    <span className="screen-reader-text">Close Menu</span>
-                    <span className="icon-menu" aria-hidden="true" />
-                </button>
-
-              </div>
-          </div>
-      </header>
-    </div> 
-    
-    }
-    </>
-  )
+								<button id='menu-open' className='menu-toggle' ref={menuOpenRef} onClick={handleMenuOpen}>
+									<span className='screen-reader-text'>Close Menu</span>
+									<span className='icon-menu' aria-hidden='true' />
+								</button>
+							</div>
+						</div>
+					</header>
+				</div>
+			)}
+		</>
+	);
 }
-
-
