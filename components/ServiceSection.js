@@ -11,7 +11,7 @@ const ServiceSection = () => {
 			<div className='row'>
 				{ServiceData.slice(-4).map((content, i) => {
 					return (
-						<div className='card col-lg-3 mt-3 mb-2'>
+						<div key={i} className='card col-lg-3 mt-3 mb-2'>
 							<Image src={content.icon} className='text-left' width={70.5} height={72} alt='...' />
 							<div className='card-body text-center'>
 								<p className='card-title'> {content.title} </p>
