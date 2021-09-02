@@ -4,5 +4,5 @@
     "prettier.jsxBracketSameLine": true,
     "prettier.singleQuote": true,
     "prettier.useTabs": true,
-    "prettier.printWidth": 130
+    "prettier.printWidth": 200
 }

@@ -4,7 +4,7 @@ const TestimonialData = [
 	{
 		id: 1,
 		image: '/images/10_thumb.jpg',
-		rating: ['&#9733;&#9733;&#9733;&#9733;&#9733;'],
+		rating: 4.2,
 		title: ' Web Development',
 		position: ' Web Development',
 		excerpt:
