@@ -92,7 +92,6 @@ div{
 .hero-container-row{
   position: absolute;
   background-color: #108f65;
-  /* background-image: url(../public/images/thunder.gif); */
   background-size: cover;
   height: 100%;
   width: 100%;
