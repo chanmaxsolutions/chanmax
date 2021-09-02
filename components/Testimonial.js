@@ -18,7 +18,7 @@ const Testimonial = () => {
 									<p className='card-title'>{content.title}</p>
 									<p style={{ fontSize: '13px', color: '#108F64' }}>{content.position}</p>
 									<p className='card-text'>{content.excerpt}</p>
-									<span style={{ color: '#fbae01' }}>testimonialData </span>
+									<span style={{ color: '#fbae01' }}>king </span>
 								</div>
 							);
 						})}
