@@ -16,7 +16,7 @@ export default function Home() {
 		<React.Fragment>
 			<SEO title='CHANMAX TECHNOLOGIES | FOR FASTEST APPLICATION' />
 			<HomeHero />
-			<ClientCarousel />
+			{/* <ClientCarousel /> */}
 			<ServiceSection />
 			<FeatureProject />
 			<Testimonial />
