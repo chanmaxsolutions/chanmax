@@ -82,7 +82,7 @@ div{
 
 .hero-container{
   /* background-color: #331c7a; */
-  background-image: url(../public/images/lightning-thunder.gif);
+  /* background-image: url(../public/images/lightning-thunder.gif); */
   background-size: cover;
   min-height: 100VH;
   position: relative;
