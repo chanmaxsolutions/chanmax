@@ -19,7 +19,7 @@ export default function Home() {
 			{/* <ClientCarousel /> */}
 			<ServiceSection />
 			<FeatureProject />
-			{/* <Testimonial /> */}
+			<Testimonial />
 			<HomeTeam />
 			<HomeBlogs />
 			<HomeCallToAction />
