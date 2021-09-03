@@ -293,14 +293,21 @@ div{
     border-radius: 0px;
 }
 
+
+
 .home-call-to-action-container{
-  min-height: 250px;
-  background-color: #ffce52;
-  background-image: url(/images/team.jpg);
+  min-height: 400px;
+  background-image: url(/images/3.jpg);
   background-size: cover;
-  /* background: linear-gradient(45deg, #108F64, #3EE5AC); */
-  border-radius: 0px;
-  box-shadow: 0px 5px 0px #ffce52;
+  position: relative;
+}
+
+.home-call-to-action-container-row{
+  position: absolute;
+  background-color: #108f65ec;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 @media (max-width: 750px) {
