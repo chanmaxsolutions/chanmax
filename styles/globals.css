@@ -219,11 +219,23 @@ div{
   }
 }
 
+
 .home-team-container{
-  min-height: 500px;
-  background-image: url(/images/team.jpg);
+  background-image: url(/images/3.jpg);
   background-size: cover;
+  min-height: 550px;
+  position: relative;
 }
+
+
+.home-team-container-row{
+  position: absolute;
+  background-color: #108f65e7;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
 
 
 .home-team-heading{
@@ -327,8 +339,9 @@ div{
 }
 
 .footer-menu{
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
+  text-transform: capitalize;
 }
 
 .footer-menu:hover{
@@ -389,7 +402,7 @@ select, textarea{
 }
 
 .footer-copyrights{
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 

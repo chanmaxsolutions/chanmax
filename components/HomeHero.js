@@ -6,7 +6,7 @@ import HomeHeroData from './../data/HomeHeroData';
 const HomeHero = () => {
 	return (
 		<>
-			<div className='container-fluid text-center hero-container'>
+			<div className='container-fluid  hero-container'>
 				<div className='row justify-content-md-center hero-container-row'>
 					<div className='col-lg-7 d-flex align-items-center'>
 						{HomeHeroData.map((content, i) => {
@@ -26,7 +26,6 @@ const HomeHero = () => {
 					</div>
 				</div>
 			</div>
-			;
 		</>
 	);
 };

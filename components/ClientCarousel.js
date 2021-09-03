@@ -1,11 +1,11 @@
 /** @format */
 
-import React from 'react';
 import Slider from 'react-slick';
 
 const ClientCarousel = () => {
 	var settings = {
 		dots: false,
+		arrows: false,
 		infinite: true,
 		lazyLoad: true,
 		speed: 500,
@@ -47,7 +47,7 @@ const ClientCarousel = () => {
 		],
 	};
 	return (
-		<div className='bg-white'>
+		<div className='bg-white '>
 			<div className='container p-5'>
 				<h3 className='pb-5 text-center' style={{ fontWeight: '600' }}>
 					Trusted and endorsed by
