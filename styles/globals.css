@@ -75,6 +75,14 @@ div{
   text-rendering: optimizeLegibility
 }
 
+.sub-head{
+  text-transform: uppercase;
+}
+
+.main-head{
+  font-weight:600;
+}
+
 .hero-header{
   font-size: 50px;
   margin-top: 40px;

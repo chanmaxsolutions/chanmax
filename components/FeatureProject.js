@@ -16,8 +16,8 @@ const FeatureProject = () => {
 							</div>
 							<div className='col-lg-6 d-flex align-items-center p-4'>
 								<div>
-									<p className='card-title'> {content.category}</p>
-									<h3>{content.title}</h3>
+									<p className='sub-head'> {content.category}</p>
+									<h3 className='main-head'>{content.title}</h3>
 									<p className='card-text'>{content.homeExcerpt}</p>
 									<Link href={`/works/${content.id}`}>
 										<a className='button large'>More Details</a>

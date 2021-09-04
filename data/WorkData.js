@@ -4,7 +4,7 @@ const WorkData = [
 	{
 		id: 1,
 		image: '/images/10_thumb.jpg',
-		title: ' Noolthettam Project',
+		title: ' digital transformation that businesses have',
 		category: 'Web Development',
 		homeExcerpt:
 			'We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.',
@@ -21,7 +21,7 @@ const WorkData = [
 	},
 
 	{
-		id: 1,
+		id: 2,
 		image: '/images/10_thumb.jpg',
 		title: ' Noolthettam Project',
 		category: 'Web Development',
@@ -40,9 +40,9 @@ const WorkData = [
 	},
 
 	{
-		id: 1,
+		id: 3,
 		image: '/images/10_thumb.jpg',
-		title: ' Noolthettam Project',
+		title: ' Digital transformation that businesses have Noolthettam Project',
 		category: 'Web Development',
 		homeExcerpt:
 			'We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.',

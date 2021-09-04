@@ -49,9 +49,12 @@ const ClientCarousel = () => {
 	return (
 		<div className='bg-white '>
 			<div className='container p-5'>
-				<h3 className='pb-5 text-center' style={{ fontWeight: '600' }}>
-					Trusted and endorsed by
-				</h3>
+				<div className='row justify-content-md-center text-center'>
+					<div className='col-lg-7 align-items-center'>
+						<p className='sub-head'>Trusted and endorsed</p>
+						<h3 className='pb-5 main-head'>Trusted and endorsed by Chanmax and a lot of company around the world</h3>
+					</div>
+				</div>
 				<Slider {...settings}>
 					<div>
 						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>

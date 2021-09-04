@@ -7,7 +7,12 @@ import ServiceData from './../data/ServiceData';
 const ServiceSection = () => {
 	return (
 		<div className='container service-container  mt-5 mb-5'>
-			<h3 className='text-center'>Services</h3>
+			<div className='row justify-content-md-center text-center'>
+				<div className='col-lg-7 align-items-center'>
+					<p className='sub-head'>Trusted and endorsed</p>
+					<h3 className='pb-5 main-head'>Trusted and endorsed by Chanmax and a lot of company around the world</h3>
+				</div>
+			</div>
 			<div className='row'>
 				{ServiceData.slice(-4).map((content, i) => {
 					return (
