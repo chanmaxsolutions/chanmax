@@ -1,32 +1,28 @@
 import React from "react";
 
-function BoxQauote({ title, data }) {
+function BoxQauote({ title, icon, handleClick, isSelected }) {
     return (
-        <React.Fragment>
-            <div style={{ fontSize: 30 }}>{title}</div>
-            <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-                {data.map((item, index) => (
-                    <div key={index} style={{ border: "1px solid black", padding: 25 }}>
-                        {item}
-                    </div>
-                ))}
+        <div
+            style={{
+                width: 150,
+                height: 150,
+                border: `2px solid ${isSelected ? "#1A9369" : "white"}`,
+                backgroundColor: isSelected ? "#1A9369" : "white",
+                color: isSelected ? "white" : "black",
+                fontSize: 20,
+                textAlign: "center",
+                margin: 4,
+            }}
+            onClick={handleClick}
+        >
+            <div className="fs-1">{icon}</div>
+            <div
+                className="d-flex align-items-center justify-content-center"
+                style={!icon ? { height: "100%" } : {}}
+            >
+                {title}
             </div>
-            {/* <div style={{ fontSize: 30 }}>No of Pages</div>
-            <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-                <div style={{ border: "1px solid black", padding: 25 }}>
-                    {"< "}5
-                </div>
-                <div style={{ border: "1px solid black", padding: 25 }}>
-                    5 - 10
-                </div>
-                <div style={{ border: "1px solid black", padding: 25 }}>
-                    1 - 15
-                </div>
-                <div style={{ border: "1px solid black", padding: 25 }}>
-                    15+
-                </div>
-            </div> */}
-        </React.Fragment>
+        </div>
     );
 }
 
