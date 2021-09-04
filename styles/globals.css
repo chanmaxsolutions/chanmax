@@ -605,4 +605,33 @@ line-height: 2.5;
   
 }
 
+/* phone number input */
+.react-tel-input > .form-control{
+  box-shadow: none;
+  height: 54px !important;
+  border-radius: 0px !important;
+}
 
+.react-tel-input > .flag-dropdown:focus{
+  border-left: 2px !important;
+  border-bottom: 2px !important;
+  border-top: 2px !important;
+}
+.react-tel-input > .flag-dropdown{
+  background-color: white !important;
+  height: 96%;
+  top: 2% !important;
+  left: 1%;
+  border: 0px !important;
+  border-right: 1px solid #cacaca !important;
+}
+
+.react-tel-input > .form-control:focus{
+  border: 1px solid #108F64 !important;
+  -webkit-box-shadow: 0 0 0 1px #108f64 !important;
+  box-shadow: 0 0 0 1px #108f64 !important;
+}
+
+.react-tel-input{
+  border-radius: 0px !important;
+}

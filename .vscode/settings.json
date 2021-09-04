@@ -1,8 +1,0 @@
-{
-    "prettier.vueIndentScriptAndStyle": true,
-    "editor.wordWrap": "on",
-    "prettier.jsxBracketSameLine": true,
-    "prettier.singleQuote": true,
-    "prettier.useTabs": true,
-    "prettier.printWidth": 200
-}
