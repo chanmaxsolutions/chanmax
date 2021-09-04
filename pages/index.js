@@ -10,6 +10,7 @@ import Testimonial from '../components/Testimonial';
 import HomeTeam from '../components/HomeTeam';
 import HomeBlogs from '../components/HomeBlogs';
 import HomeCallToAction from '../components/HomeCallToAction';
+import HomeWhySection from '../components/HomeWhySection';
 
 export default function Home() {
 	return (
@@ -17,6 +18,7 @@ export default function Home() {
 			<SEO title='CHANMAX TECHNOLOGIES | FOR FASTEST APPLICATION' />
 			<HomeHero />
 			<ClientCarousel />
+			<HomeWhySection />
 			<ServiceSection />
 			<FeatureProject />
 			<Testimonial />

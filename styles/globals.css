@@ -61,6 +61,7 @@ h6 {
 
 p{
   text-rendering: optimizeLegibility;
+  margin-bottom: 10px !important;
 }
 
 a{
@@ -164,7 +165,22 @@ div{
   
 }
 
+.home-why-section-sub-title{
+  text-transform: uppercase;
+  margin-top:20px;
+  color:#108F64;
+  font-weight: 700;
+}
 
+.home-why-section-desc{
+  font-family: 'Niramit';
+  font-size: 16px;
+}
+
+.home-why-section-button{
+  text-transform: uppercase;
+  text-decoration: underline;
+}
 
 .service-container{
   margin: 0px auto;
