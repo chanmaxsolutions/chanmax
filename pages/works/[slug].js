@@ -1,5 +1,5 @@
 import CallToAction from "../../components/CallToAction"
-import WorkData from './../../data/WorkData';
+import WorkData from '../../data/WorkData';
 import Image from "next/image";
 
 const ServiceDetails = ({WorkDatas}) => {
@@ -40,9 +40,8 @@ const ServiceDetails = ({WorkDatas}) => {
 
 
 ServiceDetails.getInitialProps = async function ({ query }) {
-    const { id } = query;
-    const workId = parseInt(id)
-    const WorkDatas = WorkData.filter(work => work.id === workId);
+    const { slug } = query;
+    const WorkDatas = WorkData.filter(work => work.slug === slug);
     return { WorkDatas: WorkDatas[0] };
   };
 
