@@ -22,7 +22,7 @@ const ContactForm = () => {
 
                     <form
                         // action="https://submit-form.com/oBBQtqrP"
-                        action="https://formsubmit.co/balasubramaniam.raghuraj@gmail.com"
+                        action="https://formsubmit.co/admin@chanmax.io"
                         method="POST"
                         className="mt-3"
                     >
@@ -101,6 +101,7 @@ const ContactForm = () => {
                             name="_redirect"
                             value="http://localhost:4000/services"
                         /> */}
+                        <input type="hidden" name="_cc" value="chanmaxsolutions@gmail.com,balasubramaniam.raghuraj@gmail.com" />
                         <input type="hidden" name="_next" value="https://chanmax-io-new.vercel.app" />
                         <input type="hidden" name="_captcha" value="false" />
                         <input type="hidden" name="_subject" value={`${name?.toUpperCase()} sent you a message through contact form`} />
