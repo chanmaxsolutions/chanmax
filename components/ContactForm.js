@@ -101,6 +101,7 @@ const ContactForm = () => {
                         /> */}
                         <input type="hidden" name="_next" value="http://localhost:4000" />
                         <input type="hidden" name="_captcha" value="false" />
+                        <input type="hidden" name="_subject" value="" />
                         <input type="text" name="_honey" style={{display:'none'}} />
                         <div className="text-center">
                             <span>
