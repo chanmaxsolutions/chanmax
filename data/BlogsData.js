@@ -8,6 +8,7 @@ const BlogsData = [
 		authorPosition: 'Fonder & CEO',
 		authorImage: '/images/testimonial.jpg',
 		title: " simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+		slug: 'simply-dummy-text',
 		excerpt:
 			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
 		body: [
@@ -26,6 +27,7 @@ const BlogsData = [
 		authorPosition: 'Fonder & CEO',
 		authorImage: '/images/testimonial.jpg',
 		title: 'How your sales can work together in account-based marketing',
+		slug: 'how-your-sales-can',
 		excerpt:
 			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
 		body: [
@@ -44,6 +46,7 @@ const BlogsData = [
 		authorPosition: 'Fonder & CEO',
 		authorImage: '/images/testimonial.jpg',
 		title: 'How your sales can work together in account-based marketing',
+		slug: 'how-your-sales-can-work',
 		excerpt:
 			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
 		body: [
@@ -62,6 +65,7 @@ const BlogsData = [
 		authorPosition: 'Fonder & CEO',
 		authorImage: '/images/testimonial.jpg',
 		title: 'How your sales can work together in account-based marketing',
+		slug: 'how-your-sales-can-work-together',
 		excerpt:
 			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
 		body: [
@@ -80,6 +84,7 @@ const BlogsData = [
 		authorPosition: 'Fonder & CEO',
 		authorImage: '/images/testimonial.jpg',
 		title: 'How your sales can work together in account-based marketing',
+		slug: 'how-your-sales-can-work-together-in-account',
 		excerpt:
 			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
 		body: [

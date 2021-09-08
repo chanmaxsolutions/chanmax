@@ -13,7 +13,7 @@ const BlogComponent = () => {
 					.map((content, i) => {
 						return (
 							<div className='col' key={i}>
-								<Link href={`/blog/${content.id}`}>
+								<Link href={`/blog/${content.slug}`}>
 									<a>
 										<div className='card  blog-card-div'>
 											<Image

@@ -6,6 +6,7 @@ const ServiceData = [
 		image: '/images/10_thumb.jpg',
 		icon: '/images/icon-1.svg',
 		title: ' Web Development',
+		slug: 'Web-Development',
 		shortExcerpt: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
 		buttonText: 'More Details',
 		excerpt:
@@ -25,6 +26,7 @@ const ServiceData = [
 		image: '/images/10_thumb.jpg',
 		icon: '/images/icon-1.svg',
 		title: ' Web Development',
+		slug: 'Web-Development-2',
 		shortExcerpt: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
 		buttonText: 'More Details',
 		excerpt:
@@ -44,6 +46,7 @@ const ServiceData = [
 		image: '/images/10_thumb.jpg',
 		icon: '/images/icon-1.svg',
 		title: ' Web Development',
+		slug: 'Web-Development-3',
 		shortExcerpt: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
 		buttonText: 'More Details',
 		excerpt:
@@ -63,6 +66,7 @@ const ServiceData = [
 		image: '/images/10_thumb.jpg',
 		icon: '/images/icon-1.svg',
 		title: ' Web Development',
+		slug: 'Web-Development-4',
 		shortExcerpt: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
 		buttonText: 'More Details',
 		excerpt:
@@ -82,6 +86,7 @@ const ServiceData = [
 		image: '/images/10_thumb.jpg',
 		icon: '/images/icon-1.svg',
 		title: ' Web Development',
+		slug: 'Web-Development-5',
 		shortExcerpt: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
 		buttonText: 'More Details',
 		excerpt:
@@ -101,6 +106,7 @@ const ServiceData = [
 		image: '/images/10_thumb.jpg',
 		icon: '/images/icon-1.svg',
 		title: ' Web Development',
+		slug: 'Web-Development-6',
 		shortExcerpt: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
 		buttonText: 'More Details',
 		excerpt:

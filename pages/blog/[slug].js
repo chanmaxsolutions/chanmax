@@ -50,9 +50,8 @@ const BlogDetails = ({ blogData }) => {
 };
 
 BlogDetails.getInitialProps = async function ({ query }) {
-	const { id } = query;
-	const blogId = parseInt(id);
-	const blogData = BlogsData.filter((blog) => blog.id === blogId);
+	const { slug } = query;
+	const blogData = BlogsData.filter((blog) => blog.slug === slug);
 	return { blogData: blogData[0] };
 };
 
