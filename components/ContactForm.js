@@ -20,7 +20,9 @@ const ContactForm = () => {
                     </div>
 
                     <form
-                        action="https://submit-form.com/oBBQtqrP"
+                        // action="https://submit-form.com/oBBQtqrP"
+                        action="https://formsubmit.co/balasubramaniam.raghuraj@gmail.com"
+                        method="POST"
                         className="mt-3"
                     >
                         <div className="row">
@@ -92,11 +94,14 @@ const ContactForm = () => {
                             rows="3"
                             required
                         ></textarea>
-                        <input
+                        {/* <input
                             type="hidden"
                             name="_redirect"
                             value="http://localhost:4000/services"
-                        />
+                        /> */}
+                        <input type="hidden" name="_next" value="http://localhost:4000" />
+                        <input type="hidden" name="_captcha" value="false" />
+                        <input type="text" name="_honey" style={{display:'none'}} />
                         <div className="text-center">
                             <span>
                                 <button

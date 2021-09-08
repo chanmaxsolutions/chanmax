@@ -626,6 +626,7 @@ line-height: 2.5;
   box-shadow: none;
   height: 54px !important;
   border-radius: 0px !important;
+  width: 100% !important;
 }
 
 .react-tel-input > .flag-dropdown:focus{
