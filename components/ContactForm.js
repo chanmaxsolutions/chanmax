@@ -33,7 +33,7 @@ const ContactForm = () => {
                                     className="contact-form-control form-control"
                                     type="text"
                                     id="name"
-                                    name="name"
+                                    name="Name"
                                     placeholder="Name"
                                     onChange={(e) => setName(e.target.value)}
                                     required
@@ -45,7 +45,7 @@ const ContactForm = () => {
                                     className="contact-form-control form-control"
                                     type="email"
                                     id="email"
-                                    name="email"
+                                    name="Email"
                                     placeholder="Email"
                                     required
                                 />
@@ -69,7 +69,7 @@ const ContactForm = () => {
                                 /> */}
                                 <input
                                     type="hidden"
-                                    name="phone"
+                                    name="Phone"
                                     id="phone"
                                     value={phone}
                                 />
@@ -81,7 +81,7 @@ const ContactForm = () => {
                                     className="contact-form-control form-control"
                                     type="company"
                                     id="company"
-                                    name="company"
+                                    name="Company"
                                     placeholder="Company"
                                 />
                             </div>
@@ -91,7 +91,7 @@ const ContactForm = () => {
                         <textarea
                             id="message"
                             className="form-control col-md-6 contact-form-control"
-                            name="message"
+                            name="Message"
                             placeholder="Message"
                             rows="3"
                             required
