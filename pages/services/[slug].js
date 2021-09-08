@@ -38,9 +38,8 @@ const ServiceDetails = ({ ServiceDatas }) => {
 };
 
 ServiceDetails.getInitialProps = async function ({ query }) {
-	const { id } = query;
-	const serviceId = parseInt(id);
-	const ServiceDatas = ServiceData.filter((service) => service.id === serviceId);
+	const { slug } = query;
+	const ServiceDatas = ServiceData.filter((service) => service.slug === slug);
 	return { ServiceDatas: ServiceDatas[0] };
 };
 

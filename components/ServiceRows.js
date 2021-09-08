@@ -19,7 +19,7 @@ const ServiceRow = () => {
 										<div>
 											<h2>{ServiceDataMapped.title}</h2>
 											<p className=''>{ServiceDataMapped.excerpt} </p>
-											<Link href={`/services/${ServiceDataMapped.id}`}>
+											<Link href={`/services/${ServiceDataMapped.slug}`}>
 												<a className='button'>Learn More</a>
 											</Link>
 										</div>
@@ -36,7 +36,7 @@ const ServiceRow = () => {
 										<div>
 											<h2 className='text-white'>{ServiceDataMapped.title}</h2>
 											<p className='text-white '> {ServiceDataMapped.excerpt} </p>
-											<Link href={`/services/${ServiceDataMapped.id}`}>
+											<Link href={`/services/${ServiceDataMapped.slug}`}>
 												<a className='button fourth '>Learn More</a>
 											</Link>
 										</div>
