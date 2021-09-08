@@ -3,6 +3,7 @@ import PhoneInput from "react-phone-input-2";
 
 const ContactForm = () => {
     const [phone, setPhone] = useState("");
+    const [name, setName] = useState("");
 
     return (
         <div className="container mb-5">
@@ -34,6 +35,7 @@ const ContactForm = () => {
                                     id="name"
                                     name="name"
                                     placeholder="Name"
+                                    onChange={(e) => setName(e.target.value)}
                                     required
                                 />
                             </div>
@@ -99,9 +101,9 @@ const ContactForm = () => {
                             name="_redirect"
                             value="http://localhost:4000/services"
                         /> */}
-                        <input type="hidden" name="_next" value="http://localhost:4000" />
+                        <input type="hidden" name="_next" value="https://chanmax-io-new.vercel.app" />
                         <input type="hidden" name="_captcha" value="false" />
-                        <input type="hidden" name="_subject" value="" />
+                        <input type="hidden" name="_subject" value={`${name?.toUpperCase()} sent you a message through contact form`} />
                         <input type="text" name="_honey" style={{display:'none'}} />
                         <div className="text-center">
                             <span>
