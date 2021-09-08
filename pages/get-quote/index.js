@@ -7,6 +7,7 @@ import { estimateData } from "../../data/quota";
 import TextInput from "../../components/FormsUI/TextInput";
 import BoxQauote from "../../components/BoxQauote";
 import Toast from "../../components/Toast";
+import { postService } from "../../helper/postService";
 
 function Web() {
     const [state, setState] = useState(estimateData);
@@ -49,7 +50,7 @@ function Web() {
         setState(temp);
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         setToast(false);
         e.preventDefault();
         let technology = Object.keys(state[0]).filter((item) => state[0][item]["status"]);
@@ -103,7 +104,23 @@ function Web() {
             source,
         };
 
-        console.log(postData, "zzz");
+        const form_data = new FormData();
+        form_data.append('Name', postData.name);
+        form_data.append('Company', postData.company);
+        form_data.append('Email', postData.email);
+        form_data.append('Phone', postData.phone);
+        // form_data.append('Source', postData.source);
+        // form_data.append('Technology', postData.technology);
+        // form_data.append('Budget', postData.budget);
+        form_data.append('_cc', "chanmaxsolutions@gmail.com,balasubramaniam.raghuraj@gmail.com");
+        form_data.append('_next', 'https://chanmax-io-new.vercel.app');
+        form_data.append('_captcha', 'false');
+        form_data.append('_subject', 'sent you a message through contact form');
+
+        console.log(form_data, 'zzz')
+
+        // const response = await postService("https://formsubmit.co/admin@chanmax.io", field);
+        // console.log(response, 'zzz');
     };
 
     return (
