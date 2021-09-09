@@ -90,8 +90,7 @@ div{
 }
 
 .hero-container{
-  /* background-color: #331c7a; */
-  /* background-image: url(../public/images/lightning-thunder.gif); */
+  background-color: #108f65;
   background-size: cover;
   min-height: 100VH;
   position: relative;
@@ -100,11 +99,12 @@ div{
 
 .hero-container-row{
   position: absolute;
-  background-color: #108f65;
+  /* background-color: #108f65; */
+  /* background-image: url(../public/images/hero.png); */
   background-size: cover;
   height: 100%;
   width: 100%;
-  backdrop-filter: saturate(180%) blur(20px);
+  /* backdrop-filter: saturate(180%) blur(20px); */
 }
 
 
@@ -589,7 +589,7 @@ line-height: 2.5;
 
 @media (max-width: 750px) {
   .blog-details-container-feature-image{
-    min-height: 300px;
+    min-height: 400px;
   }
 
   .service-details-container-feature-image{

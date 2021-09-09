@@ -6,13 +6,18 @@ import WorkData from '../data/WorkData';
 
 const FeatureProject = () => {
 	return (
-		<section className='container-fluid feature-project-container'>
+		<section className='container-fluid feature-project-container p-5'>
 			<div className='container'>
 				{WorkData.slice(-1).map((content, i) => {
 					return (
 						<div className='row'>
 							<div className='col-lg-6'>
-								<Image className='feature-project-bg-image' src={content.image} width={1000} height={1000} />
+								<Image
+									className='feature-project-bg-image'
+									src={content.image}
+									width={700}
+									height={446}
+								/>
 							</div>
 							<div className='col-lg-6 d-flex align-items-center p-4'>
 								<div>
