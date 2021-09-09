@@ -1,14 +1,13 @@
 export const postService = (api, data) => {
     return fetch(api, {
-        method: 'POST',
+        method: "POST",
         headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json'
+            Accept: "application/json",
         },
-        body: JSON.stringify(data)
+        body: data,
     })
-        .then(response => {
+        .then((response) => {
             return response.json();
         })
-        .catch(err => console.log(err));
+        .catch((err) => console.log(err));
 };
