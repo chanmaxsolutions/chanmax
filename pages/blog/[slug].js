@@ -3,7 +3,7 @@
 import BlogsData from '../../data/BlogsData';
 import SEO from '../../components/SEO';
 import Image from 'next/image';
-import CallToAction from '../../components/CallToAction';
+import HomeCallToAction from '../../components/HomeCallToAction';
 
 const BlogDetails = ({ blogData }) => {
 	return (
@@ -24,8 +24,12 @@ const BlogDetails = ({ blogData }) => {
 								alt='...'
 							/>
 							<div className='ms-2 mt-2'>
-								<span className='home-blog-author-name text-white'>{blogData.author} </span>
-								<p className='home-blog-author-position text-white'>{blogData.authorPosition}</p>
+								<span className='home-blog-author-name text-white'>
+									{blogData.author}{' '}
+								</span>
+								<p className='home-blog-author-position text-white'>
+									{blogData.authorPosition}
+								</p>
 							</div>
 						</div>
 					</div>
@@ -37,14 +41,18 @@ const BlogDetails = ({ blogData }) => {
 					<div className='col-md-7'>
 						{blogData.body &&
 							blogData.body.map((value, i) => {
-								return <div key={i} className='desc' dangerouslySetInnerHTML={{ __html: value }} />;
+								return (
+									<div
+										key={i}
+										className='desc hero-description'
+										dangerouslySetInnerHTML={{ __html: value }}
+									/>
+								);
 							})}
 					</div>
 				</div>
 			</div>
-
-			{console.log(blogData)}
-			<CallToAction />
+			<HomeCallToAction />
 		</div>
 	);
 };

@@ -11,11 +11,9 @@ export default function Contact() {
 		<React.Fragment>
 			<SEO title='CONTACT US | CHANMAX TECHNOLOGIES' />
 			<PageHeader
-				subHead='Contact'
-				mainHead='Reach us for your enquiry'
+				subHead='TRUSTED AND ENDORSED'
+				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'
 				bgImg='/images/3.jpg'
-				des='We help product vendors create impactful and 
-            futuristic digital solutions to solve real user problems.​'
 			/>
 			<ContactDetails />
 			<ContactForm />

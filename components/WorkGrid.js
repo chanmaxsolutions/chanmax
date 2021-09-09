@@ -14,7 +14,7 @@ const WorkGrid = () => {
 							<div key={i} className='col-md-4 mb-5'>
 								<Image src={workContent.image} width={620} height={400} />
 								<h4 className='mt-2'>{workContent.title}</h4>
-								<p>{workContent.excerpt}</p>
+								<p className='hero-description'>{workContent.excerpt}</p>
 								<Link href={`/works/${workContent.slug}`}>
 									<a className='button'>Learn More</a>
 								</Link>

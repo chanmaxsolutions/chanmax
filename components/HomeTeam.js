@@ -11,9 +11,11 @@ const HomeTeam = () => {
 					return (
 						<div className='col-lg-6 align-items-center'>
 							<h2 className='text-white home-team-heading'>{content.title}</h2>
-							<p className='text-white '>{content.excerpt}</p>
+							<p className='text-white hero-description'>{content.excerpt}</p>
 							<Link href={content.ButtonLink}>
-								<a className='button large fourth' style={{ marginLeft: '5px', marginTop: '10px' }}>
+								<a
+									className='button large fourth'
+									style={{ marginLeft: '5px', marginTop: '10px' }}>
 									{content.buttonText}
 								</a>
 							</Link>

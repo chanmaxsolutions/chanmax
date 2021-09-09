@@ -10,8 +10,8 @@ export default function Services() {
 		<React.Fragment>
 			<SEO title='OUR SERVICES | CHANMAX TECHNOLOGIES' />
 			<PageHeader
-				subHead='Services'
-				mainHead='What we do'
+				subHead='TRUSTED AND ENDORSED'
+				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'
 				bgImg='/images/5.jpg'
 				des='We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​'

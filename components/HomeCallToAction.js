@@ -11,10 +11,15 @@ const HomeCallToAction = () => {
 					{HomeCallToActionData.map((content, i) => {
 						return (
 							<div key={i} className='text-center'>
-								<h1 className='text-white mt-4'>{content.title}</h1>
-								<p className='text-white '> {content.excerpt}</p>
+								<h1 className='text-white mt-2'>{content.title}</h1>
+								<p className='text-white hero-description'>
+									{' '}
+									{content.excerpt}
+								</p>
 								<Link href={content.ButtonLink}>
-									<a className='button  large fourth ' style={{ marginLeft: '5px', marginTop: '10px' }}>
+									<a
+										className='button  large fourth '
+										style={{ marginLeft: '5px', marginTop: '10px' }}>
 										{content.ButtonText}
 									</a>
 								</Link>

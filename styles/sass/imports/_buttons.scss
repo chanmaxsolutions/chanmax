@@ -4,7 +4,7 @@
 	-ms-flex-align: center;
 	align-items: center;
 	background: $color-primary;
-	border: 2px solid $color-primary;
+	border: 1px solid $color-primary;
 	border-radius: 0px;
 	box-sizing: border-box;
 	color: #fff;
@@ -57,17 +57,17 @@
 	&.fourth {
 		background: transparent;
 		color: #fff;
-		border: 2px solid #fff;
+		border: 1px solid #fff;
 	}
 	&.fourth:hover {
 		background: rgb(255, 206, 82);
 		color: rgb(0, 0, 0);
-		border: 2px solid rgb(255, 206, 82);
+		border: 1px solid rgb(255, 206, 82);
 	}
 	&.fifth {
 		background: rgb(255, 206, 82);
 		color: rgb(0, 0, 0);
-		border: 2px solid rgb(255, 206, 82);
+		border: 1px solid rgb(255, 206, 82);
 	}
 	&.fifth:hover {
 		opacity: 0.8;

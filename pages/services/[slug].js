@@ -11,12 +11,10 @@ const ServiceDetails = ({ ServiceDatas }) => {
 			<div
 				className='container-fluid service-details-container-feature-image '
 				style={{ backgroundImage: `url(${ServiceDatas.image})` }}>
-				<div className='row blog-details-row'>
-					<div className='col-md-4 cm-mt-page-header align-items-center offset-md-4'>
-						<div className='text-center'>
-							<span className='text-white text-uppercase '>Our Services</span>
-							<h1 className='text-white '>{ServiceDatas.title}</h1>
-						</div>
+				<div className='row blog-details-row text-center '>
+					<div className='col-lg-6 page-header-margin-top'>
+						<p className='sub-head text-white'>TRUSTED AND ENDORSED</p>
+						<h3 className='pb-5 text-white main-head '>{ServiceDatas.title}</h3>
 					</div>
 				</div>
 			</div>
@@ -26,7 +24,13 @@ const ServiceDetails = ({ ServiceDatas }) => {
 					<div className='col-md-7'>
 						{ServiceDatas.body &&
 							ServiceDatas.body.map((value, i) => {
-								return <div key={i} className='desc' dangerouslySetInnerHTML={{ __html: value }} />;
+								return (
+									<div
+										key={i}
+										className='desc hero-description'
+										dangerouslySetInnerHTML={{ __html: value }}
+									/>
+								);
 							})}
 					</div>
 				</div>
