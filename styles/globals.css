@@ -234,7 +234,7 @@ div{
 
 .testimonial-card{
   box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px !important;
-  border-radius: 0px !important;
+  border-radius: 7px !important;
   background-color: #fff !important;
 }
 
@@ -289,7 +289,11 @@ div{
 }
 
 .card-img-top{
-  border-radius: 0px !important;
+  border-radius: 7px !important;
+}
+
+.work-grid-image{
+  border-radius: 7px !important;
 }
 
 .home-blog-author-image{
@@ -386,7 +390,7 @@ div > button{
   align-items: center;
   background: transparent;
   border: 2px solid #108F64;
-  border-radius: 0px;
+  border-radius: 7px;
   box-sizing: border-box;
   color: #108F64;
   cursor: pointer;
@@ -420,7 +424,7 @@ input[type="number"],
 input[type="search"], 
 input[type="url"], 
 select, textarea{
-  border-radius: 0px;
+  border-radius: 7px;
 }
 
 .footer-social-icons{
@@ -518,7 +522,7 @@ select, textarea{
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
     appearance: none !important;
-    border-radius: 0px !important;
+    border-radius: 7px !important;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
 }
 
@@ -539,7 +543,7 @@ select, textarea{
 .contact-form-inside-container{
   padding: 40px;
   background-color: #fff;
-  border-radius: 0px;
+  border-radius: 7px;
   box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px;
 }
 
@@ -653,7 +657,7 @@ line-height: 2.5;
 .react-tel-input > .form-control{
   box-shadow: none;
   height: 54px !important;
-  border-radius: 0px !important;
+  border-radius: 7px !important;
   width: 100% !important;
 }
 

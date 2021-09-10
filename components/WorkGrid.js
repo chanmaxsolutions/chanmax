@@ -12,7 +12,12 @@ const WorkGrid = () => {
 					{WorkData.map((workContent, i) => {
 						return (
 							<div key={i} className='col-md-4 mb-5'>
-								<Image src={workContent.image} width={620} height={400} />
+								<Image
+									src={workContent.image}
+									width={620}
+									height={400}
+									className='work-grid-image'
+								/>
 								<h4 className='mt-2'>{workContent.title}</h4>
 								<p className='hero-description'>{workContent.excerpt}</p>
 								<Link href={`/works/${workContent.slug}`}>
