@@ -54,7 +54,14 @@ function Web() {
         setState(temp);
     };
 
-    const handleSubmit = async (e) => {
+    const scrollBehavior = (scroll) => {
+        scroll?.current.scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+        });
+    };
+
+    const handleSubmit = (e) => {
         setToast(false);
         e.preventDefault();
         let technology = Object.keys(state[0]).filter((item) => state[0][item]["status"]);
@@ -64,36 +71,18 @@ function Web() {
         let err = [];
 
         if (!source.length) {
-            sourceRef.current.scrollIntoView({
-                behavior: "smooth",
-                block: "center",
-            });
-            err = {
-                ...err,
-                source: "source",
-            };
+            scrollBehavior(sourceRef);
+            err = { ...err, source: true };
         }
 
         if (!budget) {
-            budgetRef.current.scrollIntoView({
-                behavior: "smooth",
-                block: "center",
-            });
-            err = {
-                ...err,
-                budget: "budget",
-            };
+            scrollBehavior(budgetRef);
+            err = { ...err, budget: true };
         }
 
         if (!technology.length) {
-            techRef.current.scrollIntoView({
-                behavior: "smooth",
-                block: "center",
-            });
-            err = {
-                ...err,
-                technology: "technology",
-            };
+            scrollBehavior(techRef);
+            err = { ...err, technology: true };
         }
 
         if (err.technology || err.budget || err.source) {
@@ -121,14 +110,15 @@ function Web() {
         form_data.append("_captcha", "false");
         form_data.append("_subject", `${postData.name?.toUpperCase()} requested a quote for ${postData.technology} development.`);
 
-        try {
-            await postService("https://formsubmit.co/admin@chanmax.io", form_data);
-            router.push("/get-quote-thankyou");
-        } catch (error) {
-            console.log(error);
-            setToast(true);
-            setError({ error, message: "Something went wrong" });
-        }
+        postService("https://formsubmit.co/admin@chanmax.io", form_data)
+            .then(() => {
+                router.push("/get-quote-thankyou");
+            })
+            .catch((err) => {
+                console.log(err);
+                setToast(true);
+                setError({ error, message: "Something went wrong" });
+            });
     };
 
     return (
@@ -207,13 +197,6 @@ function Web() {
                         <TextInput onChange={handleChange} value={values.company} name="company" placeholder="Company Name" />
                         <br />
                         <PhoneInput country="lk" onChange={changePhone} />
-                        {/* <TextInput
-                            required
-                            onChange={handleChange}
-                            value={values.phone}
-                            name="phone"
-                            placeholder="Your Phone Number"
-                        /> */}
                         <button type="submit" className="btn btn-primary mt-4">
                             Request Estimate
                         </button>
