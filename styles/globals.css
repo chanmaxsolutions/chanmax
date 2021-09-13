@@ -139,11 +139,11 @@ div{
     margin-top: 70px;
   }
   .home-hero-button{
-    margin-right: 5px;
+    margin: 5px !important;
   }
   
   .home-hero-button-two{
-    margin-left: 5px;
+    margin: 5px !important;
   }
   
 }
