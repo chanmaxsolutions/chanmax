@@ -718,6 +718,8 @@ line-height: 2.5;
 @media (max-width: 750px) {
   .get-quote-padding{
     text-align: center !important;
+  padding-left: 15px !important;
+  padding-right:15px !important;
   }
   
 }
