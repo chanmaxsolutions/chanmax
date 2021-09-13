@@ -8,7 +8,7 @@ function BoxQauote({ title, icon, handleClick, isSelected }) {
 			<div
 				className='col-lg-3 col-8 text-center'
 				style={{
-					border: `3px solid ${isSelected ? '#1A9369' : 'white'}`,
+					border: `2px solid ${isSelected ? '#1A9369' : 'white'}`,
 					backgroundColor: ` ${isSelected ? '#fff' : 'white'}`,
 					color: `${isSelected ? '#000' : '#565656'}`,
 					margin: 10,
