@@ -6,7 +6,7 @@ function BoxQauote({ title, icon, handleClick, isSelected }) {
 	return (
 		<>
 			<div
-				className='col-sm-3 col-12 text-center'
+				className='col-lg-3 col-8 text-center'
 				style={{
 					border: `3px solid ${isSelected ? '#1A9369' : 'white'}`,
 					backgroundColor: ` ${isSelected ? '#fff' : 'white'}`,

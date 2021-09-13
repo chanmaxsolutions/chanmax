@@ -716,8 +716,16 @@ line-height: 2.5;
 
 @media (max-width: 750px) {
   .get-quote-padding{
-    padding-left: 10px !important;
-    padding-right:10px !important;
+    text-align: center !important;
   }
   
+}
+
+.get-quote-toast{
+  background-color: red !important;
+  z-index: 1000;
+}
+
+.toast-body{
+  font-size: 16px !important;
 }

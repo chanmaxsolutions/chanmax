@@ -141,7 +141,9 @@ function Web() {
 		<React.Fragment>
 			{toast && (
 				<Toast
-					message={error.message || 'Please select atleast one in row'}
+					message={
+						error.message || 'Please select at least one in each section'
+					}
 					handleClose={() => setToast(false)}
 				/>
 			)}
@@ -156,12 +158,9 @@ function Web() {
 
 			<div className='container contact-get-quote-container'>
 				<div className='row justify-content-md-center'>
-					<div className='get-quote-padding'>
-						<p className='sub-head'>Project</p>
-						<h3 className='main-head'>
-							Tell us about the product, you are looking to build.
-						</h3>
-					</div>
+					<p className='get-quote-padding'>
+						Tell us about the product, you are looking to build.
+					</p>
 					<div
 						ref={techRef}
 						className={`d-flex flex-wrap justify-content-center p-2 mb-4 ${
@@ -178,12 +177,9 @@ function Web() {
 							))}
 					</div>
 
-					<div className='get-quote-padding'>
-						<p className='sub-head'>Budget</p>
-						<h3 className='main-head'>
-							Tell us about the amount, you are looking to spend for.
-						</h3>
-					</div>
+					<p className='get-quote-padding'>
+						Tell us about the amount, you are looking to spend for.
+					</p>
 					<div
 						ref={budgetRef}
 						className={`d-flex flex-wrap justify-content-center p-2 mb-4 ${
@@ -199,12 +195,9 @@ function Web() {
 								/>
 							))}
 					</div>
-					<div className='get-quote-padding'>
-						<p className='sub-head'>How you found</p>
-						<h3 className='main-head'>
-							How did you find us to work for your project?
-						</h3>
-					</div>
+					<p className='get-quote-padding'>
+						How did you find us to work for your project?
+					</p>
 					<div
 						ref={sourceRef}
 						className={`d-flex flex-wrap justify-content-center p-2 mb-4 ${
