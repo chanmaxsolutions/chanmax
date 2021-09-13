@@ -43,7 +43,7 @@ const WorkData = [
 
 	{
 		id: 3,
-		image: '/images/10_thumb.jpg',
+		image: '/images/9_thumb.jpg',
 		title: ' Digital transformation that businesses have Noolthettam Project',
 		slug: 'digital-transformation-that-businesses-have-noolthettam-project',
 		category: 'Web Development',

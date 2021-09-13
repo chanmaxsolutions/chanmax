@@ -501,6 +501,18 @@ select, textarea{
   margin-top: 100px;
 }
 
+
+.contact-get-quote-container{
+  margin-bottom: 100px;
+  margin-top: 100px;
+  max-width:800px;
+}
+
+.get-quote-form{
+  width: 650px;
+
+}
+
 @media (max-width: 750px) {
   .contact-details-container{
     margin-top: 50px;
@@ -683,4 +695,29 @@ line-height: 2.5;
 
 .react-tel-input{
   border-radius: 0px !important;
+}
+
+.get-quote-title-text{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.border{
+  border: 2px solid red !important;
+  border-radius: 7px;
+  background-color: rgb(253, 218, 218) !important;
+}
+
+.get-quote-padding{
+  padding-left: 90px !important;
+  padding-right:90px !important;
+}
+
+@media (max-width: 750px) {
+  .get-quote-padding{
+    padding-left: 10px !important;
+    padding-right:10px !important;
+  }
+  
 }

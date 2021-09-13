@@ -55,7 +55,7 @@ const ContactForm = () => {
 							<div className='col-md-6'>
 								<label htmlFor='phone'>Phone</label>
 								<PhoneInput
-									country='lk'
+									country='au'
 									onBlur={(e) => setPhone(e.target.value)}
 								/>
 								{/* <input

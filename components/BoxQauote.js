@@ -1,29 +1,41 @@
-import React from "react";
+/** @format */
+
+import React from 'react';
 
 function BoxQauote({ title, icon, handleClick, isSelected }) {
-    return (
-        <div
-            style={{
-                width: 150,
-                height: 150,
-                border: `2px solid ${isSelected ? "#1A9369" : "white"}`,
-                backgroundColor: isSelected ? "#1A9369" : "white",
-                color: isSelected ? "white" : "black",
-                fontSize: 20,
-                textAlign: "center",
-                margin: 4,
-            }}
-            onClick={handleClick}
-        >
-            <div className="fs-1">{icon}</div>
-            <div
-                className="d-flex align-items-center justify-content-center"
-                style={!icon ? { height: "100%" } : {}}
-            >
-                {title}
-            </div>
-        </div>
-    );
+	return (
+		<>
+			<div
+				className='col-sm-3 col-12 text-center'
+				style={{
+					border: `3px solid ${isSelected ? '#1A9369' : 'white'}`,
+					backgroundColor: ` ${isSelected ? '#fff' : 'white'}`,
+					color: `${isSelected ? '#000' : '#565656'}`,
+					margin: 10,
+					height: 150,
+					fontFamily: 'Niramit',
+					borderRadius: 7,
+					boxShadow: `${
+						isSelected ? '0px 0px 0px' : 'rgb(0 0 0 / 1%) 0px 3px 20px '
+					}`,
+					cursor: 'pointer',
+				}}
+				onClick={handleClick}>
+				<div className='card '>
+					<div className='card-body '>
+						<div
+							className='fs-1'
+							style={{
+								color: `${isSelected ? '#000' : '#565656'}`,
+							}}>
+							{icon}
+						</div>
+						<p className='get-quote-title-text'>{title}</p>
+					</div>
+				</div>
+			</div>
+		</>
+	);
 }
 
 export default BoxQauote;
