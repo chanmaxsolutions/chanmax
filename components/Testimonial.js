@@ -20,7 +20,7 @@ const Testimonial = () => {
 					return (
 						<div key={i} className='col-lg-4 text-center mt-4'>
 							<div className='card ' style={{ height: '100%' }}>
-								<div ke className='card-body text-center testimonial-card'>
+								<div className='card-body text-center testimonial-card'>
 									<Image
 										src='/images/testimonial.jpg'
 										className='testimonials-img '
@@ -39,8 +39,10 @@ const Testimonial = () => {
 										{content.position}
 									</p>
 									<p className='card-text'>{content.excerpt}</p>
-									{[...Array(Math.round(content.rating))].map(() => (
-										<span style={{ color: '#fbae01' }}>&#9733;</span>
+									{[...Array(Math.round(content.rating))].map((data, i) => (
+										<span key={i} style={{ color: '#fbae01' }}>
+											&#9733;
+										</span>
 									))}
 								</div>
 							</div>

@@ -30,7 +30,7 @@ const ServiceSection = () => {
 							<div className='card-body text-center'>
 								<p className='card-title'> {content.homeTitle} </p>
 								<p className='card-text'>{content.shortExcerpt}</p>
-								<Link href={`services/${content.slug}`}>
+								<Link href={`/services/${content.slug}`}>
 									<a className='home-why-section-button'>
 										{content.buttonText}
 									</a>

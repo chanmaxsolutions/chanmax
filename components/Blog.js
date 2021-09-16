@@ -6,7 +6,7 @@ import BlogsData from '../data/BlogsData';
 
 const BlogComponent = () => {
 	return (
-		<div className='container home-blog-container mt-5'>
+		<div className='container home-blog-container mt-5 mb-5'>
 			<div className='row row-cols-1 row-cols-md-3 g-4'>
 				{BlogsData.slice(0, 4)
 					.reverse()
@@ -41,8 +41,12 @@ const BlogComponent = () => {
 										alt='...'
 									/>
 									<div className='ms-2 mt-2'>
-										<span className='home-blog-author-name'>{content.author} </span>
-										<p className='home-blog-author-position'>{content.authorPosition}</p>
+										<span className='home-blog-author-name'>
+											{content.author}{' '}
+										</span>
+										<p className='home-blog-author-position'>
+											{content.authorPosition}
+										</p>
 									</div>
 								</div>
 							</div>
@@ -54,18 +58,3 @@ const BlogComponent = () => {
 };
 
 export default BlogComponent;
-
-{
-	/* {data.body.map((desc, i) => (
-<div key={i} className="desc" dangerouslySetInnerHTML={{__html: desc}}>
-</div>
-))}  */
-}
-
-{
-	/* {data.body.map((value, i) => {
-          return(
-              <div key={i} className="desc" dangerouslySetInnerHTML={{__html: value}} />
-          )
-      })} */
-}

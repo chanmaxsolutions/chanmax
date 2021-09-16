@@ -3,6 +3,7 @@
 import SEO from '../../components/SEO';
 import PageHeader from '../../components/PageHeader';
 import BlogComponent from '../../components/Blog';
+import HomeCallToAction from '../../components/HomeCallToAction';
 
 const Blog = () => {
 	return (
@@ -16,6 +17,7 @@ const Blog = () => {
             futuristic digital solutions to solve real user problems.​'
 			/>
 			<BlogComponent />
+			<HomeCallToAction />
 		</div>
 	);
 };

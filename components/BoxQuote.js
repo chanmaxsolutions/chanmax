@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-function BoxQauote({ title, icon, handleClick, isSelected }) {
+function BoxQuote({ title, icon, handleClick, isSelected }) {
 	return (
 		<>
 			<div
@@ -37,4 +37,4 @@ function BoxQauote({ title, icon, handleClick, isSelected }) {
 	);
 }
 
-export default BoxQauote;
+export default BoxQuote;

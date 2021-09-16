@@ -7,11 +7,11 @@ import Image from 'next/image';
 const WorkGrid = () => {
 	return (
 		<div>
-			<div className='container'>
+			<div className='container cm-p5'>
 				<div className='row'>
 					{WorkData.map((workContent, i) => {
 						return (
-							<div key={i} className='col-md-4 mb-5'>
+							<div key={i} className='col-md-4  mb-5'>
 								<Image
 									src={workContent.image}
 									width={620}

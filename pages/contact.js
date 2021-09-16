@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import PageHeader from '../components/PageHeader';
 import ContactDetails from '../components/ContactDetails';
 import ContactForm from '../components/ContactForm';
+import HomeCallToAction from '../components/HomeCallToAction';
 
 export default function Contact() {
 	return (
@@ -17,6 +18,7 @@ export default function Contact() {
 			/>
 			<ContactDetails />
 			<ContactForm />
+			<HomeCallToAction />
 		</React.Fragment>
 	);
 }

@@ -11,12 +11,12 @@ const ServiceDetails = ({ WorkDatas }) => {
 				style={{ backgroundImage: `url(${WorkDatas.image})` }}>
 				<div className='row blog-details-row text-center '>
 					<div className='col-lg-6 page-header-margin-top'>
-						<p className='sub-head text-white'>TRUSTED AND ENDORSED</p>
+						<p className='sub-head text-white'>OUR WORKS</p>
 						<h3 className='pb-5 text-white main-head '>{WorkDatas.title}</h3>
 					</div>
 				</div>
 			</div>
-			<div className='container-fluid bg-white pt-5 pb-5'>
+			<div className='container-fluid bg-white pt-5 pb-5 mb-5'>
 				<div className='row justify-content-md-center'>
 					<div className='col-md-7'>
 						{WorkDatas.body &&

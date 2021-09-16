@@ -7,12 +7,12 @@ import SEO from '../../components/SEO';
 import PageHeader from '../../components/PageHeader';
 import { estimateData } from '../../data/quota';
 import TextInput from '../../components/FormsUI/TextInput';
-import BoxQauote from '../../components/BoxQauote';
+import BoxQuote from '../../components/BoxQuote';
 import Toast from '../../components/Toast';
 import { postService } from '../../helper/postService';
 import { useRouter } from 'next/router';
 
-function Web() {
+function GetQuote() {
 	const [state, setState] = useState(estimateData);
 	const [values, setValues] = useState({});
 	const [error, setError] = useState({});
@@ -167,8 +167,9 @@ function Web() {
 							error.technology && 'border border-danger'
 						}`}>
 						{state[0] &&
-							Object.keys(state[0]).map((data) => (
-								<BoxQauote
+							Object.keys(state[0]).map((data, i) => (
+								<BoxQuote
+									key={i}
 									isSelected={state[0][data]['status']}
 									handleClick={() => handleSelect(0, data)}
 									title={data}
@@ -186,8 +187,9 @@ function Web() {
 							error.budget && 'border border-danger'
 						}`}>
 						{state[1] &&
-							Object.keys(state[1]).map((data) => (
-								<BoxQauote
+							Object.keys(state[1]).map((data, i) => (
+								<BoxQuote
+									key={i}
 									isSelected={state[1][data]['status']}
 									handleClick={() => handlePriceSelect(1, data)}
 									title={data}
@@ -204,8 +206,9 @@ function Web() {
 							error.source && 'border border-danger'
 						}`}>
 						{state[2] &&
-							Object.keys(state[2]).map((data) => (
-								<BoxQauote
+							Object.keys(state[2]).map((data, i) => (
+								<BoxQuote
+									key={i}
 									isSelected={state[2][data]['status']}
 									handleClick={() => handleSelect(2, data)}
 									title={data}
@@ -267,4 +270,4 @@ function Web() {
 	);
 }
 
-export default Web;
+export default GetQuote;

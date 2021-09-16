@@ -4,6 +4,7 @@ import React from 'react';
 import SEO from '../../components/SEO';
 import PageHeader from '../../components/PageHeader';
 import ServiceRow from '../../components/ServiceRows';
+import HomeCallToAction from '../../components/HomeCallToAction';
 
 export default function Services() {
 	return (
@@ -18,6 +19,7 @@ export default function Services() {
 			/>
 
 			<ServiceRow />
+			<HomeCallToAction />
 		</React.Fragment>
 	);
 }

@@ -1,7 +1,7 @@
 /** @format */
 
 import ServiceData from '../../data/ServiceData';
-import CallToAction from '../../components/CallToAction';
+import HomeCallToAction from '../../components/HomeCallToAction';
 import SEO from '../../components/SEO';
 
 const ServiceDetails = ({ ServiceDatas }) => {
@@ -9,17 +9,17 @@ const ServiceDetails = ({ ServiceDatas }) => {
 		<div>
 			<SEO title={ServiceDatas.title} />
 			<div
-				className='container-fluid service-details-container-feature-image '
+				className='container-fluid service-details-container-feature-image'
 				style={{ backgroundImage: `url(${ServiceDatas.image})` }}>
 				<div className='row blog-details-row text-center '>
 					<div className='col-lg-6 page-header-margin-top'>
-						<p className='sub-head text-white'>TRUSTED AND ENDORSED</p>
+						<p className='sub-head text-white'>OUR SERVICES</p>
 						<h3 className='pb-5 text-white main-head '>{ServiceDatas.title}</h3>
 					</div>
 				</div>
 			</div>
 
-			<div className='container-fluid bg-white pt-5 pb-5'>
+			<div className='container-fluid bg-white pt-5 pb-5 mb-5'>
 				<div className='row justify-content-md-center'>
 					<div className='col-md-7'>
 						{ServiceDatas.body &&
@@ -35,8 +35,7 @@ const ServiceDetails = ({ ServiceDatas }) => {
 					</div>
 				</div>
 			</div>
-
-			<CallToAction />
+			<HomeCallToAction />
 		</div>
 	);
 };

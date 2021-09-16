@@ -4,6 +4,7 @@ import React from 'react';
 import SEO from '../../components/SEO';
 import PageHeader from '../../components/PageHeader';
 import WorkGrid from '../../components/WorkGrid';
+import HomeCallToAction from '../../components/HomeCallToAction';
 
 export default function Works() {
 	return (
@@ -18,6 +19,7 @@ export default function Works() {
 			/>
 
 			<WorkGrid />
+			<HomeCallToAction />
 		</React.Fragment>
 	);
 }

@@ -6,7 +6,7 @@ const ContactDetails = () => {
 	return (
 		<div className='container contact-details-container'>
 			<div className='row justify-content-md-center'>
-				<div className='col-sm-3 text-center mt-4 '>
+				<div className='col-sm-3 text-center mt-4 contact-details-box-margin'>
 					<div className='card '>
 						<div className='card-body  testimonial-card'>
 							<Image
