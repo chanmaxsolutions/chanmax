@@ -503,10 +503,6 @@ select, textarea{
 .page-header-row{
   position: absolute;
   background-color: #000000e3;
-  /* background-color: #108F64;
-  opacity: 0.90; */
-   /* top: 0; */
-  /* left: 0; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -523,7 +519,7 @@ select, textarea{
 
 @media (max-width: 1024px) {
   .page-header-container{
-    min-height: 400px;
+    min-height: 350px;
   }
 
   .page-header-margin-top{
@@ -534,6 +530,7 @@ select, textarea{
     display: flex;
     align-items:center;
     justify-content:center;
+    background-color: #000000b4;
   
   }
 
