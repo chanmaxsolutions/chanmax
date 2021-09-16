@@ -17,10 +17,6 @@ const MenuOneData = [
 		id: '4',
 		title: 'menu1',
 	},
-	{
-		id: '5',
-		title: 'menu1',
-	},
 ];
 
 export default MenuOneData;

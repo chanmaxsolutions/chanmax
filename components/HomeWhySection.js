@@ -7,7 +7,7 @@ const HomeWhySection = () => {
 	return (
 		<div className='container'>
 			<div className='row'>
-				<div className='col-lg-6 p-5'>
+				<div className='col-lg-6 cm-p5'>
 					{HomeWhySectionData.map((content, i) => {
 						return (
 							<div key={i}>

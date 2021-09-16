@@ -9,7 +9,7 @@ const HomeTeam = () => {
 			<div className='row justify-content-md-center home-team-container-row'>
 				{HomeTeamData.map((content, i) => {
 					return (
-						<div className='col-lg-6 align-items-center'>
+						<div key={i} className='col-lg-7 align-items-center'>
 							<h2 className='text-white home-team-heading'>{content.title}</h2>
 							<p className='text-white hero-description'>{content.excerpt}</p>
 							<Link href={content.ButtonLink}>

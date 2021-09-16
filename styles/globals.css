@@ -129,12 +129,25 @@ div{
   margin-top: 10px;
 }
 
+.cm-p5{
+  padding:3rem !important;
+}
+
   @media (max-width: 1024px) {
     .hero-container{
       min-height: 800px;} 
       .hero-header{
         font-size: 5vw;
         margin-top: 70px;
+      }
+      .main-head{
+        font-weight:500;
+        font-size: 20px;
+      }
+      .cm-p5{
+        padding:1rem !important;
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
       }
   }
 
@@ -206,12 +219,11 @@ div{
 
 .service-container{
   margin: 0px auto;
-    padding: 34px 0px;
     background: #fff;
     box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px;
     min-height: 400px;
     margin-bottom: 50px;
-    border-radius: 0px;
+    border-radius: 7px;
 }
 
 
@@ -240,7 +252,7 @@ div{
 }
 
 .feature-project-bg-image{
-  background-size: contain !important;
+  border-radius: 7px;
 
 }
 
@@ -280,23 +292,24 @@ div{
   background-size: cover;
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
 }
 
 
-
 .home-team-heading{
-  padding-top: 150px !important;
+  font-size: 50px;
 }
 
 
 @media (max-width: 750px) {
   .home-team-container{
-    min-height: 300px;
+    min-height: 400px;
   }
   .home-team-heading{
-    padding-top: 40px !important;
+    font-size: 30px;
   }
-  
 }
 
 .blog-card{
@@ -338,12 +351,11 @@ div{
 
 .home-blog-container{
   margin: 0px auto;
-    padding: 34px 20px;
     background: #fff;
     box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px;
     min-height: 400px;
     padding-bottom: 50px;
-    border-radius: 0px;
+    border-radius: 7px;
 }
 
 
@@ -362,15 +374,27 @@ div{
   background-size: cover;
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
   border-radius: 7px;
 }
 
 @media (max-width: 750px) {
-  .home-blog-container,.home-call-to-action-container,.service-container,.feature-project-container,.footer {
+  .home-blog-container,.home-call-to-action-container,.feature-project-container,.footer {
    box-shadow: none;
    border-radius: 0px;
    margin-top: -48px !important;
   } 
+
+  .service-container{
+    box-shadow: none;
+    border-radius: 0px;
+  }
+
+  .home-call-to-action-container-row{
+    border-radius: 0px;
+  }
 }
 
 .footer{
@@ -596,6 +620,10 @@ font-size: 14px;
     border-radius: 0px;
     box-shadow: rgb(0 0 0 / 0.01) 0px -30px 20px;
     padding: 20px;
+  }
+
+  .footer-third-menu{
+    display: none;
   }
   
 }

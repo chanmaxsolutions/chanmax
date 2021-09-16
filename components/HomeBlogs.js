@@ -6,7 +6,7 @@ import BlogsData from '../data/BlogsData';
 
 const BlogComponent = () => {
 	return (
-		<div className='container home-blog-container mt-5 mb-5'>
+		<div className='container home-blog-container cm-p5 mb-5'>
 			<div className='row justify-content-md-center text-center'>
 				<div className='col-lg-7 align-items-center'>
 					<p className='sub-head'>Trusted and endorsed</p>

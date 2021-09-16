@@ -48,7 +48,7 @@ const ClientCarousel = () => {
 	};
 	return (
 		<div className='bg-white '>
-			<div className='container p-5'>
+			<div className='container cm-p5'>
 				<div className='row justify-content-md-center text-center'>
 					<div className='col-lg-6 align-items-center'>
 						<p className='sub-head'>Trusted and endorsed</p>

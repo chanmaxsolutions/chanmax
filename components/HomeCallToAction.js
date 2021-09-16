@@ -11,7 +11,9 @@ const HomeCallToAction = () => {
 					{HomeCallToActionData.map((content, i) => {
 						return (
 							<div key={i} className='text-center'>
-								<h1 className='text-white mt-2'>{content.title}</h1>
+								<h2 className='home-team-heading text-white mt-2'>
+									{content.title}
+								</h2>
 								<p className='text-white hero-description'>
 									{' '}
 									{content.excerpt}

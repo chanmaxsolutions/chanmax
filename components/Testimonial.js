@@ -9,7 +9,7 @@ const Testimonial = () => {
 			<div className='row justify-content-md-center text-center'>
 				<div className='col-lg-7 align-items-center'>
 					<p className='sub-head'>Trusted and endorsed</p>
-					<h3 className='pb-5 main-head'>
+					<h3 className=' main-head'>
 						Trusted and endorsed by Chanmax and a lot of company around the
 						world
 					</h3>
@@ -18,7 +18,7 @@ const Testimonial = () => {
 			<div className='row'>
 				{TestimonialData.map((content, i) => {
 					return (
-						<div className='col-lg-4 text-center mt-4'>
+						<div key={i} className='col-lg-4 text-center mt-4'>
 							<div className='card ' style={{ height: '100%' }}>
 								<div ke className='card-body text-center testimonial-card'>
 									<Image
