@@ -1,5 +1,5 @@
 {
-  "name": "chanmax",
+  "name": "CHANMAX-TECHNOLOGIES",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,19 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "@formspree/react": "^2.2.3",
-    "lodash": "^4.17.21",
     "next": "10.2.3",
     "node-sass": "^5.0.0",
-    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "17.0.2",
     "react-mailchimp-email-signup-form": "^2.0.2",
-    "react-owl-carousel": "^2.3.3",
     "react-phone-input-2": "^2.14.0",
     "react-share": "^4.4.0",
     "react-slick": "^0.28.1",
-    "slick-carousel": "^1.8.1",
-    "smooth-scrollbar": "^8.6.2"
+    "slick-carousel": "^1.8.1"
   }
 }

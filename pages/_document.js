@@ -14,16 +14,13 @@ class MyDocument extends Document {
 						crossOrigin='anonymous'
 					/>
 
-					<link rel='preconnect' href='https://fonts.googleapis.com' />
-					<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+					<link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
 					<link
 						href='https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;700&display=swap'
 						rel='stylesheet'
 					/>
-
-					<link href='/fonts/fonts.css' rel='stylesheet' />
 				</Head>
-				<body className='palette-blue font-chanmax-type'>
+				<body>
 					<Main />
 					<script src={'/js/plugins.js'} />
 					<script

@@ -39,8 +39,8 @@ const ClientCarousel = () => {
 			{
 				breakpoint: 480,
 				settings: {
-					slidesToShow: 3,
-					slidesToScroll: 3,
+					slidesToShow: 2,
+					slidesToScroll: 2,
 					lazyLoad: true,
 				},
 			},
