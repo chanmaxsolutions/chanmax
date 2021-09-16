@@ -113,7 +113,7 @@ const ContactForm = () => {
 						<input type='text' name='_honey' style={{ display: 'none' }} />
 						<div className='text-center'>
 							<span>
-								<button className='button mt-4 contact-form-btn' type='submit'>
+								<button className='button mt-4 ' type='submit'>
 									Send Message
 								</button>
 							</span>

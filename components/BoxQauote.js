@@ -13,7 +13,6 @@ function BoxQauote({ title, icon, handleClick, isSelected }) {
 					color: `${isSelected ? '#000' : '#565656'}`,
 					margin: 10,
 					height: 150,
-					fontFamily: 'Niramit',
 					borderRadius: 7,
 					boxShadow: `${
 						isSelected ? '0px 0px 0px' : 'rgb(0 0 0 / 1%) 0px 3px 20px '

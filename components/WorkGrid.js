@@ -21,7 +21,7 @@ const WorkGrid = () => {
 								<h4 className='mt-2'>{workContent.title}</h4>
 								<p className='hero-description'>{workContent.excerpt}</p>
 								<Link href={`/works/${workContent.slug}`}>
-									<a className='button'>Learn More</a>
+									<a className='button small'>Learn More</a>
 								</Link>
 							</div>
 						);

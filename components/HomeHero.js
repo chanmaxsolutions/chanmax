@@ -8,17 +8,21 @@ const HomeHero = () => {
 		<>
 			<div className='container-fluid  hero-container'>
 				<div className='row justify-content-md-center hero-container-row'>
-					<div className='col-lg-7 d-flex align-items-center'>
+					<div className='col-lg-10 d-flex align-items-center'>
 						{HomeHeroData.map((content, i) => {
 							return (
 								<div key={i} className='text-center'>
 									<h1 className='hero-header text-white'> {content.title}</h1>
 									<p className='hero-description text-white'>{content.desc}</p>
 									<Link href={`${content.firstButtonLink}`}>
-										<a className='button large fifth home-hero-button'>{content.firstButton} </a>
+										<a className='button large fifth home-hero-button'>
+											{content.firstButton}{' '}
+										</a>
 									</Link>
 									<Link href={`${content.secondButtonLink}`}>
-										<a className='button large fourth home-hero-button-two'>{content.secondButton}</a>
+										<a className='button large fourth home-hero-button-two'>
+											{content.secondButton}
+										</a>
 									</Link>
 								</div>
 							);

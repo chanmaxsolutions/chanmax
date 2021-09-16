@@ -1,30 +1,33 @@
+/** @format */
+
 // Fonts
-$font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace !default;
+$font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+	'Courier New', monospace !default;
 
 // Colors
-$color-primary:   #108F64 !default;
-$color-secondary: #3EE5AC !default;
+$color-primary: #108f64 !default;
+$color-secondary: #3ee5ac !default;
 
-$gray-100:        #f7f9fb !default;
-$gray-200:        #ebecf0 !default;
-$gray-300:        #c5c8d4 !default;
-$gray-400:        #666666 !default;
-$gray-500:        #303030 !default;
-$gray-600:        #141414 !default;
-$gray-700:        #000000 !default;
+$gray-100: #f7f9fb !default;
+$gray-200: #ebecf0 !default;
+$gray-300: #c5c8d4 !default;
+$gray-400: #666666 !default;
+$gray-500: #303030 !default;
+$gray-600: #141414 !default;
+$gray-700: #000000 !default;
 
-$yellow-pale:     #fcffc4 !default;
+$yellow-pale: #fcffc4 !default;
 
 // Border radius
 $border-radius: 3px;
 
 // Box shadow
-$box-shadow:          0 3px 10px 0 rgba($gray-600,.1) !default;
-$box-shadow-white-bg: 0 3px 10px 0 rgba($gray-600,.15) !default;
-$box-shadow-sm:       0 1px 4px 0 rgba($gray-600,.1) !default;
+$box-shadow: 0 3px 10px 0 rgba($gray-600, 0.1) !default;
+$box-shadow-white-bg: 0 3px 10px 0 rgba($gray-600, 0.15) !default;
+$box-shadow-sm: 0 1px 4px 0 rgba($gray-600, 0.1) !default;
 
 // Container max width
-$container:    1140px !default;
+$container: 1140px !default;
 $container-sm: 555px !default;
 $container-md: 750px !default;
 $container-lg: 945px !default;
@@ -36,25 +39,27 @@ $container-padding: 4vw !default;
 $grid-gap: 1.66667rem !default;
 
 // Theme variations
-$theme-fonts: (
-  chanmax-type: ('ZillaSlab'),
-);
+// $theme-fonts: (
+// 	chanmax-type: (
+// 		'ZillaSlab',
+// 	),
+// );
 
 $theme-palettes: (
-  cyan: (
-    primary:   #2cb1bc,
-    secondary: #54d1db
-  ),
-  green: (
-    primary:   #37b05d,
-    secondary: #57cb85
-  ),
-  orange: (
-    primary:   #fe8c00,
-    secondary: #f83600
-  ),
-  purple: (
-    primary:   #653cad,
-    secondary: #8662c7
-  )
+	cyan: (
+		primary: #2cb1bc,
+		secondary: #54d1db,
+	),
+	green: (
+		primary: #37b05d,
+		secondary: #57cb85,
+	),
+	orange: (
+		primary: #fe8c00,
+		secondary: #f83600,
+	),
+	purple: (
+		primary: #653cad,
+		secondary: #8662c7,
+	),
 );
