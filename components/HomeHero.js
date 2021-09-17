@@ -20,16 +20,29 @@ const HomeHero = () => {
 										{' '}
 										{content.title}
 									</motion.h1>
-									<p className='hero-description text-white'>{content.desc}</p>
+									<motion.p
+										initial={{ opacity: 0 }}
+										animate={{ opacity: 1 }}
+										className='hero-description text-white'>
+										{content.desc}
+									</motion.p>
 									<Link href={`${content.firstButtonLink}`}>
-										<a className='button large fifth home-hero-button'>
+										<motion.a
+											initial={{ scale: '80%' }}
+											animate={{ scale: '100%' }}
+											whileHover={{ scale: '99%' }}
+											className='button large fifth home-hero-button'>
 											{content.firstButton}{' '}
-										</a>
+										</motion.a>
 									</Link>
 									<Link href={`${content.secondButtonLink}`}>
-										<a className='button large fourth home-hero-button-two'>
+										<motion.a
+											initial={{ scale: '80%' }}
+											animate={{ scale: '100%' }}
+											whileHover={{ scale: '99%' }}
+											className='button large fourth home-hero-button-two'>
 											{content.secondButton}
-										</a>
+										</motion.a>
 									</Link>
 								</div>
 							);
