@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import HomeHeroData from './../data/HomeHeroData';
+import { motion } from 'framer-motion';
 
 const HomeHero = () => {
 	return (
@@ -12,7 +13,12 @@ const HomeHero = () => {
 						{HomeHeroData.map((content, i) => {
 							return (
 								<div key={i} className='text-center'>
-									<h1 className='hero-header text-white'> {content.title}</h1>
+									<motion.h1
+										// animate={{ fontSize: 50, }}
+										className='hero-header text-white'>
+										{' '}
+										{content.title}
+									</motion.h1>
 									<p className='hero-description text-white'>{content.desc}</p>
 									<Link href={`${content.firstButtonLink}`}>
 										<a className='button large fifth home-hero-button'>
