@@ -14,7 +14,8 @@ const HomeHero = () => {
 							return (
 								<div key={i} className='text-center'>
 									<motion.h1
-										// animate={{ fontSize: 50, }}
+										initial={{ y: -200, opacity: 0 }}
+										animate={{ y: 0, opacity: 1 }}
 										className='hero-header text-white'>
 										{' '}
 										{content.title}
