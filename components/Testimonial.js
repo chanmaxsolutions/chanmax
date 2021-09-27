@@ -8,10 +8,10 @@ const Testimonial = () => {
 		<div className='container mb-5'>
 			<div className='row justify-content-md-center text-center'>
 				<div className='col-lg-7 align-items-center'>
-					<p className='sub-head'>Trusted and endorsed</p>
+					<p className='sub-head'>Testimonials</p>
 					<h3 className=' main-head'>
-						Trusted and endorsed by Chanmax and a lot of company around the
-						world
+						Listen to what our happy clients have to say and a promise of what
+						is to come
 					</h3>
 				</div>
 			</div>

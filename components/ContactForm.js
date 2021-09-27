@@ -13,9 +13,10 @@ const ContactForm = () => {
 				<div className='col-md-7 contact-form-inside-container'>
 					<div className='row justify-content-md-center text-center'>
 						<div className='col-lg-10 align-items-center'>
-							<p className='sub-head'>Trusted and endorsed</p>
+							<p className='sub-head'>Get in touch with us</p>
 							<h3 className='pb-2 main-head'>
-								Trusted and endorsed by Chanmax and a lot of company around
+								You are one step closer to getting your market winning
+								application
 							</h3>
 						</div>
 					</div>

@@ -3,8 +3,9 @@
 const HomeHeroData = [
 	{
 		id: '1',
-		title: 'Building lightning fast Applications for Startups to Corporate',
-		desc: 'We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your  brand and business.We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your  brand and business.',
+		title:
+			'Building lightning-fast Applications from Visionary Startups to Corporates',
+		desc: 'We are a vigilant team of digital experts ever ready to validate your vision towards groundbreaking success, developing purposeful novel solutions with high-end technologies. We architect future proof applications to create game-changing experiences that make you unique and the first choice in the market.',
 		firstButton: 'Get a Quote',
 		secondButton: 'Contact Us',
 		firstButtonLink: '/get-quote',

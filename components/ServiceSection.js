@@ -9,10 +9,9 @@ const ServiceSection = () => {
 		<div className='container service-container cm-p5 mt-5 mb-5'>
 			<div className='row justify-content-md-center text-center'>
 				<div className='col-lg-7 align-items-center'>
-					<p className='sub-head'>Trusted and endorsed</p>
+					<p className='sub-head'>Our services</p>
 					<h3 className='pb-5 main-head'>
-						Trusted and endorsed by Chanmax and a lot of company around the
-						world
+						Conquer Excellence with top-notch digital software solutions
 					</h3>
 				</div>
 			</div>

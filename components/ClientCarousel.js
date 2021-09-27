@@ -1,8 +1,31 @@
 /** @format */
 
 import Slider from 'react-slick';
+// import { motion, useAnimation } from 'framer-motion';
+// import { useInView } from 'react-intersection-observer';
+// import { useEffect } from 'react';
 
 const ClientCarousel = () => {
+	// const { ref, inView } = useInView({
+	// 	threshold: 0.9,
+	// });
+	// const animation = useAnimation();
+
+	// useEffect(() => {
+	// 	if (inView) {
+	// 		animation.start({
+	// 			opacity: 1,
+	// 		});
+	// 	}
+	// 	if (!inView) {
+	// 		animation.start({
+	// 			opacity: 0,
+	// 		});
+	// 	}
+
+	// 	console.log(inView);
+	// }, [inView]);
+
 	var settings = {
 		dots: false,
 		arrows: false,
@@ -53,8 +76,7 @@ const ClientCarousel = () => {
 					<div className='col-lg-6 align-items-center'>
 						<p className='sub-head'>Trusted and endorsed</p>
 						<h3 className='pb-5 main-head'>
-							Trusted and endorsed by Chanmax and a lot of company around the
-							world
+							Esteemed Clients partnered from across the borders
 						</h3>
 					</div>
 				</div>

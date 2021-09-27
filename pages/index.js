@@ -14,7 +14,7 @@ import HomeWhySection from '../components/HomeWhySection';
 
 export default function Home() {
 	return (
-		<React.Fragment>
+		<div>
 			<SEO title='CHANMAX TECHNOLOGIES | FOR FASTEST APPLICATION' />
 			<HomeHero />
 			<ClientCarousel />
@@ -25,6 +25,6 @@ export default function Home() {
 			<HomeTeam />
 			<HomeBlogs />
 			<HomeCallToAction />
-		</React.Fragment>
+		</div>
 	);
 }

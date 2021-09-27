@@ -3,8 +3,10 @@
 const HomeTeamData = [
 	{
 		id: '1',
-		title: 'Building lightning-fast websites for Startups to Corporates',
-		excerpt: 'We are an agency located in New York. We think strategy, craft design, develop digital and create motion. To forward your brand and business.',
+		title:
+			'A diligent Team bonded on an aligned vision for Change and Innovation',
+		excerpt:
+			'We are a committed team of tech masters working around the clock to give you the best solution possible.',
 		buttonText: 'Learn More',
 		ButtonLink: '/about',
 	},

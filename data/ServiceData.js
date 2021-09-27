@@ -7,9 +7,9 @@ const ServiceData = [
 		icon: '/images/icon-1.svg',
 		title: 'Highly scalable modern web application development',
 		homeTitle: 'Web Application',
-		slug: 'Web-Development',
+		slug: 'web-application',
 		shortExcerpt:
-			'Some quick example text to build on the card title and make up the bulk of the cards content.',
+			'We deploy the best-in-class solutions to fast forward your business activities and reinforce functional operations.',
 		buttonText: 'More Details',
 		excerpt:
 			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
@@ -31,7 +31,7 @@ const ServiceData = [
 		homeTitle: 'Android Application',
 		slug: 'android-application',
 		shortExcerpt:
-			'Some quick example text to build on the card title and make up the bulk of the cards content.',
+			'Launch customized mobile-friendly applications optimized for high performance and positive impact.',
 		buttonText: 'More Details',
 		excerpt:
 			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
@@ -50,10 +50,10 @@ const ServiceData = [
 		image: '/images/10_thumb.jpg',
 		icon: '/images/icon-1.svg',
 		title: 'Highly scalable modern hybrid ios application development',
-		homeTitle: 'IOS Application',
+		homeTitle: 'iOS Application',
 		slug: 'ios-application',
 		shortExcerpt:
-			'Some quick example text to build on the card title and make up the bulk of the cards content.',
+			'We deliver hard-core applications with uncompromising features to leverage your stand in the market.',
 		buttonText: 'More Details',
 		excerpt:
 			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
@@ -73,9 +73,9 @@ const ServiceData = [
 		icon: '/images/icon-1.svg',
 		title: 'Highly scalable modern hybrid desktop application development',
 		homeTitle: 'Desktop Application',
-		slug: 'ios-application',
+		slug: 'desktop-application',
 		shortExcerpt:
-			'Some quick example text to build on the card title and make up the bulk of the cards content.',
+			'Building robust cross-platform applications to boost up your operational agility and business resilience.',
 		buttonText: 'More Details',
 		excerpt:
 			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
