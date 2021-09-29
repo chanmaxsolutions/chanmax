@@ -9,6 +9,9 @@ body {
   scroll-behavior: smooth !important; 
 }
 
+
+
+
 ::selection{
   background-color:#108F64;
   color: #ffe8aa;
@@ -46,6 +49,36 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+li{
+  list-style-type: none;
+}
+
+ul.work-details-list{    
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 30px 0px;
+  text-align: left;
+}
+
+ul.work-details-list>li {
+  list-style: none;
+  display: inline-block;
+  border-radius: 15px;
+  background: none;
+  margin: 5px;
+  margin-top: 10px;
+  transition: transform 1s;
+  box-shadow: rgb(0 0 0 / 7%) 0px 0px 20px 0px;
+}
+
+@media (max-width: 750px) {
+  ul.work-details-list{    
+    text-align: center;
+  }
+  
 }
 
 h1,
@@ -643,6 +676,19 @@ font-size: 14px;
   position: relative;
 }
 
+.work-detail-body-align{
+  position: relative;
+}
+
+.work-detail-body-align-inside{
+  position: absolute;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height: 100%;
+  width: 100%;
+}
+
 .service-details-container-feature-image{
   min-height: 500px;
   background-size: cover;
@@ -660,10 +706,31 @@ font-size: 14px;
   backdrop-filter: saturate(180%) blur(20px);
 }
 
+.cm-works-details-margin{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 @media (max-width: 750px) {
   .blog-details-container-feature-image{
     min-height: 400px;
   }
+
+  .work-detail-body-align{
+  position:static;
+}
+
+.cm-works-details-margin{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.cm-works-details-margin-title{
+  margin-top: 20px !important;
+}
+.work-detail-body-align-inside{
+  position: static;
+}
 
   .blog-details-row{
   background-color: #000000b4;
@@ -805,4 +872,11 @@ font-size: 14px;
 .slick-slide img{
     margin-left: auto !important;
     margin-right: auto !important;
+}
+
+.work-detail-button{
+  color: #fff !important;
+  text-decoration: underline !important;
+  text-transform: uppercase !important;
+  font-size: 13px;
 }

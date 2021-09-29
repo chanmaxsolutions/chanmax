@@ -11,8 +11,8 @@ export default function Works() {
 		<React.Fragment>
 			<SEO title='OUR WORKS | CHANMAX TECHNOLOGIES' />
 			<PageHeader
-				subHead='TRUSTED AND ENDORSED'
-				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'
+				subHead='Case Studies'
+				mainHead='We are problem solvers. Dive into our creative mind of Intelligent Solutions.'
 				bgImg='/images/4.jpg'
 				des='We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​'
