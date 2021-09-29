@@ -21,7 +21,7 @@ const ServiceDetails = ({ ServiceDatas }) => {
 
 			<div className='container-fluid bg-white pt-5 pb-5 mb-5'>
 				<div className='row justify-content-md-center'>
-					<div className='col-md-7'>
+					<div className='col-md-10'>
 						{ServiceDatas.body &&
 							ServiceDatas.body.map((value, i) => {
 								return (
