@@ -33,12 +33,12 @@ const ClientCarousel = () => {
 		lazyLoad: true,
 		speed: 500,
 		slidesToShow: 6,
-		slidesToScroll: 6,
+		slidesToScroll: 3,
 		initialSlide: 0,
 		autoplay: true,
 		speed: 200,
 		cssEase: 'linear',
-		autoplaySpeed: 5000,
+		autoplaySpeed: 2000,
 
 		responsive: [
 			{
@@ -82,40 +82,49 @@ const ClientCarousel = () => {
 				</div>
 				<Slider {...settings}>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>
+						<img src='/images/svg/jb.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>
+						<img className='client-logo' src='/images/svg/djmgunz.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>
+						<img src='/images/svg/space.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>
+						<img src='/images/svg/bb.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/adams-1.svg'></img>
+						<img src='/images/svg/betels.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>
+						<img src='/images/svg/noolthettam.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>
+						<img src='/images/svg/hitbuys.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/adams-1.svg'></img>
+						<img src='/images/svg/upcycle.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>
+						<img src='/images/svg/hdo.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>
+						<img src='/images/svg/valvuthyam.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/Infosys_logo.svg'></img>
+						<img src='/images/svg/dreamart.svg'></img>
 					</div>
 					<div>
-						<img src='https://staging2.awsm.in/awsm-v3/wp-content/uploads/2020/07/adams-1.svg'></img>
+						<img src='/images/svg/paragon.svg'></img>
+					</div>
+					<div>
+						<img src='/images/svg/ovamee.svg'></img>
+					</div>
+					<div>
+						<img src='/images/svg/paathai.svg'></img>
+					</div>
+					<div>
+						<img src='/images/svg/iway.svg'></img>
 					</div>
 				</Slider>
 			</div>

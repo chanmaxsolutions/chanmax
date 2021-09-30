@@ -10,7 +10,7 @@ const ContactDetails = () => {
 					<div className='card '>
 						<div className='card-body  testimonial-card'>
 							<Image
-								src='/images/icon-1.svg'
+								src='/images/svg/icon-1.svg'
 								className=''
 								width={70.5}
 								height={72}
@@ -29,7 +29,7 @@ const ContactDetails = () => {
 					<div className='card '>
 						<div className='card-body text-center testimonial-card'>
 							<Image
-								src='/images/icon-1.svg'
+								src='/images/svg/icon-1.svg'
 								className=''
 								width={70.5}
 								height={72}
@@ -48,7 +48,7 @@ const ContactDetails = () => {
 					<div className='card '>
 						<div className='card-body text-center testimonial-card'>
 							<Image
-								src='/images/icon-1.svg'
+								src='/images/svg/icon-1.svg'
 								className=''
 								width={70.5}
 								height={72}

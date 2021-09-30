@@ -9,7 +9,9 @@ body {
   scroll-behavior: smooth !important; 
 }
 
-
+.client-logo:hover{
+color: #108F64;
+}
 
 
 ::selection{
@@ -140,7 +142,7 @@ div{
 
 .hero-container-row{
   position: absolute;
-  background-image: url(../public/images/download.svg);
+  background-image: url(../public/images/svg/download.svg);
   /* background-color: #108f65; */
   /* background-color: #258060; */
   /* background-color: #000000cb; */
@@ -540,12 +542,34 @@ select, textarea{
 }
 
 
+.service-data-container{
+  position: relative;
+  min-height:300px;
+  background-color: #ffffff;
+  border-radius: 7px
+}
+
+.service-data-container-bottom{
+  position: relative;
+  border-radius: 7px;
+  min-height: 150px;
+}
+
 .page-header-container{
   min-height: 500px;
   background-size: cover;
   position: relative;
 }
 
+
+.service-data-container-inside{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
 
 .page-header-row{
   position: absolute;
@@ -566,8 +590,25 @@ select, textarea{
 
 
 @media (max-width: 1024px) {
+
+
+  .service-data-container-bottom{
+    min-height: 100px;
+  }
+
+
   .page-header-container{
     min-height: 350px;
+  }
+
+  .service-data-container{
+    position: static;
+    min-height:170px;
+    padding:20px
+  }
+
+  .service-data-container-inside{
+    position: static;
   }
 
   .page-header-margin-top{

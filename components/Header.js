@@ -63,21 +63,33 @@ export default function Header(props) {
 										<Link href='/'>
 											<a>
 												{' '}
-												<img src='/images/logo.svg' alt='CHANMAX TECHNOLOGIES' />{' '}
+												<img
+													src='/images/svg/logo.svg'
+													alt='CHANMAX TECHNOLOGIES'
+												/>{' '}
 											</a>
 										</Link>
 									</p>
 								</div>
 
-								<nav id='main-navigation' className='site-navigation' aria-label='Main Navigation'>
+								<nav
+									id='main-navigation'
+									className='site-navigation'
+									aria-label='Main Navigation'>
 									<div className='site-nav-inside'>
-										<button id='menu-close' className='menu-toggle' onClick={handleMenuClose}>
+										<button
+											id='menu-close'
+											className='menu-toggle'
+											onClick={handleMenuClose}>
 											<span className='screen-reader-text'>Open Menu</span>
 											<span className='icon-close' aria-hidden='true' />
 										</button>
 
 										<ul className='menu'>
-											<li className={`menu-item  ${asPath === '/' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item  ${
+													asPath === '/' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/'>
 													<a>
 														{' '}
@@ -86,7 +98,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item ${asPath === '/services' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item ${
+													asPath === '/services' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/services'>
 													<a>
 														{' '}
@@ -95,7 +110,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item ${asPath === '/works' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item ${
+													asPath === '/works' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/works'>
 													<a>
 														{' '}
@@ -104,7 +122,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item ${asPath === '/about' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item ${
+													asPath === '/about' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/about'>
 													<a>
 														{' '}
@@ -113,7 +134,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item ${asPath === '/contact' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item ${
+													asPath === '/contact' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/contact'>
 													<a>
 														{' '}
@@ -122,7 +146,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item ${asPath === '/blog' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item ${
+													asPath === '/blog' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/blog'>
 													<a>
 														{' '}
@@ -131,7 +158,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item menu-button ${asPath === '/get-quote' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item menu-button ${
+													asPath === '/get-quote' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/get-quote'>
 													<a className='button'>
 														{' '}
@@ -143,7 +173,11 @@ export default function Header(props) {
 									</div>
 								</nav>
 
-								<button id='menu-open' className='menu-toggle' ref={menuOpenRef} onClick={handleMenuOpen}>
+								<button
+									id='menu-open'
+									className='menu-toggle'
+									ref={menuOpenRef}
+									onClick={handleMenuOpen}>
 									<span className='screen-reader-text'>Close Menu</span>
 									<span className='icon-menu' aria-hidden='true' />
 								</button>
@@ -161,21 +195,33 @@ export default function Header(props) {
 										<Link href='/'>
 											<a>
 												{' '}
-												<img src='/images/logo-white.svg' alt='CHANMAX TECHNOLOGIES' />{' '}
+												<img
+													src='/images/svg/logo-white.svg'
+													alt='CHANMAX TECHNOLOGIES'
+												/>{' '}
 											</a>
 										</Link>
 									</p>
 								</div>
 
-								<nav id='main-navigation' className='site-navigation' aria-label='Main Navigation'>
+								<nav
+									id='main-navigation'
+									className='site-navigation'
+									aria-label='Main Navigation'>
 									<div className='site-nav-inside'>
-										<button id='menu-close' className='menu-toggle' onClick={handleMenuClose}>
+										<button
+											id='menu-close'
+											className='menu-toggle'
+											onClick={handleMenuClose}>
 											<span className='screen-reader-text'>Open Menu</span>
 											<span className='icon-close' aria-hidden='true' />
 										</button>
 
 										<ul className='menu'>
-											<li className={`menu-item  ${asPath === '/' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item  ${
+													asPath === '/' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/'>
 													<a>
 														{' '}
@@ -184,7 +230,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item ${asPath === '/services' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item ${
+													asPath === '/services' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/services'>
 													<a>
 														{' '}
@@ -193,7 +242,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item ${asPath === '/works' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item ${
+													asPath === '/works' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/works'>
 													<a>
 														{' '}
@@ -202,7 +254,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item ${asPath === '/about' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item ${
+													asPath === '/about' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/about'>
 													<a>
 														{' '}
@@ -211,7 +266,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item ${asPath === '/contact' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item ${
+													asPath === '/contact' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/contact'>
 													<a>
 														{' '}
@@ -220,7 +278,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item ${asPath === '/blog' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item ${
+													asPath === '/blog' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/blog'>
 													<a>
 														{' '}
@@ -229,7 +290,10 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											<li className={`menu-item menu-button ${asPath === '/get-quote' ? 'current-menu-item' : ''}`}>
+											<li
+												className={`menu-item menu-button ${
+													asPath === '/get-quote' ? 'current-menu-item' : ''
+												}`}>
 												<Link href='/get-quote'>
 													<a className='button fourth'>
 														{' '}
@@ -241,7 +305,11 @@ export default function Header(props) {
 									</div>
 								</nav>
 
-								<button id='menu-open' className='menu-toggle' ref={menuOpenRef} onClick={handleMenuOpen}>
+								<button
+									id='menu-open'
+									className='menu-toggle'
+									ref={menuOpenRef}
+									onClick={handleMenuOpen}>
 									<span className='screen-reader-text'>Close Menu</span>
 									<span className='icon-menu' aria-hidden='true' />
 								</button>
