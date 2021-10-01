@@ -197,6 +197,12 @@ div{
 
   /* Additional Media Queries Start*/
 
+  @media (max-width: 1530px){
+    .hero-header{
+      font-size: 75px
+    }
+  }
+
   @media (max-width: 1300px){
     .hero-header{
       font-size: 75px
