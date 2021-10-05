@@ -12,7 +12,7 @@ const TestimonialData = [
 	},
 
 	{
-		id: 1,
+		id: 2,
 		image: '/images/10_thumb.jpg',
 		rating: 4.2,
 		title: ' Web Development',
@@ -22,7 +22,7 @@ const TestimonialData = [
 	},
 
 	{
-		id: 1,
+		id: 3,
 		image: '/images/10_thumb.jpg',
 		rating: 4.2,
 		title: ' Web Development',
@@ -32,8 +32,28 @@ const TestimonialData = [
 	},
 
 	{
-		id: 1,
+		id: 4,
 		image: '/images/10_thumb.jpg',
+		rating: 4.2,
+		title: ' Web Development',
+		position: ' Web Development',
+		excerpt:
+			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
+	},
+
+	{
+		id: 5,
+		image: '/images/10_thumb.jpg',
+		rating: 4.2,
+		title: ' Web Development',
+		position: ' Web Development',
+		excerpt:
+			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
+	},
+
+	{
+		id: 6,
+		image: '/images/2_thumb.jpg',
 		rating: 4.2,
 		title: ' Web Development',
 		position: ' Web Development',

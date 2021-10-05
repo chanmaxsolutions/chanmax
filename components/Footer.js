@@ -69,7 +69,7 @@ const Footer = () => {
 								<a>
 									<Image
 										className='footer-social-icons-inner'
-										src='/images/linkedin.svg'
+										src='/images/svg/linkedin.svg'
 										width={40}
 										height={40}
 									/>
@@ -80,7 +80,7 @@ const Footer = () => {
 								<a>
 									<Image
 										className='footer-social-icons-inner'
-										src='/images/facebook.svg'
+										src='/images/svg/facebook.svg'
 										width={40}
 										height={40}
 									/>
@@ -91,7 +91,7 @@ const Footer = () => {
 								<a>
 									<Image
 										className='footer-social-icons-inner'
-										src='/images/youtube.svg'
+										src='/images/svg/youtube.svg'
 										width={40}
 										height={40}
 									/>
@@ -102,7 +102,7 @@ const Footer = () => {
 								<a>
 									<Image
 										className='footer-social-icons-inner'
-										src='/images/instagram.svg'
+										src='/images/svg/instagram.svg'
 										width={40}
 										height={40}
 									/>
@@ -112,7 +112,7 @@ const Footer = () => {
 					</div>
 					<hr className='mt-4' style={{ borderTop: '1px solid #d1d1d1' }} />
 					<div className='text-center '>
-						<Image src='/images/logo.svg' width={120} height={50} />
+						<Image src='/images/svg/logo.svg' width={120} height={50} />
 						<p className='footer-copyrights'>
 							© 2018 - 2021 All Rights Reserved to CHANMAX TECHNOLOGIES (PVT)
 							LTD.

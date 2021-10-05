@@ -155,25 +155,25 @@ const WorkData = [
 								</h4>
 								<ul class='work-details-list'>
 									<li class='text-center'>
-										<Image src='/images/ai.svg' />
+										<Image src='/images/svg/ai.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/xd.svg' />
+										<Image src='/images/svg/xd.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/ps.svg' />
+										<Image src='/images/svg/ps.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/wp.svg' />
+										<Image src='/images/svg/wp.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/elementor.svg' />
+										<Image src='/images/svg/elementor.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/ga.svg' />
+										<Image src='/images/svg/ga.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/miro.svg' />
+										<Image src='/images/svg/miro.svg' />
 									</li>
 								</ul>
 							</div>
@@ -353,28 +353,28 @@ const WorkData = [
 								</h4>
 								<ul class='work-details-list'>
 									<li class='text-center'>
-										<Image src='/images/ai.svg' />
+										<Image src='/images/svg/ai.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/xd.svg' />
+										<Image src='/images/svg/xd.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/ps.svg' />
+										<Image src='/images/svg/ps.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/wp.svg' />
+										<Image src='/images/svg/wp.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/elementor.svg' />
+										<Image src='/images/svg/elementor.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/ga.svg' />
+										<Image src='/images/svg/ga.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/miro.svg' />
+										<Image src='/images/svg/miro.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/yoast.svg' />
+										<Image src='/images/svg/yoast.svg' />
 									</li>
 								</ul>
 							</div>
@@ -554,14 +554,14 @@ const WorkData = [
 							The cutting-edge technologies that brought <span style='color:#108f64' >Jobboard</span> to life.
 						</h4>
 						<ul class='work-details-list'>
-							<li class="text-center"><Image src='/images/nodejs.svg'></li>
-							<li class="text-center"><Image src='/images/nextjs.svg'></li>
-							<li class="text-center"><Image src='/images/mongodb.svg'></li>
-							<li class="text-center"><Image src='/images/express.svg'></li>
-							<li class="text-center"><Image src='/images/cloudinary.svg'></li>
-							<li class="text-center"><Image src='/images/aws.svg'></li>
-							<li class="text-center"><Image src='/images/vercel.svg'></li>
-							<li class="text-center"><Image src='/images/firebase.svg'></li>
+							<li class="text-center"><Image src='/images/svg/nodejs.svg'></li>
+							<li class="text-center"><Image src='/images/svg/nextjs.svg'></li>
+							<li class="text-center"><Image src='/images/svg/mongodb.svg'></li>
+							<li class="text-center"><Image src='/images/svg/express.svg'></li>
+							<li class="text-center"><Image src='/images/svg/cloudinary.svg'></li>
+							<li class="text-center"><Image src='/images/svg/aws.svg'></li>
+							<li class="text-center"><Image src='/images/svg/vercel.svg'></li>
+							<li class="text-center"><Image src='/images/svg/firebase.svg'></li>
 
 						</ul>
 							</div>

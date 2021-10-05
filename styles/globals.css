@@ -203,12 +203,6 @@ div{
     }
   }
 
-  @media (max-width: 1300px){
-    .hero-header{
-      font-size: 75px
-    }
-  }
-
   @media (max-width: 1280px){
     .hero-header{
       font-size: 70px
@@ -278,7 +272,7 @@ div{
 
 @media (max-width: 570px) {
   .hero-description{
-    font-size: 16px;
+    font-size: 14px;
   }
   .hero-header{
     font-size: 8vw;
@@ -985,6 +979,10 @@ font-size: 14px;
     padding-left: 10px !important;
     padding-right:10px !important;
   }
+
+  .cm-testimonial-m{
+    margin: 1px !important;
+  }
   
 }
 
@@ -1008,4 +1006,28 @@ font-size: 14px;
   text-decoration: underline !important;
   text-transform: uppercase !important;
   font-size: 13px;
+}
+
+.cm-testimonial-m{
+  margin: 0px ;
+}
+
+
+
+.to-hide-and-show-testimonial-carousal{
+  display: none;
+}
+
+.to-hide-and-show-testimonial{
+  display: block;
+}
+
+@media (max-width: 980px) {
+  .to-hide-and-show-testimonial-carousal{
+    display: inline;
+  }
+
+  .to-hide-and-show-testimonial{
+    display: none;
+  }
 }

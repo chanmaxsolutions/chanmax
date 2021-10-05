@@ -27,7 +27,7 @@ const ServiceSection = () => {
 								alt='...'
 							/>
 							<div className='card-body text-center'>
-								<p className='card-title'> {content.homeTitle} </p>
+								<h4 className=''> {content.homeTitle} </h4>
 								<p className='card-text'>{content.shortExcerpt}</p>
 								<Link href={`/services/${content.slug}`}>
 									<a className='home-why-section-button'>
