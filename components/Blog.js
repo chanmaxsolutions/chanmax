@@ -26,7 +26,7 @@ const BlogComponent = () => {
 												alt='...'
 											/>
 											<div className='card-body blog-card'>
-												<h5 className='card-title'> {content.title} </h5>
+												<h4 className='mt-2'> {content.title} </h4>
 												<p className='card-text'>{content.excerpt}</p>
 											</div>
 										</div>

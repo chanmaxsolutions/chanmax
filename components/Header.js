@@ -27,7 +27,7 @@ export default function Header(props) {
 		window.addEventListener(
 			'resize',
 			() => {
-				if (window.innerWidth > 801) {
+				if (window.innerWidth > 901) {
 					SetScreenWidth(true);
 				} else {
 					SetScreenWidth(false);

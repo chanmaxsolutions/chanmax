@@ -5,9 +5,9 @@ import TestimonialData from './../data/TestimonialsData';
 
 const Testimonial = () => {
 	return (
-		<div className='container mb-5'>
+		<div className='container mb-5 to-hide-and-show-testimonial'>
 			<div className='row justify-content-md-center text-center'>
-				<div className='col-lg-7 align-items-center'>
+				<div className='col-lg-6 align-items-center'>
 					<p className='sub-head'>Testimonials</p>
 					<h3 className=' main-head'>
 						Listen to what our happy clients have to say and a promise of what
@@ -22,13 +22,13 @@ const Testimonial = () => {
 							<div className='card ' style={{ height: '100%' }}>
 								<div className='card-body text-center testimonial-card'>
 									<Image
-										src='/images/testimonial.jpg'
+										src={content.image}
 										className='testimonials-img '
 										width={100}
 										height={100}
 										alt='...'
 									/>
-									<p className='card-title'>{content.title}</p>
+									<h4 className=''>{content.title}</h4>
 									<p
 										style={{
 											fontSize: '11px',

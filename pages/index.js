@@ -11,6 +11,7 @@ import HomeTeam from '../components/HomeTeam';
 import HomeBlogs from '../components/HomeBlogs';
 import HomeCallToAction from '../components/HomeCallToAction';
 import HomeWhySection from '../components/HomeWhySection';
+import TestimonialCarousel from '../components/TestimonialCarousel';
 
 export default function Home() {
 	return (
@@ -22,6 +23,7 @@ export default function Home() {
 			<ServiceSection />
 			<FeatureProject />
 			<Testimonial />
+			<TestimonialCarousel />
 			<HomeTeam />
 			<HomeBlogs />
 			<HomeCallToAction />
