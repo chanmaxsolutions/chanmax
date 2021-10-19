@@ -1,19 +1,16 @@
-import Footer from './Footer'
+import Footer from "./Footer";
 
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
+import OpeningCeremony from "./openingCeremony";
 
-const Header = dynamic(() => import('./Header'), { ssr: false });
-
+const Header = dynamic(() => import("./Header"), { ssr: false });
 
 export default function Layout({ children }) {
     return (
-        <div>
-            <Header/>
+        <OpeningCeremony>
+            <Header />
             {children}
-            <Footer/>
-            </div>
-            
-    )
-  }
-
-  
+            <Footer />
+        </OpeningCeremony>
+    );
+}
