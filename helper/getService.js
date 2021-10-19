@@ -1,4 +1,4 @@
-const api_url = "http://localhost:8000/api";
+const api_url = "https://chanmax-opening.herokuapp.com/api";
 
 export const getService = (api) => {
     return fetch(api_url + api, {
