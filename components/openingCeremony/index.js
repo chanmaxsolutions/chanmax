@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import Event from "./Event";
 import Guest from "./Guest";
 import { getService } from "../../helper/getService";
+import Thankyou from "./Thankyou";
 
 function OpeningCeremony({ children }) {
     const router = useRouter();
@@ -11,16 +12,24 @@ function OpeningCeremony({ children }) {
     const [time, setTime] = useState(0);
 
     useEffect(() => {
-        // if (router.pathname !== "/opening-invite/[id]") {
-        //     router.replace("/");
-        // }
-        fetchData();
+        if (sessionStorage.getItem("isFinishEvent") === "578gyyt789j") {
+            setFinishEvent(true);
+            setLoading(true);
+        } else {
+            fetchData();
+        }
     }, []);
 
     const fetchData = async () => {
         try {
             const response = await getService("/check-status");
             setFinishEvent(response.status);
+            if (response.status) {
+                sessionStorage.setItem("isFinishEvent", "578gyyt789j");
+                if(router.pathname === "/thank-you/[id]"){
+                    router.push("/");
+                }
+            }
         } catch (error) {
             setFinishEvent(false);
         }
@@ -28,13 +37,13 @@ function OpeningCeremony({ children }) {
     };
 
     useEffect(() => {
-        if(!isFinishEvent){
+        if (!isFinishEvent) {
             setTimeout(() => {
                 fetchData();
                 setTime(time + 1);
-            }, 10000)
+            }, 10000);
         }
-    }, [time])
+    }, [time]);
 
     return (
         <div>
@@ -43,7 +52,15 @@ function OpeningCeremony({ children }) {
                     {isFinishEvent ? (
                         <>{children}</>
                     ) : (
-                        <>{router.pathname === "/opening-invite/[id]" ? <Guest setDone={setFinishEvent} /> : <Event />}</>
+                        <>
+                            {router.pathname === "/opening-invite/[id]" ? (
+                                <Guest setDone={setFinishEvent} />
+                            ) : router.pathname === "/thank-you/[id]" ? (
+                                <Thankyou />
+                            ) : (
+                                <Event />
+                            )}
+                        </>
                     )}
                 </>
             )}

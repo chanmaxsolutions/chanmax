@@ -24,7 +24,7 @@ function Guest({ setDone }) {
             const response = await postService(`/open-me/${guest.id}`, { code });
             if (response.status === true) {
                 setDone(true);
-                router.push('/')
+                router.push(`/thank-you/${guest.id}`)
             } else {
                 alert("Incorrect Code");
             }
