@@ -396,7 +396,7 @@ const WorkData = [
 
 	{
 		id: 3,
-		image: '/images/testing-squre.jpeg',
+		image: '/images/gallery-69-31.jpg',
 		title: ' A minimalist solution to the job world',
 		slug: 'job-board',
 		product: 'Job board',

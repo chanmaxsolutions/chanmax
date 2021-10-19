@@ -347,6 +347,7 @@ div{
 
 .feature-project-bg-image{
   border-radius: 7px;
+  object-fit: cover;
 
 }
 
@@ -422,6 +423,7 @@ div{
 
 .work-grid-image{
   border-radius: 7px !important;
+  object-fit: cover;
 }
 
 .work-grid-card:hover{

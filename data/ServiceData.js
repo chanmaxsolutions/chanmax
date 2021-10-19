@@ -37,7 +37,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/business-3d-295.png'
+							src='/images/gallery-69-31.jpg'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
