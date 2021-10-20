@@ -1,9 +1,9 @@
 /** @format */
 
-// function Invite() {
-//     return <div></div>;
-// }
+function Invite() {
+	return <div></div>;
+}
 
-//don't remove this file
+// don't remove this file
 
-// export default Invite;
+export default Invite;
