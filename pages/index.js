@@ -25,7 +25,6 @@ export default function Home() {
 			<Testimonial />
 			<TestimonialCarousel />
 			<HomeTeam />
-			<HomeBlogs />
 			<HomeCallToAction />
 		</div>
 	);

@@ -5,7 +5,7 @@ const AboutDetails = () => {
 	return (
 		<div className='container pb-5'>
 			<div className='row justify-content-md-center'>
-				<div className='col-md-9 cm-p5 bg-white border-radius'>
+				<div className='col-md-9 cm-p5 border-radius'>
 					<h3>Our Story</h3>
 					<p>
 						In the dawn of 2018, the foundation for Chanmax Technologies was

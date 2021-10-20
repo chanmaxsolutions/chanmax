@@ -82,49 +82,49 @@ const ClientCarousel = () => {
 				</div>
 				<Slider {...settings}>
 					<div>
-						<img src='/images/svg/jb.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/valvuthyam_b1fjxh.svg' />
 					</div>
 					<div>
-						<img className='client-logo' src='/images/svg/djmgunz.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/upcycle_nuxhb0.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/space.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/space_nfbgio.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/bb.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761308/paathai_bbc88z.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/betels.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/paragon_vqlmjd.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/noolthettam.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/ovamee_qxhrcm.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/hitbuys.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/noolthettam_xjnsda.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/upcycle.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/jb_pqjhiz.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/hdo.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/iway_fabwuy.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/valvuthyam.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/hitbuys_iv1szp.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/dreamart.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/hdo_lrzcvj.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/paragon.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/dreamart_omsxih.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/ovamee.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/djmgunz_twfah8.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/paathai.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/betels_hhn4is.svg' />
 					</div>
 					<div>
-						<img src='/images/svg/iway.svg' />
+						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/bb_viv2y3.svg' />
 					</div>
 				</Slider>
 			</div>
