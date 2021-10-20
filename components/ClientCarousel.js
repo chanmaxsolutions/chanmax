@@ -82,49 +82,54 @@ const ClientCarousel = () => {
 				</div>
 				<Slider {...settings}>
 					<div>
-						<img src='/images/svg/jb.svg'></img>
+						<img src='/images/svg/jb.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img className='client-logo' src='/images/svg/djmgunz.svg'></img>
+						<img
+							className='client-logo'
+							src='/images/svg/djmgunz.svg'
+							width='100%'
+							height='100%'
+						/>
 					</div>
 					<div>
-						<img src='/images/svg/space.svg'></img>
+						<img src='/images/svg/space.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/bb.svg'></img>
+						<img src='/images/svg/bb.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/betels.svg'></img>
+						<img src='/images/svg/betels.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/noolthettam.svg'></img>
+						<img src='/images/svg/noolthettam.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/hitbuys.svg'></img>
+						<img src='/images/svg/hitbuys.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/upcycle.svg'></img>
+						<img src='/images/svg/upcycle.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/hdo.svg'></img>
+						<img src='/images/svg/hdo.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/valvuthyam.svg'></img>
+						<img src='/images/svg/valvuthyam.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/dreamart.svg'></img>
+						<img src='/images/svg/dreamart.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/paragon.svg'></img>
+						<img src='/images/svg/paragon.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/ovamee.svg'></img>
+						<img src='/images/svg/ovamee.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/paathai.svg'></img>
+						<img src='/images/svg/paathai.svg' width='100%' height='100%' />
 					</div>
 					<div>
-						<img src='/images/svg/iway.svg'></img>
+						<img src='/images/svg/iway.svg' width='100%' height='100%' />
 					</div>
 				</Slider>
 			</div>

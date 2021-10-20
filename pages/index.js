@@ -18,7 +18,7 @@ export default function Home() {
 		<div>
 			<SEO title='CHANMAX TECHNOLOGIES | FOR FASTEST APPLICATION' />
 			<HomeHero />
-			{/* <ClientCarousel /> */}
+			<ClientCarousel />
 			<HomeWhySection />
 			<ServiceSection />
 			<FeatureProject />
