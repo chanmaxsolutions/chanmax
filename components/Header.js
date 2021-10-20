@@ -134,7 +134,7 @@ export default function Header(props) {
 												</Link>
 											</li>
 
-											{/* <li
+											<li
 												className={`menu-item ${
 													asPath === '/contact' ? 'current-menu-item' : ''
 												}`}>
@@ -144,9 +144,9 @@ export default function Header(props) {
 														<span>Contact us</span>{' '}
 													</a>
 												</Link>
-											</li> */}
+											</li>
 
-											<li
+											{/* <li
 												className={`menu-item ${
 													asPath === '/blog' ? 'current-menu-item' : ''
 												}`}>
@@ -156,7 +156,7 @@ export default function Header(props) {
 														<span>Blog</span>{' '}
 													</a>
 												</Link>
-											</li>
+											</li> */}
 
 											<li
 												className={`menu-item menu-button ${
