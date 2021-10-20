@@ -1,7 +1,6 @@
 /** @format */
 
-// const api_url = 'https://chanmax-opening.herokuapp.com/api';
-const api_url = '/';
+const api_url = 'https://chanmax-opening.herokuapp.com/api';
 
 export const postService = (api, data) => {
 	return fetch(api_url + api, {

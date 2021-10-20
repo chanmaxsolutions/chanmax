@@ -4,7 +4,7 @@ const HomeWhySectionData = [
 	{
 		id: '1',
 		title: 'Be the first to hammer the market with style and significance',
-		subTitle: 'Fast',
+		subTitle: 'Speed',
 		desc: 'Outrun the competition and keep in pace with innovation',
 		ButtonText: 'Learn More',
 		ButtonLink: '/tryagain',

@@ -3,6 +3,7 @@
 import React from 'react';
 import SEO from '../components/SEO';
 import PageHeader from '../components/PageHeader';
+import HomeCallToAction from '../components/HomeCallToAction';
 
 export default function About() {
 	return (
@@ -15,6 +16,7 @@ export default function About() {
 				des='We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​'
 			/>
+			<HomeCallToAction />
 		</React.Fragment>
 	);
 }

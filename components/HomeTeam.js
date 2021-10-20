@@ -10,7 +10,7 @@ const HomeTeam = () => {
 				{HomeTeamData.map((content, i) => {
 					return (
 						<div key={i} className='col-lg-7 align-items-center'>
-							<h2 className='text-white home-team-heading'>{content.title}</h2>
+							<h3 className='text-white '>{content.title}</h3>
 							<p className='text-white hero-description'>{content.excerpt}</p>
 							<Link href={content.ButtonLink}>
 								<a
