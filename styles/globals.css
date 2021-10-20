@@ -970,6 +970,10 @@ font-size: 14px;
   background-color: rgb(253, 218, 218) !important;
 }
 
+.border-radius{
+  border-radius: 7px;
+}
+
 .get-quote-padding{
   padding-left: 90px !important;
   padding-right:90px !important;

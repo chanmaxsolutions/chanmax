@@ -4,6 +4,7 @@ import React from 'react';
 import SEO from '../components/SEO';
 import PageHeader from '../components/PageHeader';
 import HomeCallToAction from '../components/HomeCallToAction';
+import AboutDetails from '../components/AboutDetails';
 
 export default function About() {
 	return (
@@ -16,6 +17,7 @@ export default function About() {
 				des='We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​'
 			/>
+			<AboutDetails />
 			<HomeCallToAction />
 		</React.Fragment>
 	);
