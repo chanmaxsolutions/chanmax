@@ -1,6 +1,7 @@
 /** @format */
 
 import Slider from 'react-slick';
+import Image from 'next/image';
 // import { motion, useAnimation } from 'framer-motion';
 // import { useInView } from 'react-intersection-observer';
 // import { useEffect } from 'react';
@@ -82,49 +83,49 @@ const ClientCarousel = () => {
 				</div>
 				<Slider {...settings}>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/valvuthyam_b1fjxh.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/valvuthyam_b1fjxh.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/upcycle_nuxhb0.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/upcycle_nuxhb0.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/space_nfbgio.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/space_nfbgio.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761308/paathai_bbc88z.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761308/paathai_bbc88z.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/paragon_vqlmjd.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/paragon_vqlmjd.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/ovamee_qxhrcm.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/ovamee_qxhrcm.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/noolthettam_xjnsda.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/noolthettam_xjnsda.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/jb_pqjhiz.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/jb_pqjhiz.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/iway_fabwuy.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/iway_fabwuy.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/hitbuys_iv1szp.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/hitbuys_iv1szp.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/hdo_lrzcvj.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/hdo_lrzcvj.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/dreamart_omsxih.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/dreamart_omsxih.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/djmgunz_twfah8.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/djmgunz_twfah8.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/betels_hhn4is.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/betels_hhn4is.svg' />
 					</div>
 					<div>
-						<img src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/bb_viv2y3.svg' />
+						<Image  width={174}  height={32} src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/bb_viv2y3.svg' />
 					</div>
 				</Slider>
 			</div>
