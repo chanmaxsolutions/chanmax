@@ -152,6 +152,7 @@ function GetQuote() {
 				subHead='TRUSTED AND ENDORSED'
 				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'
 				bgImg='/images/4.jpg'
+				bgColor='#34A853'
 				des='We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​'
 			/>

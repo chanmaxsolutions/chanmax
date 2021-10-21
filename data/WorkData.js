@@ -5,6 +5,7 @@ import Image from 'next/image';
 const WorkData = [
 	{
 		id: 1,
+		bgColor: '#442a7c',
 		image: '/images/testing-squre.jpeg',
 		title: ' A Door to the Digital Knowledge Paradise',
 		slug: 'noolthettam',
@@ -193,6 +194,7 @@ const WorkData = [
 
 	{
 		id: 2,
+		bgColor: '#442a7c',
 		image: '/images/testing-squre.jpeg',
 		title: ' The DJ’s here, get your party started',
 		slug: 'mgunz',
@@ -396,6 +398,7 @@ const WorkData = [
 
 	{
 		id: 3,
+		bgColor: '#442a7c',
 		image: '/images/gallery-69-31.jpg',
 		title: ' A minimalist solution to the job world',
 		slug: 'job-board',

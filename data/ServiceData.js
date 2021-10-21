@@ -4,6 +4,7 @@ import Image from 'next/image';
 const ServiceData = [
 	{
 		id: 1,
+		bgColor: '#ff3841',
 		image: '/images/gallery-69-31.jpg',
 		icon: '/images/svg/icon-1.svg',
 		title: 'Web Application Development',
@@ -210,6 +211,7 @@ const ServiceData = [
 
 	{
 		id: 2,
+		bgColor: '#34c759',
 		image: '/images/10_thumb.jpg',
 		icon: '/images/svg/icon-1.svg',
 		title: 'Android Application Development',
@@ -424,6 +426,7 @@ const ServiceData = [
 
 	{
 		id: 3,
+		bgColor: '#0066ff',
 		image: '/images/10_thumb.jpg',
 		icon: '/images/svg/icon-1.svg',
 		title: 'iOS Application Development',
@@ -633,6 +636,7 @@ const ServiceData = [
 
 	{
 		id: 4,
+		bgColor: '#442a7c',
 		image: '/images/10_thumb.jpg',
 		icon: '/images/svg/icon-1.svg',
 		title: 'Desktop Application Development',

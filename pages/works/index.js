@@ -14,6 +14,7 @@ export default function Works() {
 				subHead='Case Studies'
 				mainHead='We are problem solvers. Dive into our creative mind of Intelligent Solutions.'
 				bgImg='/images/4.jpg'
+				bgColor='#a93fe8'
 				des='We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​'
 			/>

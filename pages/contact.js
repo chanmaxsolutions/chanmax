@@ -16,6 +16,7 @@ export default function Contact() {
 				mainHead='We are excitedly looking to fast forward your digital venture
 				Here is how you can reach us'
 				bgImg='/images/3.jpg'
+				bgColor='#ffca38'
 			/>
 			<ContactDetails />
 			<ContactForm />

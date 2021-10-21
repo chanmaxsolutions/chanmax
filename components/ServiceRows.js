@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import ServiceData from './../data/ServiceData';
+import { motion } from 'framer-motion';
 
 const ServiceRow = () => {
 	return (
@@ -9,7 +10,9 @@ const ServiceRow = () => {
 			{ServiceData &&
 				ServiceData.map((ServiceDataMapped, i) => (
 					<div key={i}>
-						<div className='container mb-5 service-row-container  mb-md-5 mb-sm-0 '>
+						<motion.div
+							whileHover={{ backgroundColor: `${ServiceDataMapped.bgColor}` }}
+							className='container mb-5 service-row-container  mb-md-5 mb-sm-0 '>
 							<Link href={`/services/${ServiceDataMapped.slug}`}>
 								<div className='row '>
 									<div
@@ -27,7 +30,7 @@ const ServiceRow = () => {
 									</div>
 								</div>
 							</Link>
-						</div>
+						</motion.div>
 					</div>
 				))}
 		</div>

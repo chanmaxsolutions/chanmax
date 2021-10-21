@@ -9,8 +9,11 @@ const ServiceDetails = ({ WorkDatas }) => {
 		<div>
 			<div
 				className='container-fluid service-details-container-feature-image '
-				style={{ backgroundImage: `url(${WorkDatas.image})` }}>
-				<div className='row blog-details-row text-center '>
+				style={{ backgroundColor: `${WorkDatas.bgColor}` }}>
+				<div
+					className='row blog-details-row text-center '
+					// style={{ backgroundImage: `url(${WorkDatas.image})` }}
+				>
 					<div className='col-lg-6 page-header-margin-top'>
 						<p className='text-uppercase text-white'>{WorkDatas.product}</p>
 						<h3 className='text-white main-head '>{WorkDatas.title}</h3>

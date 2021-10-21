@@ -14,6 +14,7 @@ export default function Services() {
 				subHead='TRUSTED AND ENDORSED'
 				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'
 				bgImg='/images/5.jpg'
+				bgColor='#4187fa'
 				des='We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​'
 			/>
