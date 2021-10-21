@@ -6,7 +6,7 @@ import WorkData from '../data/WorkData';
 
 const FeatureProject = () => {
 	return (
-		<div className='container-fluid feature-project-container cm-p5'>
+		<div className='container border-radius feature-project-container cm-p5'>
 			{WorkData.slice(-1).map((content, i) => {
 				return (
 					<div key={i} className='row'>

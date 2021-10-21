@@ -21,10 +21,10 @@ export default function Home() {
 			<ClientCarousel />
 			<HomeWhySection />
 			<ServiceSection />
-			<FeatureProject />
+			<HomeTeam />
 			<Testimonial />
 			<TestimonialCarousel />
-			<HomeTeam />
+			<FeatureProject />
 			<HomeCallToAction />
 		</div>
 	);

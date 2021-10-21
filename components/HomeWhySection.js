@@ -49,21 +49,21 @@ const HomeWhySection = () => {
 									</p>
 									<h4>{content.title}</h4>
 									<p className='home-why-section-desc'>{content.desc}</p>
-									<Link href={content.ButtonLink}>
+									{/* <Link href={content.ButtonLink}>
 										<a className='home-why-section-button'>
 											{content.ButtonText}
 										</a>
-									</Link>
+									</Link> */}
 								</div>
 							);
 						})}
 					</div>
 					<motion.div animate={animation2} className='col-lg-7'>
-						<Image
+						{/* <Image
 							src='/images/—Pngtree—hand painted line drawing financial_3891998.png'
-							width={1000}
-							height={1000}
-						/>
+							width={600}
+							height={600}
+						/> */}
 					</motion.div>
 				</div>
 			</div>

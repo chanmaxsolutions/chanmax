@@ -30,7 +30,7 @@ const HomeHero = () => {
 										<motion.a
 											initial={{ scale: '80%' }}
 											animate={{ scale: '100%' }}
-											whileHover={{ scale: '99%' }}
+											whileHover={{ scale: '98%' }}
 											className='button large fifth home-hero-button'>
 											{content.firstButton}{' '}
 										</motion.a>
@@ -39,8 +39,8 @@ const HomeHero = () => {
 										<motion.a
 											initial={{ scale: '80%' }}
 											animate={{ scale: '100%' }}
-											whileHover={{ scale: '99%' }}
-											className='button large fourth home-hero-button-two'>
+											whileHover={{ scale: '98%' }}
+											className='button large sixth home-hero-button-two'>
 											{content.secondButton}
 										</motion.a>
 									</Link>

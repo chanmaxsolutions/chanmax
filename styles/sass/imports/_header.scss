@@ -2,8 +2,8 @@
 
 .site-header {
 	background: rgb(255, 255, 255);
-	padding-bottom: 1em;
-	padding-top: 1em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
 	position: sticky;
 	width: 100%;
 	z-index: 1030;
@@ -16,8 +16,8 @@
 }
 
 .site-header-two {
-	padding-bottom: 1em;
-	padding-top: 1em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
 
 	a {
 		text-decoration: none;
@@ -62,8 +62,8 @@
 .site-navigation {
 	.button {
 		font-size: 15px !important;
-		padding-left: 25px !important;
-		padding-right: 25px !important;
+		padding-left: 40px !important;
+		padding-right: 40px !important;
 		padding-top: 9px !important;
 		padding-bottom: 9px !important;
 		text-transform: none !important;
@@ -138,8 +138,7 @@
 
 	@supports (position: sticky) or (position: -webkit-sticky) {
 		.site-header {
-			background: rgba(255, 255, 255, 0);
-			position: absolute;
+			background: #1a1c1f;
 			width: 100%;
 			top: 0;
 			transition-timing-function: ease-in;
@@ -166,6 +165,7 @@
 	width: 100%;
 	top: 0;
 	z-index: 1030;
+	box-shadow: 0 3px 5px #0000000f;
 }
 
 @media only screen and (max-width: 900px) {

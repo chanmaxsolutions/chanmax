@@ -5,8 +5,8 @@ import HomeTeamData from './../data/HomTeamData';
 
 const HomeTeam = () => {
 	return (
-		<div className='container-fluid home-team-container text-center mb-5'>
-			<div className='row justify-content-md-center home-team-container-row'>
+		<div className='container border-radius home-team-container text-center mb-5'>
+			<div className='row justify-content-md-center border-radius home-team-container-row'>
 				{HomeTeamData.map((content, i) => {
 					return (
 						<div key={i} className='col-lg-7 align-items-center'>
