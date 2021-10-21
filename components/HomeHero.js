@@ -16,14 +16,14 @@ const HomeHero = () => {
 									<motion.h1
 										initial={{ y: -200, opacity: 0 }}
 										animate={{ y: 0, opacity: 1 }}
-										className='hero-header text-white'>
+										className='hero-header'>
 										{' '}
 										{content.title}
 									</motion.h1>
 									<motion.p
 										initial={{ opacity: 0 }}
 										animate={{ opacity: 1 }}
-										className='hero-description text-white'>
+										className='hero-description '>
 										{content.desc}
 									</motion.p>
 									<Link href={`${content.firstButtonLink}`}>
@@ -40,7 +40,7 @@ const HomeHero = () => {
 											initial={{ scale: '80%' }}
 											animate={{ scale: '100%' }}
 											whileHover={{ scale: '98%' }}
-											className='button large sixth home-hero-button-two'>
+											className='button large fourth home-hero-button-two'>
 											{content.secondButton}
 										</motion.a>
 									</Link>

@@ -63,9 +63,7 @@
 		border: 2px solid #06b67b;
 	}
 	&.fourth:hover {
-		background: #ffca38;
-		color: #202020;
-		border: 2px solid #ffca38;
+		opacity: 0.8;
 	}
 	&.fifth {
 		background: #1a1c1f;
@@ -73,14 +71,6 @@
 		border: 2px solid #1a1c1f;
 	}
 	&.fifth:hover {
-		opacity: 0.8;
-	}
-	&.sixth {
-		background: #ffca38;
-		color: #1a1c1f;
-		border: 2px solid #ffca38;
-	}
-	&.sixth:hover {
 		opacity: 0.8;
 	}
 }
