@@ -15,7 +15,7 @@ export default function Contact() {
 				subHead='Just one call away'
 				mainHead='We are excitedly looking to fast forward your digital venture
 				Here is how you can reach us'
-				bgImg='/images/3.jpg'
+				bgImg='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634897321/page-header-illustrations/contact-illlustrator_tpq4fp.svg'
 				bgColor='#ffca38'
 			/>
 			<ContactDetails />

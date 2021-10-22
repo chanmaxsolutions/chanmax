@@ -10,7 +10,7 @@ const PageHeader = ({ subHead, mainHead, bgImg, bgColor }) => {
 				<div
 					className='align-items-center page-header-row'
 					style={{
-						backgroundImage: `url('')`,
+						backgroundImage: `url('${bgImg}')`,
 					}}>
 					<div className='col-lg-6 page-header-margin-top'>
 						<p className='sub-head text-white'>{subHead}</p>

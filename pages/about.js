@@ -13,7 +13,7 @@ export default function About() {
 			<PageHeader
 				subHead='TRUSTED AND ENDORSED'
 				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'
-				bgImg='/images/2.jpg'
+				bgImg='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634888717/page-header-illustrations/about-us-illlustrator_dl4r7m.svg'
 				bgColor='#ff3841'
 				des='We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​'
