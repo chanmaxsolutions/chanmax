@@ -147,11 +147,11 @@ function GetQuote() {
 					handleClose={() => setToast(false)}
 				/>
 			)}
-			<SEO title='Chanmax' />
+			<SEO title='GET QUOTE | CHANMAX TECHNOLOGIES' />
 			<PageHeader
 				subHead='TRUSTED AND ENDORSED'
 				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'
-				bgImg='/images/4.jpg'
+				bgImg='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634923983/page-header-illustrations/quote-illlustrator_tulgop.svg'
 				bgColor='#34A853'
 				des='We help product vendors create impactful and 
             futuristic digital solutions to solve real user problems.​'
