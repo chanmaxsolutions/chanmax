@@ -43,7 +43,7 @@ export default function Header(props) {
 
 	useEffect(() => {
 		document.addEventListener('scroll', () => {
-			if (window.scrollY > 0) {
+			if (window.scrollY > 100) {
 				SetHeaderChange(true);
 			} else {
 				SetHeaderChange(false);

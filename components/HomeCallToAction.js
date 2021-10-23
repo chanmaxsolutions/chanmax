@@ -18,7 +18,7 @@ const HomeCallToAction = () => {
 								</p>
 								<Link href={content.ButtonLink}>
 									<a
-										className='button  large fourth '
+										className='button  large  '
 										style={{ marginLeft: '5px', marginTop: '10px' }}>
 										{content.ButtonText}
 									</a>

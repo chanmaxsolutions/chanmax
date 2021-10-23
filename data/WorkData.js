@@ -5,8 +5,9 @@ import Image from 'next/image';
 const WorkData = [
 	{
 		id: 1,
-		bgColor: '#442a7c',
-		image: '/images/testing-squre.jpeg',
+		bgColor: '#901513',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634981700/case-studies/Noolthettam_borppu.jpg',
 		title: ' A Door to the Digital Knowledge Paradise',
 		slug: 'noolthettam',
 		product: 'NOOLTHETTAM',
@@ -194,8 +195,9 @@ const WorkData = [
 
 	{
 		id: 2,
-		bgColor: '#442a7c',
-		image: '/images/testing-squre.jpeg',
+		bgColor: '#9013FE',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634980734/case-studies/Mgunz_livnf8.jpg',
 		title: ' The DJ’s here, get your party started',
 		slug: 'mgunz',
 		product: 'MGUNZ',
@@ -398,8 +400,9 @@ const WorkData = [
 
 	{
 		id: 3,
-		bgColor: '#442a7c',
-		image: '/images/gallery-69-31.jpg',
+		bgColor: '#006AFF',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634982201/case-studies/Jobboard_c7odbd.jpg',
 		title: ' A minimalist solution to the job world',
 		slug: 'job-board',
 		product: 'Job board',

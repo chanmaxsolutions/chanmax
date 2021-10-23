@@ -10,7 +10,7 @@ const ContactDetails = () => {
 					<div className='card '>
 						<div className='card-body  testimonial-card'>
 							<Image
-								src='/images/svg/icon-1.svg'
+								src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634970093/services-icon/address_wwp1dk.svg'
 								className=''
 								width={70.5}
 								height={72}
@@ -18,8 +18,8 @@ const ContactDetails = () => {
 							/>
 							<p className='card-title'>Address</p>
 							<p className='card-text'>
-								Some quick example text to build on the card title and make up
-								the bulk of the card's content.
+								Grand Bazaar, Mannar <br />
+								Sri Lanka.
 							</p>
 						</div>
 					</div>
@@ -29,16 +29,16 @@ const ContactDetails = () => {
 					<div className='card '>
 						<div className='card-body text-center testimonial-card'>
 							<Image
-								src='/images/svg/icon-1.svg'
+								src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634970333/services-icon/phone-icon_rkqlto.svg'
 								className=''
 								width={70.5}
 								height={72}
 								alt='...'
 							/>
-							<p className='card-title'>Address</p>
+							<p className='card-title'>Phone</p>
 							<p className='card-text'>
-								Some quick example text to build on the card title and make up
-								the bulk of the card's content.
+								075 6042 602 <br />
+								076 6042 602
 							</p>
 						</div>
 					</div>
@@ -48,16 +48,16 @@ const ContactDetails = () => {
 					<div className='card '>
 						<div className='card-body text-center testimonial-card'>
 							<Image
-								src='/images/svg/icon-1.svg'
+								src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634971600/services-icon/Mail-icon_nox34u.svg'
 								className=''
 								width={70.5}
 								height={72}
 								alt='...'
 							/>
-							<p className='card-title'>Address</p>
+							<p className='card-title'>E-Mail</p>
 							<p className='card-text'>
-								Some quick example text to build on the card title and make up
-								the bulk of the card's content.
+								hello@chanmax.io <br />
+								career@chanmax.io
 							</p>
 						</div>
 					</div>

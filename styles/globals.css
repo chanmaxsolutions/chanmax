@@ -169,6 +169,11 @@ div{
   padding:3rem !important;
 }
 
+.cm-p2{
+  padding:1rem !important;
+  
+}
+
 .cm-p-row{
   padding:0 !important;
 }
@@ -184,6 +189,12 @@ div{
         font-size: 20px;
       }
       .cm-p5{
+        padding:1rem !important;
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+      }
+
+      .cm-p2{
         padding:1rem !important;
         padding-top: 2rem !important;
         padding-bottom: 2rem !important;
@@ -370,11 +381,7 @@ div{
   background-color: #fff !important;
 }
 
-@media (max-width: 750px) {
-  .testimonial-card{
-    border-radius: 0px;
-  }
-}
+
 
 
 .home-team-container{
@@ -475,7 +482,7 @@ cursor: pointer;
 
 .home-call-to-action-container-row{
   position: absolute;
-  background-color: #108f65ec;
+  background-color: #06b67be7;
   background-size: cover;
   height: 100%;
   width: 100%;
