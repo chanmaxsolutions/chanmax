@@ -620,7 +620,7 @@ const ServiceData = [
 							<Image src='/images/svg/wp.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/elementor.svg' />
+							<Image src='/images/svg/elementor.svg'/>
 						</li>
 						<li class='text-center'>
 							<Image src='/images/svg/ga.svg' />
