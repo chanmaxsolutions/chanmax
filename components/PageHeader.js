@@ -13,8 +13,8 @@ const PageHeader = ({ subHead, mainHead, bgImg, bgColor }) => {
 						backgroundImage: `url('${bgImg}')`,
 					}}>
 					<div className='col-lg-6 page-header-margin-top'>
-						<p className='sub-head text-white'>{subHead}</p>
-						<h3 className='pb-5 text-white main-head '>{mainHead}</h3>
+						<p className='sub-head text-white text-bg'>{subHead}</p>
+						<h3 className='mb-5 text-white main-head text-bg'>{mainHead}</h3>
 					</div>
 				</div>
 			</div>

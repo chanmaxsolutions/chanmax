@@ -34,8 +34,8 @@ const ServiceSection = () => {
 								<Image
 									src={content.icon}
 									className='text-left'
-									width={70.5}
-									height={72}
+									width={52.875}
+									height={54}
 									alt='...'
 								/>
 								<div className='card-body text-center'>

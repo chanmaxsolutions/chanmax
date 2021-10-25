@@ -8,12 +8,11 @@ function BoxQuote({ title, icon, handleClick, isSelected }) {
 			<div
 				className='col-lg-3 col-8 text-center'
 				style={{
-					border: `2px solid ${isSelected ? '#1A9369' : 'white'}`,
+					border: `2px solid ${isSelected ? '#06b67b' : 'white'}`,
 					backgroundColor: ` ${isSelected ? '#fff' : 'white'}`,
-					color: `${isSelected ? '#000' : '#565656'}`,
+					color: `${isSelected ? '#1a1c1f' : '#565656'}`,
 					margin: 10,
 					height: 150,
-					borderRadius: 7,
 					boxShadow: `${
 						isSelected ? '0px 0px 0px' : 'rgb(0 0 0 / 1%) 0px 3px 20px '
 					}`,
@@ -25,7 +24,7 @@ function BoxQuote({ title, icon, handleClick, isSelected }) {
 						<div
 							className='fs-1'
 							style={{
-								color: `${isSelected ? '#000' : '#565656'}`,
+								color: `${isSelected ? '#06b67b' : '#565656'}`,
 							}}>
 							{icon}
 						</div>

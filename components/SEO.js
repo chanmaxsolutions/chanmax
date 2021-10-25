@@ -9,7 +9,10 @@ const SEO = ({ title }) => {
 			<meta charSet='utf-8' />
 			<meta name='viewport' content='width=device-width, initialScale=1.0' />
 			<meta name='google' content='notranslate' />
-			<meta name='description' content='We are building lightning fast applications for Startups to Corporate' />
+			<meta
+				name='description'
+				content='We are Building lightning-fast Applications from Startups to Corporates.'
+			/>
 			<link rel='icon' href='/images/favicon.png' />
 		</Head>
 	);

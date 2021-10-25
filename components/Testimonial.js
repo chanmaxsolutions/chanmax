@@ -38,12 +38,20 @@ const Testimonial = () => {
 										}}>
 										{content.position}
 									</p>
+									<p
+										className='small'
+										style={{ lineHeight: 0.5, fontWeight: 500 }}>
+										{content.country}
+									</p>
 									<p className='card-text'>{content.excerpt}</p>
-									{[...Array(Math.round(content.rating))].map((data, i) => (
-										<span key={i} style={{ color: '#fbae01' }}>
-											&#9733;
-										</span>
-									))}
+									<p className='small fw-bold'>
+										({content.rating}.0)
+										{[...Array(Math.round(content.rating))].map((data, i) => (
+											<span key={i} style={{ color: '#fbae01' }}>
+												&#9733;
+											</span>
+										))}
+									</p>
 								</div>
 							</div>
 						</div>

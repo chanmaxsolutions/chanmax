@@ -112,12 +112,12 @@ export default function Header(props) {
 
 											<li
 												className={`menu-item ${
-													asPath === '/works' ? 'current-menu-item' : ''
+													asPath === '/references' ? 'current-menu-item' : ''
 												}`}>
-												<Link href='/works'>
+												<Link href='/references'>
 													<a>
 														{' '}
-														<span>Works</span>{' '}
+														<span>References</span>{' '}
 													</a>
 												</Link>
 											</li>
@@ -244,12 +244,12 @@ export default function Header(props) {
 
 											<li
 												className={`menu-item ${
-													asPath === '/works' ? 'current-menu-item' : ''
+													asPath === '/references' ? 'current-menu-item' : ''
 												}`}>
-												<Link href='/works'>
+												<Link href='/references'>
 													<a>
 														{' '}
-														<span>Works</span>{' '}
+														<span>References</span>{' '}
 													</a>
 												</Link>
 											</li>

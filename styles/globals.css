@@ -68,7 +68,7 @@ ul.work-details-list{
 ul.work-details-list>li {
   list-style: none;
   display: inline-block;
-  border-radius: 15px;
+  border-radius: 0px;
   background: none;
   margin: 5px;
   margin-top: 10px;
@@ -332,7 +332,7 @@ div{
     box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px;
     min-height: 400px;
     margin-bottom: 50px;
-    border-radius: 7px;
+    border-radius: 0px;
 }
 
 
@@ -361,7 +361,7 @@ div{
 }
 
 .feature-project-bg-image{
-  border-radius: 7px;
+  border-radius: 0px;
   object-fit: cover;
 
 }
@@ -377,11 +377,16 @@ div{
 
 .testimonial-card{
   box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px !important;
-  border-radius: 7px !important;
+  border-radius: 0px !important;
   background-color: #fff !important;
 }
 
-
+.contact-details-card{
+  box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px !important;
+  border-radius: 0px !important;
+  background-color: #fff !important;
+  padding-top: 30px;
+}
 
 
 .home-team-container{
@@ -429,11 +434,11 @@ div{
 }
 
 .card-img-top{
-  border-radius: 7px !important;
+  border-radius: 0px !important;
 }
 
 .work-grid-image{
-  border-radius: 7px !important;
+  border-radius: 0px !important;
   object-fit: cover;
 }
 
@@ -467,7 +472,7 @@ cursor: pointer;
     box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px;
     min-height: 400px;
     padding-bottom: 50px;
-    border-radius: 7px;
+    border-radius: 0px;
 }
 
 
@@ -477,7 +482,7 @@ cursor: pointer;
   background-image: url(/images/3.jpg);
   background-size: cover;
   position: relative;
-  border-radius: 7px;
+  border-radius: 0px;
 }
 
 .home-call-to-action-container-row{
@@ -489,7 +494,7 @@ cursor: pointer;
   display: flex;
   align-items:center;
   justify-content:center;
-  border-radius: 7px;
+  border-radius: 0px;
 }
 
 @media (max-width: 750px) {
@@ -553,7 +558,7 @@ div > button{
   align-items: center;
   background: transparent;
   border: 2px solid #06B67B;
-  border-radius: 100px;
+  border-radius: 0px;
   box-sizing: border-box;
   color: #06B67B;
   cursor: pointer;
@@ -586,7 +591,7 @@ input[type="number"],
 input[type="search"], 
 input[type="url"], 
 select, textarea{
-  border-radius: 7px;
+  border-radius: 0px;
 }
 
 .footer-social-icons{
@@ -609,12 +614,12 @@ select, textarea{
   position: relative;
   min-height:300px;
   background-color: #ffffff;
-  border-radius: 7px
+  border-radius: 0px
 }
 
 .service-data-container-bottom{
   position: relative;
-  border-radius: 7px;
+  border-radius: 0px;
   min-height: 150px;
 }
 
@@ -730,7 +735,7 @@ select, textarea{
     -webkit-appearance: none !important;
     -moz-appearance: none !important;
     appearance: none !important;
-    border-radius: 7px !important;
+    border-radius: 0px !important;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
 }
 
@@ -749,7 +754,7 @@ select, textarea{
 .contact-form-inside-container{
   padding: 40px;
   background-color: #fff;
-  border-radius: 7px;
+  border-radius: 0px;
   box-shadow: rgb(0 0 0 / 0.01) 0px 3px 20px;
 }
 
@@ -787,7 +792,7 @@ font-size: 14px;
 }
 
 .work-grid-detail-image{
-  border-radius: 7px;
+  border-radius: 0px;
   width: 80%;
   height: auto;
 }
@@ -815,6 +820,8 @@ font-size: 14px;
   display: flex;
   align-items:center;
   justify-content:center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cm-works-details-margin{
@@ -878,7 +885,7 @@ font-size: 14px;
   min-height: 350px;
   background-color: #fff;
   max-width: 1000px;
-  border-radius: 7px;
+  border-radius: 0px;
   padding: 25px 35px;
 }
 
@@ -891,7 +898,7 @@ font-size: 14px;
 .service-row-col-small{
   min-height: 350px;
   background-size: cover;
-  border-radius: 7px;
+  border-radius: 0px;
 }
 
 
@@ -904,7 +911,7 @@ font-size: 14px;
   }
 
   .service-row-col-small{
-    border-radius: 7px !important;
+    border-radius: 0px !important;
     min-height: 200px
   }
   
@@ -932,7 +939,7 @@ font-size: 14px;
 .react-tel-input > .form-control{
   box-shadow: none;
   height: 54px !important;
-  border-radius: 7px !important;
+  border-radius: 0px !important;
   width: 100% !important;
 }
 
@@ -968,12 +975,12 @@ font-size: 14px;
 
 .border{
   border: 2px solid red !important;
-  border-radius: 7px;
+  border-radius: 0px;
   background-color: rgb(253, 218, 218) !important;
 }
 
 .border-radius{
-  border-radius: 7px;
+  border-radius: 0px;
 }
 
 .get-quote-padding{
@@ -1038,4 +1045,10 @@ font-size: 14px;
   .to-hide-and-show-testimonial{
     display: none;
   }
+}
+
+.text-bg{
+  background-color: #1a1c1f9c;
+    display: inline-block;
+    padding: 5px 5px;
 }

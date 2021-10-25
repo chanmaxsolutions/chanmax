@@ -6,6 +6,8 @@ const WorkData = [
 	{
 		id: 1,
 		bgColor: '#901513',
+		bgImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634986593/case-studies/case-study-detail/Noolthettam-case-study_apqrhc.svg',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634981700/case-studies/Noolthettam_borppu.jpg',
 		title: ' A Door to the Digital Knowledge Paradise',
@@ -196,6 +198,8 @@ const WorkData = [
 	{
 		id: 2,
 		bgColor: '#9013FE',
+		bgImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634988835/case-studies/case-study-detail/mgunz-case-study_idijnf.svg',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634980734/case-studies/Mgunz_livnf8.jpg',
 		title: ' The DJ’s here, get your party started',
@@ -401,6 +405,8 @@ const WorkData = [
 	{
 		id: 3,
 		bgColor: '#006AFF',
+		bgImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634985981/case-studies/case-study-detail/case-study-detail-test_a5rtaa.svg',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634982201/case-studies/Jobboard_c7odbd.jpg',
 		title: ' A minimalist solution to the job world',

@@ -36,6 +36,7 @@ const TestimonialCarousel = () => {
 					slidesToShow: 1,
 					lazyLoad: true,
 					slidesToScroll: 1,
+					dots: false,
 				},
 			},
 			{
@@ -44,12 +45,14 @@ const TestimonialCarousel = () => {
 					slidesToShow: 1,
 					slidesToScroll: 1,
 					lazyLoad: true,
+					dots: false,
 				},
 			},
 		],
 	};
+
 	return (
-		<div>
+		<div style={{ marginBottom: '50px' }}>
 			<div className='container mb-5 to-hide-and-show-testimonial-carousal'>
 				<div className='row justify-content-md-center text-center'>
 					<div className='col-lg-6 ps-4 pe-4 align-items-center'>
@@ -62,18 +65,18 @@ const TestimonialCarousel = () => {
 				</div>
 				<Slider {...settings}>
 					<div>
-						<div className='row text-center cm-testimonial-m'>
+						<div className='row  text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ height: '100%' }}>
+								<div className='card ' style={{ minHeight: '500px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
-											src='/images/testimonial.jpg'
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635074949/testimonials/anchale_vw6s71.jpg'
 											className='testimonials-img '
 											width={100}
 											height={100}
 											alt='...'
 										/>
-										<h4 className=''>Web Development</h4>
+										<h4 className=''>Anchale Ayngaranesan</h4>
 										<p
 											style={{
 												fontSize: '11px',
@@ -81,18 +84,26 @@ const TestimonialCarousel = () => {
 												textTransform: 'uppercase',
 												fontWeight: '500',
 											}}>
-											WEB DEVELOPMENT
+											Founder of For You with Love
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											Australia
 										</p>
 										<p className='card-text'>
-											We have always known the power of digital, and we've
-											mastered the strategy, tactics, and technology to harness
-											it. Now, other departments have had to embrace the digital
-											transformation that businesses have been talking about for
-											so long.
+											Prashan is very driven to provide the best kind of
+											service. He not only does his job perfectly but also makes
+											sure you are driven constantly to work towards your
+											project. The patience and outcome are explicit making
+											working with Chamax a profitable and peaceful experience.
 										</p>
-										<span style={{ color: '#fbae01' }}>
-											&#9733; &#9733; &#9733; &#9733; &#9733;
-										</span>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
 									</div>
 								</div>
 							</div>
@@ -102,16 +113,16 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ height: '100%' }}>
+								<div className='card ' style={{ minHeight: '500px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
-											src='/images/testimonial.jpg'
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635171351/testimonials/sajeev_ahy4cs.jpg'
 											className='testimonials-img '
 											width={100}
 											height={100}
 											alt='...'
 										/>
-										<h4 className=''>Web Development</h4>
+										<h4 className=''>Sajeevkanth Patricks</h4>
 										<p
 											style={{
 												fontSize: '11px',
@@ -119,18 +130,27 @@ const TestimonialCarousel = () => {
 												textTransform: 'uppercase',
 												fontWeight: '500',
 											}}>
-											WEB DEVELOPMENT
+											FOUNDER OF QUIZE SL
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											Australia
 										</p>
 										<p className='card-text'>
-											We have always known the power of digital, and we've
-											mastered the strategy, tactics, and technology to harness
-											it. Now, other departments have had to embrace the digital
-											transformation that businesses have been talking about for
-											so long.
+											I was seeking an affordable software company to help me
+											expand my YouTube business with a new product, and I came
+											across Chanmax, who have been very helpful in growing my
+											business. Since my business is performing so well, I'm
+											expecting to expand it, and I'll be working with Chanmax
+											once again.
 										</p>
-										<span style={{ color: '#fbae01' }}>
-											&#9733; &#9733; &#9733; &#9733; &#9733;
-										</span>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
 									</div>
 								</div>
 							</div>
@@ -140,7 +160,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ height: '100%' }}>
+								<div className='card ' style={{ minHeight: '500px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='/images/testimonial.jpg'
@@ -166,9 +186,12 @@ const TestimonialCarousel = () => {
 											transformation that businesses have been talking about for
 											so long.
 										</p>
-										<span style={{ color: '#fbae01' }}>
-											&#9733; &#9733; &#9733; &#9733; &#9733;
-										</span>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
 									</div>
 								</div>
 							</div>
@@ -178,7 +201,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ height: '100%' }}>
+								<div className='card ' style={{ minHeight: '500px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='/images/testimonial.jpg'
@@ -204,9 +227,12 @@ const TestimonialCarousel = () => {
 											transformation that businesses have been talking about for
 											so long.
 										</p>
-										<span style={{ color: '#fbae01' }}>
-											&#9733; &#9733; &#9733; &#9733; &#9733;
-										</span>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
 									</div>
 								</div>
 							</div>
