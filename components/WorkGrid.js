@@ -20,7 +20,7 @@ const WorkGrid = () => {
 										color: '#fff',
 									}}
 									style={{ backgroundColor: '#fff', color: '#1a1c1f' }}>
-									<Link href={`/works/${workContent.slug}`}>
+									<Link href={`/references/${workContent.slug}`}>
 										<div>
 											<Image
 												src={workContent.image}
