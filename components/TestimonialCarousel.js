@@ -135,7 +135,7 @@ const TestimonialCarousel = () => {
 										<p
 											className='small'
 											style={{ lineHeight: 0.5, fontWeight: 500 }}>
-											Australia
+											Sri Lanka
 										</p>
 										<p className='card-text'>
 											I was seeking an affordable software company to help me
@@ -163,13 +163,13 @@ const TestimonialCarousel = () => {
 								<div className='card ' style={{ minHeight: '500px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
-											src='/images/testimonial.jpg'
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635179640/testimonials/seran_vf1cz3.jpg'
 											className='testimonials-img '
 											width={100}
 											height={100}
 											alt='...'
 										/>
-										<h4 className=''>Web Development</h4>
+										<h4 className=''>Seran</h4>
 										<p
 											style={{
 												fontSize: '11px',
@@ -177,14 +177,17 @@ const TestimonialCarousel = () => {
 												textTransform: 'uppercase',
 												fontWeight: '500',
 											}}>
-											WEB DEVELOPMENT
+											CO- FOUNDER OF OVAMEE PVT LTD
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											Sri Lanka
 										</p>
 										<p className='card-text'>
-											We have always known the power of digital, and we've
-											mastered the strategy, tactics, and technology to harness
-											it. Now, other departments have had to embrace the digital
-											transformation that businesses have been talking about for
-											so long.
+											It was smooth and transparent. The responses we got from
+											these folks ease us to create better outcomes. Good with
+											communication.
 										</p>
 										<p className='small fw-bold'>
 											(5.0)

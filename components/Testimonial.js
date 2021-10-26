@@ -4,6 +4,13 @@ import Image from 'next/image';
 import TestimonialData from './../data/TestimonialsData';
 
 const Testimonial = () => {
+	const shuffled = TestimonialData.map((value) => ({
+		value,
+		sort: Math.random(),
+	}))
+		.sort((a, b) => a.sort - b.sort)
+		.map(({ value }) => value);
+
 	return (
 		<div className='container mb-5 to-hide-and-show-testimonial'>
 			<div className='row justify-content-md-center text-center'>
@@ -16,7 +23,7 @@ const Testimonial = () => {
 				</div>
 			</div>
 			<div className='row'>
-				{TestimonialData.map((content, i) => {
+				{shuffled.map((content, i) => {
 					return (
 						<div key={i} className='col-lg-4 text-center mt-4'>
 							<div className='card ' style={{ height: '100%' }}>

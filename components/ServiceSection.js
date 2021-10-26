@@ -6,6 +6,10 @@ import ServiceData from './../data/ServiceData';
 import { motion } from 'framer-motion';
 
 const ServiceSection = () => {
+	const shuffled = ServiceData.map((value) => ({ value, sort: Math.random() }))
+		.sort((a, b) => a.sort - b.sort)
+		.map(({ value }) => value);
+
 	return (
 		<div>
 			<motion.div
@@ -28,7 +32,7 @@ const ServiceSection = () => {
 					</div>
 				</div>
 				<div className='row'>
-					{ServiceData.slice(-4).map((content, i) => {
+					{shuffled.slice(-4).map((content, i) => {
 						return (
 							<div key={i} className='card col-lg-3 mt-3 mb-2'>
 								<Image

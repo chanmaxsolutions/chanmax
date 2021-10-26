@@ -843,6 +843,418 @@ const ServiceData = [
 			</div>`,
 		],
 	},
+
+	{
+		id: 5,
+		bgColor: '#442a7c',
+		image: '/images/10_thumb.jpg',
+		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634929314/services-icon/Logo-and-branding_aeflrn.svg',
+		title: 'Logo & Branding',
+		homeTitle: 'Logo & Branding',
+		slug: 'logo-branding',
+		shortExcerpt:
+			'We authenticate your legacy and position your brand to stand tall among your competitors.',
+		buttonText: 'More Details',
+		excerpt:
+			'We authenticate your legacy and position your brand to stand tall among your competitors. Our creative innovators voice your story and consolidate a magnetic presence to accelerate your visibility with a stunning look and drive customer loyalty.',
+		body: [
+			`<div>
+				<div class='justify-content-center service-data-container'>
+					<div class='align-items-center service-data-container-inside'>
+						<div class='col-lg-6'>
+							<h5>
+								"We authenticate your legacy and position your <span style='color:#108f64'>brand</span> to stand tall 
+								among your competitors. Our creative innovators voice your story 
+								and consolidate a magnetic presence to accelerate your visibility 
+								with a <span style='color:#108f64'> stunning look and drive customer loyalty.</span>"
+							</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class='text-center cm-p5'>
+					<h4 class='text-uppercase' style='color:#108f64'>
+						Why choose us?
+					</h4>
+				</div>
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 '>
+						<Image
+							class='work-grid-detail-image'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+					<div class='col-lg-6 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>Different and unique</h3>
+								<p>
+								You are special, we give you a signature look that is distinct and 
+								divergent, inspiring a transformational influence.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 order-lg-1 order-2 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>
+								Timeless aesthetics
+								</h3>
+								<p>
+								Surpass the boundaries of evolving trends, with a 
+								promising look that keeps you relevant and effective with time.
+
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class='col-lg-6 order-lg-2 order-1'>
+						<Image
+							class='work-grid-detail-image float-end'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+				</div>
+
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 '>
+						<Image
+							class='work-grid-detail-image'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+					<div class='col-lg-6 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>Attract attention instantly</h3>
+								<p>
+								Stand in the spotlight and charm your way into users’ minds with an alluring 
+								look turning the heads of everyone to your presence.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 order-lg-1 order-2 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>
+								Simple and elegant
+								</h3>
+								<p>
+								We fuse in clutter-free elements and harmonic tones to 
+								design an elegantly simple and visually powerful brand identity.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class='col-lg-6 order-lg-2 order-1'>
+						<Image
+							class='work-grid-detail-image float-end'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+				</div>
+
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 '>
+						<Image
+							class='work-grid-detail-image'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+					<div class='col-lg-6 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>
+								Broadcast your brand value
+								</h3>
+								<p>
+								We focus on even the minutest of details, to carve out a 
+								meaningful brand image that communicates your values.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 order-lg-1 order-2 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>
+								Versatile
+								</h3>
+								<p>
+								Expose your identity in multiple forms and platforms without 
+								compromising the quality and visibility of your originality.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class='col-lg-6 order-lg-2 order-1'>
+						<Image
+							class='work-grid-detail-image float-end'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+				</div>
+
+				<div class='text-center'>
+					<div class='justify-content-center service-data-container-bottom'>
+						<div class='align-items-center service-data-container-inside'>
+							<div class='col-lg-6'>
+								<h4 class='cm-works-details-margin-title '>
+								The digital tools used in tailoring your 
+									<span style='color:#108f64'>brand image.</span>
+								</h4>
+							</div>
+						</div>
+					</div>
+
+					<ul class='work-details-list text-center'>
+						<li class='text-center'>
+							<Image src='/images/svg/ai.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/xd.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/ps.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/wp.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/elementor.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/ga.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/miro.svg' />
+						</li>
+					</ul>
+				</div>
+			</div>`,
+		],
+	},
+
+	{
+		id: 6,
+		bgColor: '#442a7c',
+		image: '/images/10_thumb.jpg',
+		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634930128/services-icon/UI-UX_ro8lue.svg',
+		title: 'UI/UX Design',
+		homeTitle: 'UI/UX Design',
+		slug: 'ui-ux-design',
+		shortExcerpt:
+			'Our works are empowered with visually appealing interfaces and powerful experiences.',
+		buttonText: 'More Details',
+		excerpt:
+			'We craft brilliance with critical design thinking approaches to innovate human-centric, user-friendly solutions that capture the market. Our works are empowered with visually appealing interfaces and powerful experiences that connect to the heart of your users.',
+		body: [
+			`<div>
+				<div class='justify-content-center service-data-container'>
+					<div class='align-items-center service-data-container-inside'>
+						<div class='col-lg-6'>
+							<h5>
+							"We craft brilliance with <span style='color:#108f64'>critical design thinking</span> approaches to innovate 
+								human-centric, user-friendly solutions that capture the market. Our works 
+								are empowered with visually appealing <span style='color:#108f64'>interfaces and powerful experiences</span> 
+								that connect to the heart of your users."
+
+							</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class='text-center cm-p5'>
+					<h4 class='text-uppercase' style='color:#108f64'>
+						Why choose us?
+					</h4>
+				</div>
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 '>
+						<Image
+							class='work-grid-detail-image'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+					<div class='col-lg-6 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>Extensive User Research</h3>
+								<p>
+								We engage in thorough user research to analyze the goals and 
+								behavior of your target groups to design the perfect solution.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 order-lg-1 order-2 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>
+								Interactive Prototypes
+								</h3>
+								<p>
+								We generate simulative clickable prototypes to validate 
+								your vision and experiment with ideas to discover the best. 
+
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class='col-lg-6 order-lg-2 order-1'>
+						<Image
+							class='work-grid-detail-image float-end'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+				</div>
+
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 '>
+						<Image
+							class='work-grid-detail-image'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+					<div class='col-lg-6 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>Increased Site Conversion</h3>
+								<p>
+								Optimize your sites to translate your ambition to successful market 
+								solutions that keep users buzzing back to you.
+
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 order-lg-1 order-2 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>
+								Simple and Modern
+								</h3>
+								<p>
+								We bring the perfect sync of simplicity and modernity in our 
+								solutions to advance you into the futuristic world.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class='col-lg-6 order-lg-2 order-1'>
+						<Image
+							class='work-grid-detail-image float-end'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+				</div>
+
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 '>
+						<Image
+							class='work-grid-detail-image'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+					<div class='col-lg-6 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>
+								Memorable Experiences
+								</h3>
+								<p>
+								Making your first impression the best impression, 
+								we ensure that you are remembered and recognized for your values.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class='row cm-works-details-margin'>
+					<div class='col-lg-6 order-lg-1 order-2 work-detail-body-align'>
+						<div class='work-detail-body-align-inside'>
+							<div>
+								<h3 class='cm-works-details-margin-title'>
+								Robust Usability
+								</h3>
+								<p>
+								We focus on enhancing the ease of use and engagement with responsive 
+								designs for a smooth flow in the user’s journey.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class='col-lg-6 order-lg-2 order-1'>
+						<Image
+							class='work-grid-detail-image float-end'
+							src='/images/testing-squre.jpeg'
+						/>
+					</div>
+				</div>
+
+				<div class='text-center'>
+					<div class='justify-content-center service-data-container-bottom'>
+						<div class='align-items-center service-data-container-inside'>
+							<div class='col-lg-6'>
+								<h4 class='cm-works-details-margin-title '>
+								Aesthetic tools for designing  
+									<span style='color:#108f64'>magnetic experiences.</span>
+								</h4>
+							</div>
+						</div>
+					</div>
+
+					<ul class='work-details-list text-center'>
+						<li class='text-center'>
+							<Image src='/images/svg/ai.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/xd.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/ps.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/wp.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/elementor.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/ga.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='/images/svg/miro.svg' />
+						</li>
+					</ul>
+				</div>
+			</div>`,
+		],
+	},
 ];
 
 export default ServiceData;
