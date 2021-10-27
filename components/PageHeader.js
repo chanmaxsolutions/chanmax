@@ -1,4 +1,5 @@
 /** @format */
+import { motion } from 'framer-motion';
 
 const PageHeader = ({ subHead, mainHead, bgImg, bgColor }) => {
 	console.log(bgColor, 'zzz');
@@ -13,8 +14,18 @@ const PageHeader = ({ subHead, mainHead, bgImg, bgColor }) => {
 						backgroundImage: `url('${bgImg}')`,
 					}}>
 					<div className='col-lg-6 page-header-margin-top'>
-						<p className='sub-head text-white text-bg'>{subHead}</p>
-						<h3 className='mb-5 text-white main-head text-bg'>{mainHead}</h3>
+						<motion.p
+							initial={{ y: -200, opacity: 0 }}
+							animate={{ y: 0, opacity: 1 }}
+							className='sub-head text-white text-bg'>
+							{subHead}
+						</motion.p>
+						<motion.h3
+							initial={{ y: -200, opacity: 0 }}
+							animate={{ y: 0, opacity: 1 }}
+							className='mb-5 text-white main-head text-bg'>
+							{mainHead}
+						</motion.h3>
 					</div>
 				</div>
 			</div>

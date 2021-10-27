@@ -17,7 +17,6 @@ const HomeHero = () => {
 										initial={{ y: -200, opacity: 0 }}
 										animate={{ y: 0, opacity: 1 }}
 										className='hero-header'>
-										{' '}
 										{content.title}
 									</motion.h1>
 									<motion.p
@@ -28,18 +27,24 @@ const HomeHero = () => {
 									</motion.p>
 									<Link href={`${content.firstButtonLink}`}>
 										<motion.a
-											initial={{ scale: '80%' }}
-											animate={{ scale: '100%' }}
-											whileHover={{ scale: '98%' }}
+											whileHover={{ y: -5 }}
+											transition={{
+												delay: 1,
+												x: { type: 'spring', stiffness: 100 },
+												default: { duration: 0.3 },
+											}}
 											className='button large fifth home-hero-button'>
 											{content.firstButton}{' '}
 										</motion.a>
 									</Link>
 									<Link href={`${content.secondButtonLink}`}>
 										<motion.a
-											initial={{ scale: '80%' }}
-											animate={{ scale: '100%' }}
-											whileHover={{ scale: '98%' }}
+											whileHover={{ y: -5 }}
+											transition={{
+												delay: 1,
+												x: { type: 'spring', stiffness: 100 },
+												default: { duration: 0.3 },
+											}}
 											className='button large fourth home-hero-button-two'>
 											{content.secondButton}
 										</motion.a>

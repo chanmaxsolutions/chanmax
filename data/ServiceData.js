@@ -5,7 +5,8 @@ const ServiceData = [
 	{
 		id: 1,
 		bgColor: '#ff3841',
-		image: '/images/gallery-69-31.jpg',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635273818/services-bg-images/web-app_gdui2h.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634926989/services-icon/web-application-development_cmv1bo.svg',
 		title: 'Web Application Development',
 		homeTitle: 'Web Application',
@@ -38,7 +39,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/gallery-69-31.jpg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635276254/services-bg-images/service-singles/Innovate_and_Compete_h0znby.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -74,7 +75,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635276464/services-bg-images/service-singles/Future_proof_your_business_suzwu1.webp'
 						/>
 					</div>
 				</div>
@@ -83,7 +84,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635276671/services-bg-images/service-singles/Experts_with_Experience_tdugbq.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -119,7 +120,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635276779/services-bg-images/service-singles/Accelerate_your_transition_tpj0li.webp'
 						/>
 					</div>
 				</div>
@@ -128,7 +129,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635276973/services-bg-images/service-singles/Enhanced_User_Experience_ug96wb.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -164,7 +165,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635277145/services-bg-images/service-singles/Complexity_to_Simplicity_rah8tb.webp'
 						/>
 					</div>
 				</div>
@@ -212,7 +213,8 @@ const ServiceData = [
 	{
 		id: 2,
 		bgColor: '#34c759',
-		image: '/images/10_thumb.jpg',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635272364/services-bg-images/android-app-development_obca3r.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634926757/services-icon/Android-application-development_xx2kpm.svg',
 		title: 'Android Application Development',
 		homeTitle: 'Android Application',
@@ -248,7 +250,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635277471/services-bg-images/service-singles/Market_winning_apps_l27eli.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -285,7 +287,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635277713/services-bg-images/service-singles/Innovate_Experiences_e8xyfa.webp'
 						/>
 					</div>
 				</div>
@@ -294,7 +296,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635277860/services-bg-images/service-singles/Minimalist_and_Simple_upfkqs.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -331,7 +333,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635278076/services-bg-images/service-singles/User-centered_solutions_xeysep.webp'
 						/>
 					</div>
 				</div>
@@ -340,7 +342,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635278191/services-bg-images/service-singles/Technological_experts_ls2l1x.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -378,7 +380,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635278383/services-bg-images/service-singles/Streamlined_development_process_befzjz.webp'
 						/>
 					</div>
 				</div>
@@ -427,7 +429,8 @@ const ServiceData = [
 	{
 		id: 3,
 		bgColor: '#0066ff',
-		image: '/images/10_thumb.jpg',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635271894/services-bg-images/ios-app-development_xkwfst.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634926530/services-icon/ios-application-development_omwg04.svg',
 		title: 'iOS Application Development',
 		homeTitle: 'iOS Application',
@@ -466,7 +469,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635278584/services-bg-images/service-singles/First_and_Fast_bnkcmh.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -501,7 +504,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635278808/services-bg-images/service-singles/Best-in-class_security_lebxfy.webp'
 						/>
 					</div>
 				</div>
@@ -510,7 +513,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635278926/services-bg-images/service-singles/High_ROI_pmbrv6.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -543,7 +546,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635281817/services-bg-images/service-singles/Best_Quality_hw4e16.webp'
 						/>
 					</div>
 				</div>
@@ -552,7 +555,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635282161/services-bg-images/service-singles/Excellent_experiences_lopiax.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -588,7 +591,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635282401/services-bg-images/service-singles/Customized_solutions_wkn3tm.webp'
 						/>
 					</div>
 				</div>
@@ -598,7 +601,7 @@ const ServiceData = [
 						<div class='align-items-center service-data-container-inside'>
 							<div class='col-lg-6'>
 								<h4 class='cm-works-details-margin-title '>
-									Fostering immersive experiences with state of{' '}
+									Fostering immersive experiences with state of
 									<span style='color:#108f64'>art technologies</span>art
 									technologies
 								</h4>
@@ -637,7 +640,8 @@ const ServiceData = [
 	{
 		id: 4,
 		bgColor: '#442a7c',
-		image: '/images/10_thumb.jpg',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635272983/services-bg-images/desktop-app-development_ythbvz.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634926193/services-icon/desktop-application-development_vkjpiy.svg',
 		title: 'Desktop Application Development',
 		homeTitle: 'Desktop Application',
@@ -674,7 +678,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635314186/services-bg-images/service-singles/Swift_Performance_pnybkp.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -708,7 +712,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635314325/services-bg-images/service-singles/Unlock_new_opportunities_mwan9i.webp'
 						/>
 					</div>
 				</div>
@@ -717,7 +721,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635314488/services-bg-images/service-singles/Agile_Scalable_s1w1w1.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -753,7 +757,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635314672/services-bg-images/service-singles/A_complete_ecosystem_kcccyx.webp'
 						/>
 					</div>
 				</div>
@@ -762,7 +766,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635314845/services-bg-images/service-singles/A_talented_pool_of_resources_z6mxlz.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -799,7 +803,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635314985/services-bg-images/service-singles/Maintenance_and_Support_ozrobp.webp'
 						/>
 					</div>
 				</div>
@@ -847,7 +851,8 @@ const ServiceData = [
 	{
 		id: 5,
 		bgColor: '#442a7c',
-		image: '/images/10_thumb.jpg',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635273302/services-bg-images/logo-branding_wgzxzc.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634929314/services-icon/Logo-and-branding_aeflrn.svg',
 		title: 'Logo & Branding',
 		homeTitle: 'Logo & Branding',
@@ -881,7 +886,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635315197/services-bg-images/service-singles/Different_and_unique_ybvplc.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -916,7 +921,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635315536/services-bg-images/service-singles/Timeless_aesthetics_xppd8g.webp'
 						/>
 					</div>
 				</div>
@@ -925,7 +930,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635315650/services-bg-images/service-singles/Attract_attention_instantly_mfvkyj.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -959,7 +964,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635315808/services-bg-images/service-singles/Simple_and_elegant_e2zhdl.webp'
 						/>
 					</div>
 				</div>
@@ -968,7 +973,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635315948/services-bg-images/service-singles/Broadcast_your_brand_value_d1jqto.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -1004,7 +1009,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635316130/services-bg-images/service-singles/Versatile_ul4mue.webp'
 						/>
 					</div>
 				</div>
@@ -1052,7 +1057,8 @@ const ServiceData = [
 	{
 		id: 6,
 		bgColor: '#442a7c',
-		image: '/images/10_thumb.jpg',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635273400/services-bg-images/ui-ux_br0vjw.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634930128/services-icon/UI-UX_ro8lue.svg',
 		title: 'UI/UX Design',
 		homeTitle: 'UI/UX Design',
@@ -1087,7 +1093,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635316568/services-bg-images/service-singles/Extensive_User_Research_c6gaat.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -1122,7 +1128,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635316762/services-bg-images/service-singles/Interactive_Prototypes_apqdfs.webp'
 						/>
 					</div>
 				</div>
@@ -1131,7 +1137,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635316972/services-bg-images/service-singles/Increased_Site_Conversion_gkhdzg.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -1166,7 +1172,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635317112/services-bg-images/service-singles/Simple_and_Modern_wcgcfe.webp'
 						/>
 					</div>
 				</div>
@@ -1175,7 +1181,7 @@ const ServiceData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635317252/services-bg-images/service-singles/Memorable_Experiences_zz7k2z.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -1211,7 +1217,7 @@ const ServiceData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635317468/services-bg-images/service-singles/Robust_Usability_qvudx9.webp'
 						/>
 					</div>
 				</div>

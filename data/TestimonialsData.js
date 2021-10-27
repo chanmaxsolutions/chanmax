@@ -39,13 +39,14 @@ const TestimonialData = [
 
 	{
 		id: 4,
-		image: '/images/10_thumb.jpg',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635325754/testimonials/kevinj_wxja8u.webp',
 		rating: 5,
-		title: ' Web Development',
-		position: ' Web Development',
-		country: 'Sri Lanka',
+		title: ' Kevin J',
+		position: ' Director of Symbioun',
+		country: 'United Kingdom',
 		excerpt:
-			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
+			'I am happy that I chose Chanmax as a preferred partner for our Logo and branding requirements. The quality of work and promptness is exceptional. I am happy to recommend them as a one stop shop for all web, mobile app & UI/UX work.',
 	},
 
 	{

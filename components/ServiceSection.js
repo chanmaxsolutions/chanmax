@@ -13,7 +13,10 @@ const ServiceSection = () => {
 	return (
 		<div>
 			<motion.div
-				whileHover={{ backgroundColor: '#06b67b', color: '#fff' }}
+				whileHover={{
+					backgroundColor: '#06b67b',
+					color: '#fff',
+				}}
 				className='container service-container cm-p5 mt-5 mb-5'>
 				<div className='row justify-content-md-center text-center'>
 					<div className='col-lg-7 align-items-center'>

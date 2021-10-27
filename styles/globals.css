@@ -898,6 +898,7 @@ font-size: 14px;
 .service-row-col-small{
   min-height: 350px;
   background-size: cover;
+  background-position: center center;
   border-radius: 0px;
 }
 
@@ -912,7 +913,7 @@ font-size: 14px;
 
   .service-row-col-small{
     border-radius: 0px !important;
-    min-height: 200px
+    min-height: 250px
   }
   
   .contact-details-box-margin{

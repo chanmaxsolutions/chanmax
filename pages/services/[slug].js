@@ -1,12 +1,12 @@
 /** @format */
 
 import ServiceData from '../../data/ServiceData';
-import HomeCallToAction from '../../components/HomeCallToAction';
 import SEO from '../../components/SEO';
+import CallToActionSingle from './../../components/CallToActionSingle';
 
 const ServiceDetails = ({ ServiceDatas }) => {
 	return (
-		<div>
+		<div className='bg-white'>
 			<SEO title={ServiceDatas.title} />
 			<div
 				className='container-fluid service-details-container-feature-image'
@@ -22,7 +22,7 @@ const ServiceDetails = ({ ServiceDatas }) => {
 				</div>
 			</div>
 
-			<div className='container-fluid bg-white pt-5 pb-5 mb-5'>
+			<div className='container-fluid  pt-5 pb-5 mb-5'>
 				<div className='row justify-content-md-center'>
 					<div className='col-md-10'>
 						{ServiceDatas.body &&
@@ -38,7 +38,7 @@ const ServiceDetails = ({ ServiceDatas }) => {
 					</div>
 				</div>
 			</div>
-			<HomeCallToAction />
+			<CallToActionSingle />
 		</div>
 	);
 };

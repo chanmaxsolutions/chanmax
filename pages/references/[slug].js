@@ -1,13 +1,13 @@
 /** @format */
 
 import WorkData from '../../data/WorkData';
-import HomeCallToAction from '../../components/HomeCallToAction';
 import SEO from '../../components/SEO';
 import Link from 'next/link';
+import CallToActionSingle from '../../components/CallToActionSingle';
 
 const ServiceDetails = ({ WorkDatas }) => {
 	return (
-		<div>
+		<div className='bg-white'>
 			<SEO title={`${WorkDatas.product} | ${WorkDatas.title}`} />
 			<div
 				className='container-fluid service-details-container-feature-image '
@@ -42,7 +42,7 @@ const ServiceDetails = ({ WorkDatas }) => {
 					</div>
 				</div>
 			</div>
-			<HomeCallToAction />
+			<CallToActionSingle />
 		</div>
 	);
 };
