@@ -13,12 +13,12 @@ const Footer = () => {
 			<div className='container  footer-in-container'>
 				<div className='row'>
 					<div className='col-md-3 col-6'>
-						<p className='mb-4 footer-heading'>Company</p>
+						<p className='mb-4 footer-heading'>Menu</p>
 
 						{MenuOneData.map((content, i) => {
 							return (
 								<div key={i}>
-									<Link href='#'>
+									<Link href={content.url}>
 										<a>
 											<p className='footer-menu'>{content.title}</p>
 										</a>

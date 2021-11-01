@@ -18,6 +18,8 @@ const TestimonialCarousel = () => {
 		speed: 200,
 		cssEase: 'linear',
 		autoplaySpeed: 2000,
+		pauseOnHover: true,
+		pauseOnFocus: true,
 
 		responsive: [
 			{
@@ -177,7 +179,7 @@ const TestimonialCarousel = () => {
 												textTransform: 'uppercase',
 												fontWeight: '500',
 											}}>
-											CO- FOUNDER OF OVAMEE PVT LTD
+											Co-founder of Ovamee Pvt Ltd
 										</p>
 										<p
 											className='small'
@@ -207,13 +209,13 @@ const TestimonialCarousel = () => {
 								<div className='card ' style={{ minHeight: '500px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
-											src='/images/testimonial.jpg'
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635325754/testimonials/kevinj_wxja8u.webp'
 											className='testimonials-img '
 											width={100}
 											height={100}
 											alt='...'
 										/>
-										<h4 className=''>Web Development</h4>
+										<h4 className=''> Kevin J</h4>
 										<p
 											style={{
 												fontSize: '11px',
@@ -221,14 +223,108 @@ const TestimonialCarousel = () => {
 												textTransform: 'uppercase',
 												fontWeight: '500',
 											}}>
-											WEB DEVELOPMENT
+											Director of Symbioun
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											United Kingdom
 										</p>
 										<p className='card-text'>
-											We have always known the power of digital, and we've
-											mastered the strategy, tactics, and technology to harness
-											it. Now, other departments have had to embrace the digital
-											transformation that businesses have been talking about for
-											so long.
+											I am happy that I chose Chanmax as a preferred partner for
+											our Logo and branding requirements. The quality of work
+											and promptness is exceptional. I am happy to recommend
+											them as a one stop shop for all web, mobile app & UI/UX
+											work..
+										</p>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div className='row text-center cm-testimonial-m'>
+							<div className='col-lg-12 text-center mt-4 '>
+								<div className='card ' style={{ minHeight: '500px' }}>
+									<div className='card-body text-center testimonial-card'>
+										<Image
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635454640/testimonials/hdo_wjorzt.webp'
+											className='testimonials-img '
+											width={100}
+											height={100}
+											alt='...'
+										/>
+										<h4 className=''> Jesurasa Amirtharaj</h4>
+										<p
+											style={{
+												fontSize: '11px',
+												color: '#108F64',
+												textTransform: 'uppercase',
+												fontWeight: '500',
+											}}>
+											Director of HDO
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											Sri Lanka
+										</p>
+										<p className='card-text'>
+											We have been working with Chanmax since 2019 to up to now,
+											and we are satisfied with their services. We highly
+											recommend choosing them for your next project.
+										</p>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div className='row text-center cm-testimonial-m'>
+							<div className='col-lg-12 text-center mt-4 '>
+								<div className='card ' style={{ minHeight: '500px' }}>
+									<div className='card-body text-center testimonial-card'>
+										<Image
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635454946/testimonials/Mgunz-myu_k95yu7.webp'
+											className='testimonials-img '
+											width={100}
+											height={100}
+											alt='...'
+										/>
+										<h4 className=''> Myu Guna</h4>
+										<p
+											style={{
+												fontSize: '11px',
+												color: '#108F64',
+												textTransform: 'uppercase',
+												fontWeight: '500',
+											}}>
+											Owner of MGUNZ
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											Australia
+										</p>
+										<p className='card-text'>
+											I recently used Chanmax to create my website as part of my
+											rebrand in the business model. These guys were friendly
+											and went above and beyond to ensure my vision was met. I
+											cannot recommend them enough for your next project!
 										</p>
 										<p className='small fw-bold'>
 											(5.0)

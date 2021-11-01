@@ -41,7 +41,7 @@ const ContactDetails = () => {
 							/>
 							<p className='card-title'>Phone</p>
 							<p className='card-text'>
-								<a href='tel:+94756042601'>+94 75 6042 601</a> <br />
+								<a href='tel:+94762025818'>+94 76 2025 818</a> <br />
 								<a href='tel:+94756042601'>+94 75 6042 601</a>
 							</p>
 						</div>

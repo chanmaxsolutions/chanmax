@@ -31,7 +31,7 @@ const TestimonialData = [
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635179640/testimonials/seran_vf1cz3.jpg',
 		rating: 5,
 		title: ' Seran',
-		position: 'Co- founder of Ovamee Pvt Ltd',
+		position: 'Co-founder of Ovamee Pvt Ltd',
 		country: 'Sri Lanka',
 		excerpt:
 			'It was smooth and transparent. The responses we got from these folks ease us to create better outcomes. Good with communication.',
@@ -51,24 +51,26 @@ const TestimonialData = [
 
 	{
 		id: 5,
-		image: '/images/10_thumb.jpg',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635454640/testimonials/hdo_wjorzt.webp',
 		rating: 5,
-		title: ' Web Development',
-		position: ' Web Development',
+		title: 'Jesurasa Amirtharaj		',
+		position: ' Director of HDO',
 		country: 'Sri Lanka',
 		excerpt:
-			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
+			'We have been working with Chanmax since 2019 to up to now, and we are satisfied with their services. We highly recommend choosing them for your next project.',
 	},
 
 	{
 		id: 6,
-		image: '/images/2_thumb.jpg',
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635454946/testimonials/Mgunz-myu_k95yu7.webp',
 		rating: 5,
-		title: ' Web Development',
-		position: ' Web Development',
-		country: 'Sri Lanka',
+		title: ' Myu Guna',
+		position: ' Owner of MGUNZ',
+		country: 'Australia',
 		excerpt:
-			"We have always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.",
+			'I recently used Chanmax to create my website as part of my rebrand in the business model. These guys were friendly and went above and beyond to ensure my vision was met. I cannot recommend them enough for your next project!',
 	},
 ];
 

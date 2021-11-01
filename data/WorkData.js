@@ -9,7 +9,7 @@ const WorkData = [
 		bgImg:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634986593/case-studies/case-study-detail/Noolthettam-case-study_apqrhc.svg',
 		image:
-			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634981700/case-studies/Noolthettam_borppu.jpg',
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635426088/case-studies/Noolthettam-v2_x7pbbz.webp',
 		title: ' A Door to the Digital Knowledge Paradise',
 		slug: 'noolthettam',
 		product: 'NOOLTHETTAM',
@@ -201,7 +201,7 @@ const WorkData = [
 		bgImg:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634988835/case-studies/case-study-detail/mgunz-case-study_idijnf.svg',
 		image:
-			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634980734/case-studies/Mgunz_livnf8.jpg',
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635425366/case-studies/Mgunz-v2_iovewq.webp',
 		title: ' The DJ’s here, get your party started',
 		slug: 'mgunz',
 		product: 'MGUNZ',
@@ -408,7 +408,7 @@ const WorkData = [
 		bgImg:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634985981/case-studies/case-study-detail/case-study-detail-test_a5rtaa.svg',
 		image:
-			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634982201/case-studies/Jobboard_c7odbd.jpg',
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635424869/case-studies/Jobboard-v2_yhmllo.webp',
 		title: ' A minimalist solution to the job world',
 		slug: 'job-board',
 		product: 'Job board',

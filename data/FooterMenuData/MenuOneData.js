@@ -3,19 +3,23 @@
 const MenuOneData = [
 	{
 		id: '1',
-		title: 'menu1',
+		title: 'Services',
+		url: '/services',
 	},
 	{
 		id: '2',
-		title: 'menu1',
+		title: 'References',
+		url: '/references',
 	},
 	{
 		id: '3',
-		title: 'menu1',
+		title: 'About Us',
+		url: '/about',
 	},
 	{
 		id: '4',
-		title: 'menu1',
+		title: 'Contact Us',
+		url: '/contact',
 	},
 ];
 
