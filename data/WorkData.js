@@ -7,7 +7,7 @@ const WorkData = [
 		id: 1,
 		bgColor: '#901513',
 		bgImg:
-			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634986593/case-studies/case-study-detail/Noolthettam-case-study_apqrhc.svg',
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635881813/case-studies/case-study-detail/noolthettam-bg_hbkklr.webp',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635426088/case-studies/Noolthettam-v2_x7pbbz.webp',
 		title: ' A Door to the Digital Knowledge Paradise',
@@ -23,7 +23,7 @@ const WorkData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635834065/case-studies/case-study-detail/noolthettam-mockup_zl2x3i.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -69,7 +69,7 @@ const WorkData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635851288/case-studies/case-study-detail/CHANMAX-mockup_mwdgdp.webp'
 						/>
 					</div>
 				</div>
@@ -78,7 +78,7 @@ const WorkData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635853463/case-studies/case-study-detail/Noolthettam-brand_egxz2y.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -119,7 +119,7 @@ const WorkData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635853592/case-studies/case-study-detail/Noolthettam-books_s05hxb.webp'
 						/>
 					</div>
 				</div>
@@ -128,7 +128,7 @@ const WorkData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635854076/case-studies/case-study-detail/Noolthettam-search_x4k3pl.webp'
 						/>
 					</div>
 					<div class='col-lg-6 work-detail-body-align'>
@@ -187,7 +187,7 @@ const WorkData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635857353/case-studies/case-study-detail/Noolthettam-final_bqxjbm.webp'
 						/>
 					</div>
 				</div>
@@ -199,7 +199,7 @@ const WorkData = [
 		id: 2,
 		bgColor: '#9013FE',
 		bgImg:
-			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634988835/case-studies/case-study-detail/mgunz-case-study_idijnf.svg',
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635882158/case-studies/case-study-detail/mgunz-bg_tmqr2o.webp',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635425366/case-studies/Mgunz-v2_iovewq.webp',
 		title: ' The DJ’s here, get your party started',
@@ -215,7 +215,7 @@ const WorkData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635835143/case-studies/case-study-detail/MGUNZ-mockup_xgdukv.webp'
 							
 							
 						/>
@@ -263,7 +263,7 @@ const WorkData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635851288/case-studies/case-study-detail/CHANMAX-mockup_mwdgdp.webp'
 							
 							
 						/>
@@ -274,7 +274,7 @@ const WorkData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635862529/case-studies/case-study-detail/MGUNZ-final_grme8i.webp'
 							
 							
 						/>
@@ -317,7 +317,7 @@ const WorkData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635864471/case-studies/case-study-detail/MGUNZ-exposure_zdlm0y.webp'
 							
 							
 						/>
@@ -328,7 +328,7 @@ const WorkData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635864058/case-studies/case-study-detail/MGUNZ-booking_dyuynq.webp'
 							
 							
 						/>
@@ -392,7 +392,7 @@ const WorkData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635860054/case-studies/case-study-detail/MGUNZ-final_hpweqh.webp'
 							
 							
 						/>
@@ -406,12 +406,12 @@ const WorkData = [
 		id: 3,
 		bgColor: '#006AFF',
 		bgImg:
-			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634985981/case-studies/case-study-detail/case-study-detail-test_a5rtaa.svg',
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635882625/case-studies/case-study-detail/jobboard-bg_quvanv.webp',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635424869/case-studies/Jobboard-v2_yhmllo.webp',
 		title: ' A minimalist solution to the job world',
 		slug: 'job-board',
-		product: 'Job board',
+		product: 'JOB BOARD',
 		homeExcerpt:
 			'We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.',
 		excerpt:
@@ -422,7 +422,7 @@ const WorkData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635845064/case-studies/case-study-detail/Jobboard-mockup_ysqlx1.webp'
 							
 							
 						/>
@@ -468,7 +468,7 @@ const WorkData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635851288/case-studies/case-study-detail/CHANMAX-mockup_mwdgdp.webp'
 							
 							
 						/>
@@ -479,7 +479,7 @@ const WorkData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635868130/case-studies/case-study-detail/jobboard-twoinone_ofsi85.webp'
 							
 							
 						/>
@@ -522,7 +522,7 @@ const WorkData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635869214/case-studies/case-study-detail/jobboard-search_b1x5ej.webp'
 							
 							
 						/>
@@ -533,7 +533,7 @@ const WorkData = [
 					<div class='col-lg-6 '>
 						<Image
 							class='work-grid-detail-image'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635881403/case-studies/case-study-detail/jobboard-experience_ciahvn.webp'
 							
 							
 						/>
@@ -583,7 +583,7 @@ const WorkData = [
 					<div class='col-lg-6 order-lg-2 order-1'>
 						<Image
 							class='work-grid-detail-image float-end'
-							src='/images/testing-squre.jpeg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635857831/case-studies/case-study-detail/Jobboard-final_kwn4vm.webp'
 							
 							
 						/>

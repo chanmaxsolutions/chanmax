@@ -255,7 +255,7 @@ const TestimonialCarousel = () => {
 								<div className='card ' style={{ minHeight: '500px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
-											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635454640/testimonials/hdo_wjorzt.webp'
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635882942/testimonials/hdo_mdhrkp.webp'
 											className='testimonials-img '
 											width={100}
 											height={100}
@@ -325,6 +325,97 @@ const TestimonialCarousel = () => {
 											rebrand in the business model. These guys were friendly
 											and went above and beyond to ensure my vision was met. I
 											cannot recommend them enough for your next project!
+										</p>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div className='row text-center cm-testimonial-m'>
+							<div className='col-lg-12 text-center mt-4 '>
+								<div className='card ' style={{ minHeight: '500px' }}>
+									<div className='card-body text-center testimonial-card'>
+										<Image
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635883501/testimonials/ai-4-life_ulsp1t.webp'
+											className='testimonials-img '
+											width={100}
+											height={100}
+											alt='...'
+										/>
+										<h4 className=''> Jathujan Mahendran</h4>
+										<p
+											style={{
+												fontSize: '11px',
+												color: '#108F64',
+												textTransform: 'uppercase',
+												fontWeight: '500',
+											}}>
+											Co-founder of Ai 4 Life
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											Sri Lanka
+										</p>
+										<p className='card-text'>
+											We recently worked with Chanmax on a logo design project
+											for our startup AI 4 LIFE, and their designs were amazing.
+											It fulfilled our expectations.
+										</p>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div className='row text-center cm-testimonial-m'>
+							<div className='col-lg-12 text-center mt-4 '>
+								<div className='card ' style={{ minHeight: '500px' }}>
+									<div className='card-body text-center testimonial-card'>
+										<Image
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635884220/testimonials/sajeev_udd8cg.webp'
+											className='testimonials-img '
+											width={100}
+											height={100}
+											alt='...'
+										/>
+										<h4 className=''> Sajeev Punithakaran</h4>
+										<p
+											style={{
+												fontSize: '11px',
+												color: '#108F64',
+												textTransform: 'uppercase',
+												fontWeight: '500',
+											}}>
+											Co-founder of Ai 4 Life
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											Sri Lanka
+										</p>
+										<p className='card-text'>
+											First of all, I would like to thank them for the excellent
+											logo they created for us. It has been designed very neatly
+											than we expected. They put their maximum effort into
+											creating the logo according to our needs. Also, we
+											frequently receive positive comments from lots of people
+											who look at our logo.
 										</p>
 										<p className='small fw-bold'>
 											(5.0)

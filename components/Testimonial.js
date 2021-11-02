@@ -23,7 +23,7 @@ const Testimonial = () => {
 				</div>
 			</div>
 			<div className='row'>
-				{shuffled.map((content, i) => {
+				{shuffled.slice(0, 6).map((content, i) => {
 					return (
 						<div key={i} className='col-lg-4 text-center mt-4'>
 							<div className='card ' style={{ height: '100%' }}>

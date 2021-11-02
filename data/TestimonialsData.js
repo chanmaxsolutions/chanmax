@@ -52,7 +52,7 @@ const TestimonialData = [
 	{
 		id: 5,
 		image:
-			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635454640/testimonials/hdo_wjorzt.webp',
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635882942/testimonials/hdo_mdhrkp.webp',
 		rating: 5,
 		title: 'Jesurasa Amirtharaj		',
 		position: ' Director of HDO',
@@ -71,6 +71,30 @@ const TestimonialData = [
 		country: 'Australia',
 		excerpt:
 			'I recently used Chanmax to create my website as part of my rebrand in the business model. These guys were friendly and went above and beyond to ensure my vision was met. I cannot recommend them enough for your next project!',
+	},
+
+	{
+		id: 7,
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635883501/testimonials/ai-4-life_ulsp1t.webp',
+		rating: 5,
+		title: 'Jathujan Mahendran',
+		position: ' Co-founder of Ai 4 Life',
+		country: 'Sri Lanka',
+		excerpt:
+			'We recently worked with Chanmax on a logo design project for our startup AI 4 LIFE, and their designs were amazing. It fulfilled our expectations.',
+	},
+
+	{
+		id: 8,
+		image:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635884220/testimonials/sajeev_udd8cg.webp',
+		rating: 5,
+		title: 'Sajeev Punithakaran',
+		position: ' Co-founder of Ai 4 Life',
+		country: 'Sri Lanka',
+		excerpt:
+			'First of all, I would like to thank them for the excellent logo they created for us. It has been designed very neatly than we expected. They put their maximum effort into creating the logo according to our needs. Also, we frequently receive positive comments from lots of people who look at our logo.',
 	},
 ];
 
