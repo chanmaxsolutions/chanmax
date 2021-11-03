@@ -2,15 +2,21 @@
 
 import Image from 'next/image';
 import TestimonialData from './../data/TestimonialsData';
+import { useEffect, useState } from 'react';
 
 const Testimonial = () => {
-	const shuffled = TestimonialData.map((value) => ({
-		value,
-		sort: Math.random(),
-	}))
-		.sort((a, b) => a.sort - b.sort)
-		.map(({ value }) => value);
+	const [shuffled, setShuffled] = useState([]);
 
+	useEffect(() => {
+		setShuffled(
+			TestimonialData.map((value) => ({
+				value,
+				sort: Math.random(),
+			}))
+				.sort((a, b) => a.sort - b.sort)
+				.map(({ value }) => value),
+		);
+	}, []);
 	return (
 		<div className='container mb-5 to-hide-and-show-testimonial'>
 			<div className='row justify-content-md-center text-center'>

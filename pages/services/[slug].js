@@ -13,8 +13,7 @@ const ServiceDetails = ({ ServiceDatas }) => {
 				style={{ backgroundColor: `${ServiceDatas.bgColor}` }}>
 				<div
 					className='row blog-details-row text-center '
-					// style={{ backgroundImage: `url(${ServiceDatas.image})` }}
-				>
+					style={{ backgroundImage: `url(${ServiceDatas.bgImg})` }}>
 					<div className='col-lg-6 page-header-margin-top'>
 						<p className='sub-head text-white'>WE DO</p>
 						<h3 className='pb-5 text-white main-head '>{ServiceDatas.title}</h3>

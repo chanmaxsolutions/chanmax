@@ -5,6 +5,8 @@ const ServiceData = [
 	{
 		id: 1,
 		bgColor: '#ff3841',
+		bgImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635943350/services-bg-images/service-web-development-bg_iu5gzv.webp',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635273818/services-bg-images/web-app_gdui2h.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634926989/services-icon/web-application-development_cmv1bo.svg',
@@ -213,6 +215,8 @@ const ServiceData = [
 	{
 		id: 2,
 		bgColor: '#34c759',
+		bgImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635945147/services-bg-images/service-android-development-bg_wrb2tf.webp',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635272364/services-bg-images/android-app-development_obca3r.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634926757/services-icon/Android-application-development_xx2kpm.svg',

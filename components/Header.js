@@ -62,11 +62,10 @@ export default function Header(props) {
 									<p className='site-logo'>
 										<Link href='/'>
 											<a>
-												{' '}
 												<img
 													src='/images/svg/logo.svg'
 													alt='CHANMAX TECHNOLOGIES'
-												/>{' '}
+												/>
 											</a>
 										</Link>
 									</p>
@@ -92,8 +91,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/'>
 													<a>
-														{' '}
-														<span>Home</span>{' '}
+														<span>Home</span>
 													</a>
 												</Link>
 											</li>
@@ -104,8 +102,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/services'>
 													<a>
-														{' '}
-														<span>Services</span>{' '}
+														<span>Services</span>
 													</a>
 												</Link>
 											</li>
@@ -116,8 +113,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/references'>
 													<a>
-														{' '}
-														<span>References</span>{' '}
+														<span>References</span>
 													</a>
 												</Link>
 											</li>
@@ -128,8 +124,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/about'>
 													<a>
-														{' '}
-														<span>About us</span>{' '}
+														<span>About us</span>
 													</a>
 												</Link>
 											</li>
@@ -140,8 +135,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/contact'>
 													<a>
-														{' '}
-														<span>Contact us</span>{' '}
+														<span>Contact us</span>
 													</a>
 												</Link>
 											</li>
@@ -152,8 +146,8 @@ export default function Header(props) {
 												}`}>
 												<Link href='/blog'>
 													<a>
-														{' '}
-														<span>Blog</span>{' '}
+														
+														<span>Blog</span>
 													</a>
 												</Link>
 											</li> */}
@@ -164,8 +158,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/get-quote'>
 													<a className='button'>
-														{' '}
-														<span>Get a Quote</span>{' '}
+														<span>Get a Quote</span>
 													</a>
 												</Link>
 											</li>
@@ -194,11 +187,10 @@ export default function Header(props) {
 									<p className='site-logo'>
 										<Link href='/'>
 											<a>
-												{' '}
 												<img
 													src='/images/svg/logo-white.svg'
 													alt='CHANMAX TECHNOLOGIES'
-												/>{' '}
+												/>
 											</a>
 										</Link>
 									</p>
@@ -224,8 +216,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/'>
 													<a>
-														{' '}
-														<span>Home</span>{' '}
+														<span>Home</span>
 													</a>
 												</Link>
 											</li>
@@ -236,8 +227,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/services'>
 													<a>
-														{' '}
-														<span>Services</span>{' '}
+														<span>Services</span>
 													</a>
 												</Link>
 											</li>
@@ -248,8 +238,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/references'>
 													<a>
-														{' '}
-														<span>References</span>{' '}
+														<span>References</span>
 													</a>
 												</Link>
 											</li>
@@ -260,8 +249,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/about'>
 													<a>
-														{' '}
-														<span>About us</span>{' '}
+														<span>About us</span>
 													</a>
 												</Link>
 											</li>
@@ -272,8 +260,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/contact'>
 													<a>
-														{' '}
-														<span>Contact us</span>{' '}
+														<span>Contact us</span>
 													</a>
 												</Link>
 											</li>
@@ -284,8 +271,8 @@ export default function Header(props) {
 												}`}>
 												<Link href='/blog'>
 													<a>
-														{' '}
-														<span>Blog</span>{' '}
+														
+														<span>Blog</span>
 													</a>
 												</Link>
 											</li> */}
@@ -296,8 +283,7 @@ export default function Header(props) {
 												}`}>
 												<Link href='/get-quote'>
 													<a className='button fourth'>
-														{' '}
-														<span>Get a Quote</span>{' '}
+														<span>Get a Quote</span>
 													</a>
 												</Link>
 											</li>
