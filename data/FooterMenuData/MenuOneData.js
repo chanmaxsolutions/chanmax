@@ -2,24 +2,24 @@
 
 const MenuOneData = [
 	{
-		id: '1',
-		title: 'Services',
-		url: '/services',
-	},
-	{
-		id: '2',
-		title: 'References',
-		url: '/references',
-	},
-	{
-		id: '3',
+		id: 1,
 		title: 'About Us',
 		url: '/about',
 	},
 	{
-		id: '4',
+		id: 2,
+		title: 'References',
+		url: '/references',
+	},
+	{
+		id: 3,
 		title: 'Contact Us',
 		url: '/contact',
+	},
+	{
+		id: 4,
+		title: 'Get a Quote',
+		url: 'get-quote',
 	},
 ];
 

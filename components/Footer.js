@@ -13,7 +13,7 @@ const Footer = () => {
 			<div className='container  footer-in-container'>
 				<div className='row'>
 					<div className='col-md-3 col-6'>
-						<p className='mb-4 footer-heading'>Menu</p>
+						<p className='mb-4 footer-heading'>Company</p>
 
 						{MenuOneData.map((content, i) => {
 							return (
@@ -29,12 +29,12 @@ const Footer = () => {
 					</div>
 
 					<div className='col-md-3 col-6'>
-						<p className='mb-4 footer-heading'>Company</p>
+						<p className='mb-4 footer-heading'>Services</p>
 
-						{MenuTwoData.map((content, i) => {
+						{MenuThreeData.map((content, i) => {
 							return (
 								<div key={i}>
-									<Link href='#'>
+									<Link href={content.url}>
 										<a>
 											<p className='footer-menu'>{content.title}</p>
 										</a>
@@ -45,12 +45,12 @@ const Footer = () => {
 					</div>
 
 					<div className='col-md-3 footer-third-menu'>
-						<p className='mb-4 footer-heading'>Company</p>
+						<p className='mb-4 footer-heading'>Case Studies</p>
 
-						{MenuThreeData.map((content, i) => {
+						{MenuTwoData.map((content, i) => {
 							return (
 								<div key={i}>
-									<Link href='#'>
+									<Link href={content.url}>
 										<a>
 											<p className='footer-menu'>{content.title}</p>
 										</a>

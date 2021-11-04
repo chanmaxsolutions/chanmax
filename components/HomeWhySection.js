@@ -38,8 +38,10 @@ const HomeWhySection = () => {
 	// }, [inView]);
 	return (
 		<div>
-			<div className='container'>
-				<div className='row'>
+			<motion.div
+				whileHover={{ backgroundColor: '#FFCA38' }}
+				className='container mt-5'>
+				<div className='row '>
 					<div className='col-lg-5 cm-p5'>
 						{HomeWhySectionData.map((content, i) => {
 							return (
@@ -58,15 +60,17 @@ const HomeWhySection = () => {
 							);
 						})}
 					</div>
-					<motion.div animate={animation2} className='col-lg-7'>
-						{/* <Image
-							src='/images/—Pngtree—hand painted line drawing financial_3891998.png'
-							width={600}
-							height={600}
-						/> */}
+					<motion.div
+						animate={animation2}
+						className='col-lg-7 text-center cm-why-us-block-img'>
+						<Image
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636062830/Home/home-why-we-want_rhgcpp.svg'
+							width={800}
+							height={500}
+						/>
 					</motion.div>
 				</div>
-			</div>
+			</motion.div>
 		</div>
 	);
 };

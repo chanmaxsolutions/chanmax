@@ -433,6 +433,8 @@ const ServiceData = [
 	{
 		id: 3,
 		bgColor: '#0066ff',
+		bgImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635957897/services-bg-images/service-ios-development-bg_bspned.webp',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635271894/services-bg-images/ios-app-development_xkwfst.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634926530/services-icon/ios-application-development_omwg04.svg',
@@ -643,7 +645,9 @@ const ServiceData = [
 
 	{
 		id: 4,
-		bgColor: '#442a7c',
+		bgColor: '#FF3C00',
+		bgImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635966105/services-bg-images/service-desktop-development-bg_aqmnvz.webp',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635272983/services-bg-images/desktop-app-development_ythbvz.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634926193/services-icon/desktop-application-development_vkjpiy.svg',
@@ -854,7 +858,9 @@ const ServiceData = [
 
 	{
 		id: 5,
-		bgColor: '#442a7c',
+		bgColor: '#4221a9',
+		bgImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635966821/services-bg-images/service-logo-branding-bg_xa8vke.webp',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635273302/services-bg-images/logo-branding_wgzxzc.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634929314/services-icon/Logo-and-branding_aeflrn.svg',
@@ -1060,7 +1066,9 @@ const ServiceData = [
 
 	{
 		id: 6,
-		bgColor: '#442a7c',
+		bgColor: '#0CCA9D',
+		bgImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635967194/services-bg-images/service-uiux-design-bg_gibjqb.webp',
 		image:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635273400/services-bg-images/ui-ux_br0vjw.webp',
 		icon: 'https://res.cloudinary.com/dem8lqxhj/image/upload/v1634930128/services-icon/UI-UX_ro8lue.svg',
