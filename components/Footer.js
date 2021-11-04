@@ -29,7 +29,7 @@ const Footer = () => {
 					</div>
 
 					<div className='col-md-3 col-6'>
-						<p className='mb-4 footer-heading'>Services</p>
+						<p className='mb-4 footer-heading'>We build</p>
 
 						{MenuThreeData.map((content, i) => {
 							return (

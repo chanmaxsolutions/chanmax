@@ -3,17 +3,17 @@
 const MenuThreeData = [
 	{
 		id: 1,
-		title: 'Web App Development',
+		title: 'Web App',
 		url: '/services/web-application',
 	},
 	{
 		id: 2,
-		title: 'iOS App Development',
+		title: 'iOS App',
 		url: '/services/ios-application',
 	},
 	{
 		id: 3,
-		title: 'Android App Development',
+		title: 'Android App',
 		url: '/services/android-application',
 	},
 	{
