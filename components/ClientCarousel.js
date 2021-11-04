@@ -33,7 +33,7 @@ const ClientCarousel = () => {
 		infinite: true,
 		lazyLoad: true,
 		speed: 500,
-		slidesToShow: 6,
+		slidesToShow: 5,
 		slidesToScroll: 3,
 		initialSlide: 0,
 		autoplay: true,
@@ -84,106 +84,106 @@ const ClientCarousel = () => {
 				<Slider {...settings}>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/valvuthyam_b1fjxh.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/upcycle_nuxhb0.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/space_nfbgio.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761308/paathai_bbc88z.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/paragon_vqlmjd.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/ovamee_qxhrcm.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/noolthettam_xjnsda.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/jb_pqjhiz.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/iway_fabwuy.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/hitbuys_iv1szp.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/hdo_lrzcvj.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/dreamart_omsxih.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/djmgunz_twfah8.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/betels_hhn4is.svg'
 						/>
 					</div>
 					<div>
 						<Image
-							width={174}
-							height={32}
+							width={261}
+							height={48}
 							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/bb_viv2y3.svg'
 						/>
 					</div>

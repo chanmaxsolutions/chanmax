@@ -42,15 +42,7 @@ const FeatureProject = () => {
 							</div>
 							<div className='col-lg-6 d-flex align-items-center'>
 								<div>
-									<p
-										className='sub-head'
-										style={{
-											backgroundColor: '#fff',
-											display: 'inline-block',
-											padding: '3px 8px',
-										}}>
-										{content.product}
-									</p>
+									<p className='sub-head sub-head-bg'>{content.product}</p>
 									<h3 className='main-head'>{content.title}</h3>
 									<p className='card-text'>{content.homeExcerpt}</p>
 									<Link href={`/references/${content.slug}`}>

@@ -40,7 +40,7 @@ const HomeWhySection = () => {
 		<div>
 			<motion.div
 				whileHover={{ backgroundColor: '#FFCA38' }}
-				className='container mt-5'>
+				className='container cm-whu-us-block-mt'>
 				<div className='row '>
 					<div className='col-lg-5 cm-p5'>
 						{HomeWhySectionData.map((content, i) => {
