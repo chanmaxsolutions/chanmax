@@ -4,7 +4,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ServiceData from './../data/ServiceData';
 import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
 
 const ServiceSection = () => {
 	const shuffled = ServiceData.map((value) => ({ value, sort: Math.random() }))
