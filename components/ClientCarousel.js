@@ -2,29 +2,8 @@
 
 import Slider from 'react-slick';
 import Image from 'next/image';
-// import { motion, useAnimation } from 'framer-motion';
-// import { useInView } from 'react-intersection-observer';
-// import { useEffect } from 'react';
 
 const ClientCarousel = () => {
-	// const { ref, inView } = useInView({
-	// 	threshold: 0.9,
-	// });
-	// const animation = useAnimation();
-
-	// useEffect(() => {
-	// 	if (inView) {
-	// 		animation.start({
-	// 			opacity: 1,
-	// 		});
-	// 	}
-	// 	if (!inView) {
-	// 		animation.start({
-	// 			opacity: 0,
-	// 		});
-	// 	}
-
-	// 	console.log(inView);
 	// }, [inView]);
 
 	var settings = {
