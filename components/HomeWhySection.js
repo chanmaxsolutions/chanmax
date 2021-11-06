@@ -64,7 +64,7 @@ const HomeWhySection = () => {
 						animate={animation2}
 						className='col-lg-7 text-center cm-why-us-block-img'>
 						<Image
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636062830/Home/home-why-we-want_rhgcpp.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636062830/Home/home-why-we-want_rhgcpp.webp'
 							width={800}
 							height={500}
 						/>
