@@ -7,18 +7,9 @@ import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
 const ServiceSection = () => {
-	const [shuffled, setShuffled] = useState([]);
-
-	useEffect(() => {
-		setShuffled(
-			ServiceData.map((value) => ({
-				value,
-				sort: Math.random(),
-			}))
-				.sort((a, b) => a.sort - b.sort)
-				.map(({ value }) => value),
-		);
-	}, []);
+	const shuffled = ServiceData.map((value) => ({ value, sort: Math.random() }))
+		.sort((a, b) => a.sort - b.sort)
+		.map(({ value }) => value);
 
 	return (
 		<div>

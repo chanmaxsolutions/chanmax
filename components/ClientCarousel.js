@@ -4,8 +4,6 @@ import Slider from 'react-slick';
 import Image from 'next/image';
 
 const ClientCarousel = () => {
-	// }, [inView]);
-
 	var settings = {
 		dots: false,
 		arrows: false,
