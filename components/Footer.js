@@ -61,7 +61,7 @@ const Footer = () => {
 					</div>
 
 					<div className='col-md-3'>
-						<p className='mb-4 footer-heading'>Be in Touch</p>
+						<p className='mb-4 footer-heading ft-menu-mb-mt'>Be in Touch</p>
 						<NewsLetter />
 
 						<div className='footer-social-icons'>

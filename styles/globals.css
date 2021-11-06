@@ -404,16 +404,16 @@ div{
 
 
 .home-team-container{
-  background-image: url(/images/3.jpg);
   background-size: cover;
+  background-color: #1a1c1ff5;
   min-height: 400px;
   position: relative;
 }
 
 
 .home-team-container-row{
+  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/v1636067019/Home/home-team-bg_hjds1z.svg);
   position: absolute;
-  background-color: #1a1c1ff5;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -1075,13 +1075,23 @@ font-size: 14px;
   margin-top:3rem!important
 }
 
-@media (max-width: 980px) {
+.ft-menu-mb-mt{
+  margin-top:0px;
+}
+
+
+
+@media (max-width: 750px) {
   .cm-why-us-block-img{
     margin-top:10px !important;
   }
 
   .cm-whu-us-block-mt{
     margin-top:0px !important
+  }
+
+  .ft-menu-mb-mt{
+    margin-top:15px;
   }
 }
 
