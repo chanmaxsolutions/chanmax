@@ -492,8 +492,8 @@ cursor: pointer;
 
 
 .home-call-to-action-container{
+  background-color: #06b67be7;
   min-height: 300px;
-  background-image: url(/images/3.jpg);
   background-size: cover;
   position: relative;
   border-radius: 0px;
@@ -501,7 +501,7 @@ cursor: pointer;
 
 .home-call-to-action-container-row{
   position: absolute;
-  background-color: #06b67be7;
+  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/c_scale,h_130/v1636190198/Home/home-call-min_d4bvez.svg);
   background-size: cover;
   height: 100%;
   width: 100%;
