@@ -412,7 +412,7 @@ div{
 
 
 .home-team-container-row{
-  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/v1636067019/Home/home-team-bg_hjds1z.webp);
+  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/v1636067019/Home/home-team-bg_hjds1z.svg);
   position: absolute;
   background-size: cover;
   height: 100%;
@@ -501,7 +501,7 @@ cursor: pointer;
 
 .home-call-to-action-container-row{
   position: absolute;
-  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/c_scale,h_300/v1636190198/Home/home-call-min_d4bvez.webp);
+  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/c_scale,h_75/v1636190198/Home/home-call-min_d4bvez.svg);
   background-size: cover;
   height: 100%;
   width: 100%;
