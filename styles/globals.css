@@ -501,7 +501,7 @@ cursor: pointer;
 
 .home-call-to-action-container-row{
   position: absolute;
-  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/c_scale,h_75/v1636190198/Home/home-call-min_d4bvez.svg);
+  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/o_10/v1636190198/Home/home-call-min_d4bvez.svg);
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -1079,7 +1079,21 @@ font-size: 14px;
   margin-top:0px;
 }
 
+.cm-404{
+  font-size:120px;
+  font-weight: 900;
+  color: #06B67B;
+}
 
+.cm-thank{
+  font-size:90px;
+  font-weight: 900;
+  color: #06B67B;
+}
+
+.error-page-height{
+  height: 80vh;
+}
 
 @media (max-width: 750px) {
   .cm-why-us-block-img{
@@ -1093,5 +1107,16 @@ font-size: 14px;
   .ft-menu-mb-mt{
     margin-top:15px;
   }
+  .cm-404{
+    font-size:100px;
+  }
+  .cm-thank{
+    font-size:60px;
+  }
+
+  .error-page-height{
+    height: 100vh;
+  }
+  
 }
 

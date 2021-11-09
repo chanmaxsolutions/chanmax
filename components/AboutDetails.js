@@ -5,7 +5,7 @@ const AboutDetails = () => {
 	return (
 		<div className='container pb-5'>
 			<div className='row justify-content-md-center'>
-				<div className='col-md-9 cm-p5 border-radius'>
+				<div className='col-md-7 border-radius'>
 					<h3>Our Story</h3>
 					<p>
 						In the dawn of 2018, the foundation for Chanmax Technologies was
@@ -15,23 +15,37 @@ const AboutDetails = () => {
 						corners in the software industry, he positioned himself in creative
 						designing and frontend development. Soon, he launched his Facebook
 						Page and immediately kicked off working on graphic designing and
-						WordPress development projects. In 2021, he registered Chanmax
-						Technologies as a full-fledged software development company
-						committed to providing lightning-fast development services without
-						compromising quality. He found a pool of remarkably talented and
-						passionate innovators and set out on a game-changing journey
-						building the best in class software solutions. Today we are working
-						on numerous projects and have also partnered up with clients from
-						more than 5 countries.
+						WordPress development projects.
+					</p>
+					<Image
+						src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636452346/sample.jpg'
+						width='800'
+						height='400'
+					/>
+					<p>
+						In 2021, he registered Chanmax Technologies as a full-fledged
+						software development company committed to providing lightning-fast
+						development services without compromising quality. He found a pool
+						of remarkably talented and passionate innovators and set out on a
+						game-changing journey building the best in class software solutions.
+						Today we are working on numerous projects and have also partnered up
+						with clients from more than 5 countries.
 					</p>
 
-					<h3>Our Works</h3>
+					<h3 className='mt-4'>Our Works</h3>
 					<p>
 						We are a zealous and dedicated team striving for the speedy
 						development of UX-optimized applications. Passion in our work puts
 						perfection into our deliverables. We empower innovative solutions
 						yielding the power of modern technologies and high-end tools for
 						impactful results.
+					</p>
+
+					<h3 className='mt-4'>Our Process</h3>
+					<p>
+						We adopt a streamlined agile software development methodology to
+						entertain the growing needs of our clients and deliver results to
+						the utmost satisfaction.
 					</p>
 
 					<div className='row text-center'>

@@ -90,11 +90,7 @@ const ContactForm = () => {
 							placeholder='Message'
 							rows='3'
 							required></textarea>
-						{/* <input
-                            type="hidden"
-                            name="_redirect"
-                            value="http://localhost:4000/services"
-                        /> */}
+
 						<input
 							type='hidden'
 							name='_cc'
@@ -103,7 +99,7 @@ const ContactForm = () => {
 						<input
 							type='hidden'
 							name='_next'
-							value='https://chanmax-io-new.vercel.app'
+							value='http://localhost:4000/contact-thanks'
 						/>
 						<input type='hidden' name='_captcha' value='false' />
 						<input

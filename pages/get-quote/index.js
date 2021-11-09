@@ -128,7 +128,7 @@ function GetQuote() {
 
 		postService('https://formsubmit.co/admin@chanmax.io', form_data)
 			.then(() => {
-				router.push('/get-quote-thankyou');
+				router.push('/quote-thanks');
 			})
 			.catch((err) => {
 				console.log(err);
