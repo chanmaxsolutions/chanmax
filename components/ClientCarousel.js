@@ -63,77 +63,77 @@ const ClientCarousel = () => {
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/valvuthyam_b1fjxh.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/client-logos/valvuthyam_b1fjxh.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/upcycle_nuxhb0.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/client-logos/upcycle_nuxhb0.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/space_nfbgio.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/client-logos/space_nfbgio.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761308/paathai_bbc88z.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761308/client-logos/paathai_bbc88z.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/paragon_vqlmjd.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/client-logos/paragon_vqlmjd.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/ovamee_qxhrcm.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/client-logos/ovamee_qxhrcm.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/noolthettam_xjnsda.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/client-logos/noolthettam_xjnsda.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/jb_pqjhiz.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/client-logos/jb_pqjhiz.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/iway_fabwuy.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761303/client-logos/iway_fabwuy.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/hitbuys_iv1szp.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/client-logos/hitbuys_iv1szp.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/hdo_lrzcvj.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761301/client-logos/hdo_lrzcvj.svg'
 						/>
 					</div>
 					<div>

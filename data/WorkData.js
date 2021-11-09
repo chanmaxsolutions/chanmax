@@ -159,25 +159,25 @@ const WorkData = [
 								</h4>
 								<ul class='work-details-list'>
 									<li class='text-center'>
-										<Image src='/images/svg/ai.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/technologies-tools/ai_cg6mfs.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/xd.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/technologies-tools/xd_axxb4j.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/ps.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761308/technologies-tools/ps_gzyt7i.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/wp.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761310/technologies-tools/wp_h6l4uv.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/elementor.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/elementor_gwx9ll.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/ga.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/ga_dqknx8.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/miro.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761305/technologies-tools/miro_azbfpx.svg' />
 									</li>
 								</ul>
 							</div>
@@ -361,13 +361,13 @@ const WorkData = [
 								</h4>
 								<ul class='work-details-list'>
 									<li class='text-center'>
-										<Image src='/images/svg/ai.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/technologies-tools/ai_cg6mfs.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/xd.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/technologies-tools/xd_axxb4j.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/ps.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761308/technologies-tools/ps_gzyt7i.svg' />
 									</li>
 									<li class='text-center'>
 										<Image src='/images/svg/wp.svg' />
@@ -376,13 +376,13 @@ const WorkData = [
 										<Image src='/images/svg/elementor.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/ga.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/ga_dqknx8.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/miro.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761305/technologies-tools/miro_azbfpx.svg' />
 									</li>
 									<li class='text-center'>
-										<Image src='/images/svg/yoast.svg' />
+										<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761310/technologies-tools/yoast_zymlay.svg' />
 									</li>
 								</ul>
 							</div>
@@ -566,14 +566,30 @@ const WorkData = [
 							The cutting-edge technologies that brought <span style='color:#108f64' >Jobboard</span> to life.
 						</h4>
 						<ul class='work-details-list'>
-							<li class="text-center"><Image src='/images/svg/nodejs.svg'></li>
-							<li class="text-center"><Image src='/images/svg/nextjs.svg'></li>
-							<li class="text-center"><Image src='/images/svg/mongodb.svg'></li>
-							<li class="text-center"><Image src='/images/svg/express.svg'></li>
-							<li class="text-center"><Image src='/images/svg/cloudinary.svg'></li>
-							<li class="text-center"><Image src='/images/svg/aws.svg'></li>
-							<li class="text-center"><Image src='/images/svg/vercel.svg'></li>
-							<li class="text-center"><Image src='/images/svg/firebase.svg'></li>
+							<li class="text-center">
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/technologies-tools/nodejs_lt38yn.svg'>
+							</li>
+							<li class="text-center">
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761306/technologies-tools/nextjs_mweduu.svg'>
+							</li>
+							<li class="text-center">
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761305/technologies-tools/mongodb_l4t2ks.svg'>
+							</li>
+							<li class="text-center">
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/express_xd5det.svg'>
+							</li>
+							<li class="text-center">
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/technologies-tools/cloudinary_dmxc0x.svg'>
+							</li>
+							<li class="text-center">
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/technologies-tools/aws_yhnyaf.svg'>
+							</li>
+							<li class="text-center">
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/technologies-tools/vercel_idyc7e.svg'>
+							</li>
+							<li class="text-center">
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/firebase_jzienr.svg'>
+							</li>
 
 						</ul>
 							</div>

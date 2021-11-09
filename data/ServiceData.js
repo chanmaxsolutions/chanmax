@@ -1,5 +1,4 @@
 /** @format */
-import Image from 'next/image';
 
 const ServiceData = [
 	{
@@ -186,25 +185,103 @@ const ServiceData = [
 					
 					<ul class='work-details-list text-center'>
 						<li class='text-center'>
-							<Image src='/images/svg/ai.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636397375/technologies-tools/reactjs_bhlaxl.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/xd.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761306/technologies-tools/nextjs_mweduu.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/ps.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636397636/technologies-tools/gatsby_rjtmez.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/wp.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636397748/technologies-tools/vuejs_tme7jy.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/elementor.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636397848/technologies-tools/nuxtjs_c3ufva.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/ga.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398074/technologies-tools/reduxjs_sbvs2o.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/miro.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398208/technologies-tools/graphql_wlaiwd.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/technologies-tools/nodejs_lt38yn.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/express_xd5det.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761305/technologies-tools/mongodb_l4t2ks.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398407/technologies-tools/strapi_mjyduq.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761310/technologies-tools/wp_h6l4uv.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398621/technologies-tools/contentful_vt58te.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398796/technologies-tools/datocms_bmyxik.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398951/technologies-tools/fauna_db_ru5aqw.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636399080/technologies-tools/shopify_whld6o.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636399185/technologies-tools/bigcommerce_xommcp.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636399510/technologies-tools/supabase_udgk5h.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/firebase_jzienr.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636399935/technologies-tools/upstash_zkqf3i.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400038/technologies-tools/redis_dcbyj7.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400248/technologies-tools/sanity_xnklk6.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400425/technologies-tools/github_xgzryy.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400580/technologies-tools/git_a6atps.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400762/technologies-tools/mui_ga5ifc.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400880/technologies-tools/bootstrap_gx78bj.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400996/technologies-tools/tailwind_css_wjwaqj.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636401279/technologies-tools/framework7_ruqtel.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/technologies-tools/aws_yhnyaf.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/technologies-tools/vercel_idyc7e.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636402339/technologies-tools/digital_oceam_wmwvdv.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636402448/technologies-tools/stripe_yckoiu.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636402551/technologies-tools/braintree_fdvvzn.svg' />
 						</li>
 					</ul>
 				</div>
@@ -404,26 +481,81 @@ const ServiceData = [
 
 					<ul class='work-details-list text-center'>
 						<li class='text-center'>
-							<Image src='/images/svg/ai.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636403070/technologies-tools/react_native_eajugd.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/xd.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636403182/technologies-tools/ionic_uuzooh.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/ps.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636403257/technologies-tools/flutter_lkxm2q.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/wp.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636399510/technologies-tools/supabase_udgk5h.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/elementor.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/firebase_jzienr.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/ga.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/technologies-tools/nodejs_lt38yn.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/miro.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/express_xd5det.svg' />
 						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761305/technologies-tools/mongodb_l4t2ks.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398407/technologies-tools/strapi_mjyduq.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398621/technologies-tools/contentful_vt58te.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398208/technologies-tools/graphql_wlaiwd.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398074/technologies-tools/reduxjs_sbvs2o.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400248/technologies-tools/sanity_xnklk6.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398951/technologies-tools/fauna_db_ru5aqw.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636399185/technologies-tools/bigcommerce_xommcp.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636401279/technologies-tools/framework7_ruqtel.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636404669/technologies-tools/paper_d3x07c.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400996/technologies-tools/tailwind_css_wjwaqj.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636404981/technologies-tools/pusher_pibrxl.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400580/technologies-tools/git_a6atps.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400425/technologies-tools/github_xgzryy.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/technologies-tools/aws_yhnyaf.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636402339/technologies-tools/digital_oceam_wmwvdv.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636402448/technologies-tools/stripe_yckoiu.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636402551/technologies-tools/braintree_fdvvzn.svg' />
+						</li>
+						
 					</ul>
 				</div>
 			</div>`,
@@ -616,27 +748,81 @@ const ServiceData = [
 					</div>
 
 					<ul class='work-details-list text-center'>
-						<li class='text-center'>
-							<Image src='/images/svg/ai.svg' />
-						</li>
-						<li class='text-center'>
-							<Image src='/images/svg/xd.svg' />
-						</li>
-						<li class='text-center'>
-							<Image src='/images/svg/ps.svg' />
-						</li>
-						<li class='text-center'>
-							<Image src='/images/svg/wp.svg' />
-						</li>
-						<li class='text-center'>
-							<Image src='/images/svg/elementor.svg'/>
-						</li>
-						<li class='text-center'>
-							<Image src='/images/svg/ga.svg' />
-						</li>
-						<li class='text-center'>
-							<Image src='/images/svg/miro.svg' />
-						</li>
+					<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636403070/technologies-tools/react_native_eajugd.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636403182/technologies-tools/ionic_uuzooh.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636403257/technologies-tools/flutter_lkxm2q.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636399510/technologies-tools/supabase_udgk5h.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/firebase_jzienr.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/technologies-tools/nodejs_lt38yn.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/express_xd5det.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761305/technologies-tools/mongodb_l4t2ks.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398407/technologies-tools/strapi_mjyduq.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398621/technologies-tools/contentful_vt58te.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398208/technologies-tools/graphql_wlaiwd.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398074/technologies-tools/reduxjs_sbvs2o.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400248/technologies-tools/sanity_xnklk6.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636398951/technologies-tools/fauna_db_ru5aqw.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636399185/technologies-tools/bigcommerce_xommcp.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636401279/technologies-tools/framework7_ruqtel.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636404669/technologies-tools/paper_d3x07c.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400996/technologies-tools/tailwind_css_wjwaqj.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636404981/technologies-tools/pusher_pibrxl.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400580/technologies-tools/git_a6atps.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400425/technologies-tools/github_xgzryy.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/technologies-tools/aws_yhnyaf.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636402339/technologies-tools/digital_oceam_wmwvdv.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636402448/technologies-tools/stripe_yckoiu.svg' />
+				</li>
+				<li class='text-center'>
+					<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636402551/technologies-tools/braintree_fdvvzn.svg' />
+				</li>
 					</ul>
 				</div>
 			</div>`,
@@ -830,25 +1016,55 @@ const ServiceData = [
 
 					<ul class='work-details-list text-center'>
 						<li class='text-center'>
-							<Image src='/images/svg/ai.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636440246/technologies-tools/nwjs_wp8ch1.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/xd.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636440403/technologies-tools/electronjs_pw6qu3.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/ps.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636441092/technologies-tools/nodegui_o5sbl4.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/wp.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636441376/technologies-tools/proton_native_ffausg.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/elementor.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636441764/technologies-tools/pouch_db_nb5bzd.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/ga.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636441918/technologies-tools/couch_db_pikek7.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/miro.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636442250/technologies-tools/gundb_wyjdxm.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636442440/technologies-tools/RXDB_grafa5.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/express_xd5det.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761307/technologies-tools/nodejs_lt38yn.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761305/technologies-tools/mongodb_l4t2ks.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400996/technologies-tools/tailwind_css_wjwaqj.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400880/technologies-tools/bootstrap_gx78bj.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400762/technologies-tools/mui_ga5ifc.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636401279/technologies-tools/framework7_ruqtel.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400425/technologies-tools/github_xgzryy.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636400580/technologies-tools/git_a6atps.svg' />
 						</li>
 					</ul>
 				</div>
@@ -1038,25 +1254,13 @@ const ServiceData = [
 
 					<ul class='work-details-list text-center'>
 						<li class='text-center'>
-							<Image src='/images/svg/ai.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/technologies-tools/ai_cg6mfs.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/xd.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761308/technologies-tools/ps_gzyt7i.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/ps.svg' />
-						</li>
-						<li class='text-center'>
-							<Image src='/images/svg/wp.svg' />
-						</li>
-						<li class='text-center'>
-							<Image src='/images/svg/elementor.svg' />
-						</li>
-						<li class='text-center'>
-							<Image src='/images/svg/ga.svg' />
-						</li>
-						<li class='text-center'>
-							<Image src='/images/svg/miro.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636405826/technologies-tools/slide_kdpznz.svg' />
 						</li>
 					</ul>
 				</div>
@@ -1248,25 +1452,43 @@ const ServiceData = [
 
 					<ul class='work-details-list text-center'>
 						<li class='text-center'>
-							<Image src='/images/svg/ai.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/technologies-tools/ai_cg6mfs.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/xd.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761309/technologies-tools/xd_axxb4j.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/ps.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761308/technologies-tools/ps_gzyt7i.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/wp.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636406122/technologies-tools/figma_mmrqts.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/elementor.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636406615/technologies-tools/framer_suq6wf.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/ga.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/technologies-tools/ga_dqknx8.svg' />
 						</li>
 						<li class='text-center'>
-							<Image src='/images/svg/miro.svg' />
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636406711/technologies-tools/hotjar_w7fm0y.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761305/technologies-tools/miro_azbfpx.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636406883/technologies-tools/lucky-orange_gtiqtg.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636407344/technologies-tools/google-optimizer_zy0gmb.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636407618/technologies-tools/crazy-egg_tv8pnu.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636407849/technologies-tools/user-testing_gw2llg.svg' />
+						</li>
+						<li class='text-center'>
+							<Image src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636408016/technologies-tools/google-form_tatwxp.svg' />
 						</li>
 					</ul>
 				</div>
