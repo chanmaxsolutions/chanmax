@@ -32,12 +32,6 @@ class MyDocument extends Document {
 						integrity='sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4'
 						crossOrigin='anonymous'></script> */}
 
-					{/* <script
-						type='text/javascript'
-						id='hs-script-loader'
-						async
-						defer
-						src='//js-na1.hs-scripts.com/20769226.js'></script> */}
 					<NextScript />
 				</body>
 			</Html>

@@ -12,6 +12,12 @@ export default function Layout({ children }) {
 		<div>
 			<Header />
 			{children}
+			<script
+				type='text/javascript'
+				id='hs-script-loader'
+				async
+				defer
+				src='//js-na1.hs-scripts.com/20769226.js'></script>
 			<Footer />
 		</div>
 	);
