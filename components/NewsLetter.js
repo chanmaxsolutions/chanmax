@@ -55,7 +55,7 @@ const NewsLetter = () => {
 				<input type='text' name='_honey' style={{ display: 'none' }} />
 				<div className='text-center'>
 					<span>
-						<button className='button mt-4 col-12' type='submit'>
+						<button className='button mt-2 col-12' type='submit'>
 							Subscribe Now
 						</button>
 					</span>
