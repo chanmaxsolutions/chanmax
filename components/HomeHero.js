@@ -45,7 +45,7 @@ const HomeHero = () => {
 												x: { type: 'spring', stiffness: 100 },
 												default: { duration: 0.3 },
 											}}
-											className='button large fourth home-hero-button-two'>
+											className='button large sixth home-hero-button-two'>
 											{content.secondButton}
 										</motion.a>
 									</Link>
