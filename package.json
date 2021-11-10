@@ -4,13 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 4000",
-    "build" : "next build && next-sitemap",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "framer-motion": "^4.1.17",
     "next": "10.2.3",
-    "next-sitemap": "^1.6.203",
     "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "17.0.2",
