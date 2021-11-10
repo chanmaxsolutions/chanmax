@@ -69,7 +69,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row  text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635074949/testimonials/anchale_vw6s71.jpg'
@@ -115,7 +115,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635171351/testimonials/sajeev_ahy4cs.jpg'
@@ -162,7 +162,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635179640/testimonials/seran_vf1cz3.jpg'
@@ -206,7 +206,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635325754/testimonials/kevinj_wxja8u.webp'
@@ -252,7 +252,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635882942/testimonials/hdo_mdhrkp.webp'
@@ -296,7 +296,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635454946/testimonials/Mgunz-myu_k95yu7.webp'
@@ -341,7 +341,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635883501/testimonials/ai-4-life_ulsp1t.webp'
@@ -385,7 +385,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1635884220/testimonials/sajeev_udd8cg.webp'
@@ -432,7 +432,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636532677/testimonials/premalooks_yxecpr.webp'
@@ -477,7 +477,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636533383/testimonials/selvaraja_xzblsl.webp'
@@ -524,7 +524,7 @@ const TestimonialCarousel = () => {
 					<div>
 						<div className='row text-center cm-testimonial-m'>
 							<div className='col-lg-12 text-center mt-4 '>
-								<div className='card ' style={{ minHeight: '400px' }}>
+								<div className='card ' style={{ minHeight: '450px' }}>
 									<div className='card-body text-center testimonial-card'>
 										<Image
 											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636534259/testimonials/sujan_k6hqka.webp'
