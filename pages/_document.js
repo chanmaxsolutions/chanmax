@@ -13,6 +13,10 @@ class MyDocument extends Document {
 						integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x'
 						crossOrigin='anonymous'
 					/>
+					<meta
+						name='google-site-verification'
+						content='dGPVadI0WUwqLP9at6eIk1H08I50BlwB6sFNcrGVnCA'
+					/>
 
 					<link
 						rel='preconnect'
