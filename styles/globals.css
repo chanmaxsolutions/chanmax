@@ -135,11 +135,12 @@ div{
 .hero-header{
   font-size: 70px;
   font-weight: 700;
-  text-shadow: 3px 3px 0 #0000000e;
+  color: #fff;
+  text-shadow: 3px 3px 0 #00000017;
 }
 
 .hero-container{
-  background-color: #ffffff;
+  background-color: #06b67b;
   /* background-image: url(../public/images/chanmax.io.jpg); */
   background-size: cover;
   /* min-height: 100VH; */
@@ -150,7 +151,7 @@ div{
 
 .hero-container-row{
   position: absolute;
-  /* background-image: url(../public/images/svg/download.svg); */
+  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/c_scale,w_400/v1636558145/Home/home.bg_ovnj0q.svg);
   /* background-color: #108f65; */
   /* background-color: #258060; */
   /* background-color: #000000cb; */
@@ -271,7 +272,9 @@ div{
     /* Additional Media Queries End */
 
 .hero-description{
-  font-size: 18px;
+  font-size: 19px;
+  background-color: #06b67bc5;
+  color:#ffff;
 }
 
 @media (max-width: 750px) {
