@@ -66,7 +66,7 @@ const Footer = () => {
 						</p>
 						<NewsLetter />
 
-						<div className='footer-social-icons'>
+						{/* <div className='footer-social-icons'>
 							<Link href='#'>
 								<a>
 									<Image
@@ -110,7 +110,7 @@ const Footer = () => {
 									/>
 								</a>
 							</Link>
-						</div>
+						</div> */}
 					</div>
 					<hr className='mt-4' style={{ borderTop: '1px solid #d1d1d1' }} />
 					<div className='text-center '>
