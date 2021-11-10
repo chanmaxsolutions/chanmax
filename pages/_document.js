@@ -27,16 +27,19 @@ class MyDocument extends Document {
 						href='https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;700&display=swap'
 						rel='stylesheet'
 					/>
+					<script src={'/js/plugins.js'} />
 				</Head>
 				<body>
 					<Main />
-					<script src={'/js/plugins.js'} />
-					{/* <script
-						src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'
-						integrity='sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4'
-						crossOrigin='anonymous'></script> */}
 
 					<NextScript />
+					<noscript>
+						<iframe
+							src='https://www.googletagmanager.com/ns.html?id=GTM-5WXLS6H'
+							height='0'
+							width='0'
+							style='display:none;visibility:hidden'></iframe>
+					</noscript>
 				</body>
 			</Html>
 		);
