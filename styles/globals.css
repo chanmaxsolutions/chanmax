@@ -270,9 +270,7 @@ div{
 
     /* Additional Media Queries End */
 
-.hero-description{
-  font-size: 18px;
-}
+
 
 @media (max-width: 750px) {
   .hero-description{
