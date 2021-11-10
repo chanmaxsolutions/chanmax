@@ -64,6 +64,8 @@ export default function Header(props) {
 												<img
 													src='/images/svg/logo.svg'
 													alt='CHANMAX TECHNOLOGIES'
+													width='249.76'
+													height='61.93'
 												/>
 											</a>
 										</Link>
@@ -189,6 +191,8 @@ export default function Header(props) {
 												<img
 													src='/images/svg/logo-white.svg'
 													alt='CHANMAX TECHNOLOGIES'
+													width='249.76'
+													height='61.93'
 												/>
 											</a>
 										</Link>
