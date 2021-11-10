@@ -385,7 +385,7 @@ div{
   box-shadow: #0000004b 0px 0px 15px -8px !important;
   border:3px solid #ffffff !important;
   padding: 3px !important;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
 
 }
 

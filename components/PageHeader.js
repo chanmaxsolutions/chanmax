@@ -2,7 +2,6 @@
 import { motion } from 'framer-motion';
 
 const PageHeader = ({ subHead, mainHead, bgImg, bgColor }) => {
-	console.log(bgColor, 'zzz');
 	return (
 		<div
 			className='container-fluid mb-5 page-header-container '

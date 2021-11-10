@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import WorkData from './../data/WorkData';
 
 export default function Header(props) {
 	const [HeaderChange, SetHeaderChange] = useState(false);

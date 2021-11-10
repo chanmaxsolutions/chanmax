@@ -428,6 +428,143 @@ const TestimonialCarousel = () => {
 							</div>
 						</div>
 					</div>
+
+					<div>
+						<div className='row text-center cm-testimonial-m'>
+							<div className='col-lg-12 text-center mt-4 '>
+								<div className='card ' style={{ minHeight: '500px' }}>
+									<div className='card-body text-center testimonial-card'>
+										<Image
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636532677/testimonials/premalooks_yxecpr.webp'
+											className='testimonials-img '
+											width={100}
+											height={100}
+											alt='...'
+										/>
+										<h4 className=''> Premalooks K</h4>
+										<p
+											style={{
+												fontSize: '11px',
+												color: '#108F64',
+												textTransform: 'uppercase',
+												fontWeight: '500',
+											}}>
+											Sales Executive at Rhino Roofing Product Ltd
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											Sri Lanka
+										</p>
+										<p className='card-text'>
+											They grasped my demand and gave a perfect solution when I
+											recently worked with them on a design-related job. I am
+											pleased with the results and look forward to collaborating
+											with them on future projects.
+										</p>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div className='row text-center cm-testimonial-m'>
+							<div className='col-lg-12 text-center mt-4 '>
+								<div className='card ' style={{ minHeight: '500px' }}>
+									<div className='card-body text-center testimonial-card'>
+										<Image
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636533383/testimonials/selvaraja_xzblsl.webp'
+											className='testimonials-img '
+											width={100}
+											height={100}
+											alt='...'
+										/>
+										<h4 className=''> Nadarajah Selvarajah</h4>
+										<p
+											style={{
+												fontSize: '11px',
+												color: '#108F64',
+												textTransform: 'uppercase',
+												fontWeight: '500',
+											}}>
+											Founder Secretary of Noolthettam
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											United Kingdom
+										</p>
+										<p className='card-text'>
+											I wanted to digitize all of my books and book collections
+											but didn't know how, so I contacted Chanmax, who quickly
+											grasped my requirements and suggested an appropriate
+											solution, as well as building a platform for me. The
+											service was user-friendly. They come highly recommended by
+											me.
+										</p>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div className='row text-center cm-testimonial-m'>
+							<div className='col-lg-12 text-center mt-4 '>
+								<div className='card ' style={{ minHeight: '500px' }}>
+									<div className='card-body text-center testimonial-card'>
+										<Image
+											src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636534259/testimonials/sujan_k6hqka.webp'
+											className='testimonials-img '
+											width={100}
+											height={100}
+											alt='...'
+										/>
+										<h4 className=''> Sujan Selven</h4>
+										<p
+											style={{
+												fontSize: '11px',
+												color: '#108F64',
+												textTransform: 'uppercase',
+												fontWeight: '500',
+											}}>
+											Director of Space Comms & Civil
+										</p>
+										<p
+											className='small'
+											style={{ lineHeight: 0.5, fontWeight: 500 }}>
+											Australia
+										</p>
+										<p className='card-text'>
+											I've been working with Chanmax on various projects for
+											several years, and they've done some incredible work for
+											me. I loved working with Chanmax since they have both
+											creative UX designers and talented coders.
+										</p>
+										<p className='small fw-bold'>
+											(5.0)
+											<span style={{ color: '#fbae01' }}>
+												&#9733; &#9733; &#9733; &#9733; &#9733;
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</Slider>
 			</div>
 		</div>

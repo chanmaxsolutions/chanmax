@@ -19,7 +19,7 @@ const MenuOneData = [
 	{
 		id: 4,
 		title: 'Get a Quote',
-		url: 'get-quote',
+		url: '/get-quote',
 	},
 ];
 

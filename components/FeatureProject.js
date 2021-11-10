@@ -4,15 +4,21 @@ import Image from 'next/image';
 import Link from 'next/link';
 import WorkData from '../data/WorkData';
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 
 const FeatureProject = () => {
-	const shuffled = WorkData.map((value) => ({
-		value,
-		sort: Math.random(),
-	}))
-		.sort((a, b) => a.sort - b.sort)
-		.map(({ value }) => value);
+	const [shuffled, setShuffled] = useState([]);
 
+	useEffect(() => {
+		setShuffled(
+			WorkData.map((value) => ({
+				value,
+				sort: Math.random(),
+			}))
+				.sort((a, b) => a.sort - b.sort)
+				.map(({ value }) => value),
+		);
+	}, []);
 	return (
 		<div>
 			{shuffled.slice(-1).map((content, i) => {
