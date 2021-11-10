@@ -584,7 +584,7 @@ const ServiceData = [
 					<div class='align-items-center service-data-container-inside'>
 						<div class='col-lg-6'>
 							<h5>
-								"Break through the professional market of{' '}
+								"Break through the professional market of
 								<span style='color:#108f64'>iOS Applications</span> with
 								powerful mobile solutions that brand your identity. We trigger
 								your growth to exceptional excellence with innovative products

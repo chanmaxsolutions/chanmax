@@ -133,16 +133,14 @@ div{
 }
 
 .hero-header{
-  font-size: 75px;
+  font-size: 80px;
   font-weight: 900;
   text-shadow: 3px 3px 0 #0000000e;
 }
 
 .hero-container{
-  /* background-image: url(../public/images/chanmax.io.jpg); */
   background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/v1636558145/Home/home.bg_ovnj0q.webp);
   background-size: cover;
-  /* min-height: 100VH; */
   min-height: 100VH;
   position: relative;
 }
@@ -151,15 +149,10 @@ div{
 .hero-container-row{
   position: absolute;
   background-color: #ffffffe7;
-  /* background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/c_scale,w_400/v1636558145/Home/home.bg_ovnj0q.svg); */
-  /* background-color: #108f65; */
-  /* background-color: #258060; */
-  /* background-color: #000000cb; */
   background-size: cover;
   background-position: center center;
   height: 100%;
   width: 100%;
-  /* backdrop-filter: saturate(180%) blur(20px); */
 }
 
 
