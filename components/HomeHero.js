@@ -22,7 +22,7 @@ const HomeHero = () => {
 									<motion.p
 										initial={{ opacity: 0 }}
 										animate={{ opacity: 1 }}
-										className=' text-white'
+										className='hero-description text-white'
 										style={{
 											backgroundColor: '#1a1c1f9c',
 											paddingRight: '5px',
