@@ -16,13 +16,13 @@ const HomeHero = () => {
 									<motion.h1
 										initial={{ y: -200, opacity: 0 }}
 										animate={{ y: 0, opacity: 1 }}
-										className='hero-header'>
+										className='hero-header text-white'>
 										{content.title}
 									</motion.h1>
 									<motion.p
 										initial={{ opacity: 0 }}
 										animate={{ opacity: 1 }}
-										className='hero-description '>
+										className='hero-description text-white'>
 										{content.desc}
 									</motion.p>
 									<Link href={`${content.firstButtonLink}`}>

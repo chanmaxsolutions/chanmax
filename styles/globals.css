@@ -135,8 +135,7 @@ div{
 .hero-header{
   font-size: 70px;
   font-weight: 700;
-  color: #fff;
-  text-shadow: 3px 3px 0 #00000017;
+  text-shadow: 3px 3px 0 #0000000e;
 }
 
 .hero-container{
@@ -151,7 +150,7 @@ div{
 
 .hero-container-row{
   position: absolute;
-  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/c_scale,w_100/v1636558145/Home/home.bg_ovnj0q.svg);
+  background-image: url(https://res.cloudinary.com/dem8lqxhj/image/upload/c_scale,w_400/v1636558145/Home/home.bg_ovnj0q.svg);
   /* background-color: #108f65; */
   /* background-color: #258060; */
   /* background-color: #000000cb; */
@@ -272,9 +271,7 @@ div{
     /* Additional Media Queries End */
 
 .hero-description{
-  font-size: 19px;
-  background-color: #06b67bc5;
-  color:#ffff;
+  font-size: 18px;
 }
 
 @media (max-width: 750px) {
