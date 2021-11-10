@@ -18,7 +18,7 @@ const AboutDetails = () => {
 						WordPress development projects.
 					</p>
 					<Image
-						src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636452346/sample.jpg'
+						src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636551862/about/corporate-office_orzuzl.webp'
 						width='800'
 						height='400'
 					/>
@@ -41,14 +41,14 @@ const AboutDetails = () => {
 						impactful results.
 					</p>
 
-					<h3 className='mt-4'>Our Process</h3>
+					{/* <h3 className='mt-4'>Our Process</h3>
 					<p>
 						We adopt a streamlined agile software development methodology to
 						entertain the growing needs of our clients and deliver results to
 						the utmost satisfaction.
-					</p>
+					</p> */}
 
-					<div className='row text-center'>
+					{/* <div className='row text-center'>
 						<div className='col-lg-3'>
 							<Image src='/images/6.jpg' width='400' height='400' />
 							<h4>Prashankhan Chandrapalan</h4>
@@ -65,7 +65,7 @@ const AboutDetails = () => {
 						<div className='col-lg-3'>
 							<Image src='/images/6.jpg' width='400' height='400' />
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>
