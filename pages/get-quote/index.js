@@ -9,7 +9,7 @@ import { estimateData } from '../../data/quota';
 import TextInput from '../../components/FormsUI/TextInput';
 import BoxQuote from '../../components/BoxQuote';
 import Toast from '../../components/Toast';
-import { postService } from '../../helper/postService';
+import { postFormService } from '../../helper/postService';
 import { useRouter } from 'next/router';
 
 function GetQuote() {
@@ -126,7 +126,7 @@ function GetQuote() {
 			} development.`,
 		);
 
-		postService('https://formsubmit.co/admin@chanmax.io', form_data)
+		postFormService('https://formsubmit.co/admin@chanmax.io', form_data)
 			.then(() => {
 				router.push('/quote-thanks');
 			})
