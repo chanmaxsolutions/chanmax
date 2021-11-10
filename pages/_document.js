@@ -27,20 +27,13 @@ class MyDocument extends Document {
 						href='https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;700&display=swap'
 						rel='stylesheet'
 					/>
-					<script src={'/js/plugins.js'} />
 				</Head>
 				<body>
 					<Main />
 
 					<NextScript />
-					<noscript>
-						<iframe
-							src='https://www.googletagmanager.com/ns.html?id=GTM-5WXLS6H'
-							height='0'
-							width='0'
-							style='display:none;visibility:hidden'></iframe>
-					</noscript>
 				</body>
+				<script src={'/js/plugins.js'} />
 			</Html>
 		);
 	}
