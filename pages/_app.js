@@ -15,7 +15,7 @@ import 'react-phone-input-2/lib/style.css';
 export default function MyApp({ Component, pageProps, router }) {
 	return (
 		<>
-			{/* <Script
+			<Script
 				strategy='afterInteractive'
 				dangerouslySetInnerHTML={{
 					__html: `
@@ -33,7 +33,7 @@ export default function MyApp({ Component, pageProps, router }) {
 						a.appendChild(r);
 					})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');`,
 				}}
-			/> */}
+			/>
 
 			<Script
 				strategy='afterInteractive'
