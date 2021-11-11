@@ -51,14 +51,14 @@ export default function MyApp({ Component, pageProps, router }) {
 					})(window, document, 'script', 'dataLayer', 'GTM-5WXLS6H'); `,
 				}}
 			/>
-			{/* 
+
 			<Script
 				strategy='lazyOnload'
 				type='text/javascript'
 				id='hs-script-loader'
 				async
 				defer
-				src='//js-na1.hs-scripts.com/20769226.js'></Script> */}
+				src='//js-na1.hs-scripts.com/20769226.js'></Script>
 
 			<motion.div
 				initial={{ opacity: 0.9 }}
