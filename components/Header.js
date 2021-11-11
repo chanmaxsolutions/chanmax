@@ -62,7 +62,7 @@ export default function Header(props) {
 										<Link href='/'>
 											<a>
 												<img
-													src='/images/svg/logo.svg'
+													src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636620911/Home/logo_6_jxem7d.svg'
 													alt='CHANMAX TECHNOLOGIES'
 													width='249.76'
 													height='61.93'
@@ -189,7 +189,7 @@ export default function Header(props) {
 										<Link href='/'>
 											<a>
 												<img
-													src='/images/svg/logo-white.svg'
+													src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636620999/Home/logo-white_1_wjcdz4.svg'
 													alt='CHANMAX TECHNOLOGIES'
 													width='249.76'
 													height='61.93'
