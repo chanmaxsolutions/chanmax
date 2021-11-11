@@ -13,7 +13,10 @@ const SEO = ({ title }) => {
 				name='description'
 				content='We are Building lightning-fast Applications from Startups to Corporates.'
 			/>
-			<link rel='icon' href='/images/favicon.png' />
+			<link
+				rel='icon'
+				href='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636590585/Home/favicon_gbzjjm.png'
+			/>
 		</Head>
 	);
 };
