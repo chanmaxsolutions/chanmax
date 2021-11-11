@@ -53,7 +53,7 @@ export default function MyApp({ Component, pageProps, router }) {
 			/>
 
 			<Script
-				strategy='afterInteractive'
+				strategy='lazyOnload'
 				type='text/javascript'
 				id='hs-script-loader'
 				async
