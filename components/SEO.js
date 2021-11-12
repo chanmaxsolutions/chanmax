@@ -19,7 +19,7 @@ const SEO = ({ title, desc, img }) => {
 			/>
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={desc || title} />
-			<meta property="og:image" content={img || "https://res.cloudinary.com/dem8lqxhj/image/upload/v1636620911/Home/logo_6_jxem7d.svg"} />
+			<meta property="og:image" content={img || "https://res.cloudinary.com/dem8lqxhj/image/upload/v1636620911/Home/logo_6_jxem7d.jpg"} />
 		</Head>
 	);
 };

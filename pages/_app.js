@@ -15,6 +15,12 @@ import { useEffect } from 'react';
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps, router }) {
 	useEffect(() => {
+		// google
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-XWZRRN81S5');
+
 		setTimeout(function() {
 			// load the chat script
 			const headerEl = document.getElementsByTagName("head")[0];
@@ -81,6 +87,10 @@ export default function MyApp({ Component, pageProps, router }) {
 				async
 				defer
 				src='//js-na1.hs-scripts.com/20769226.js'></Script> */}
+			<Script
+				type='text/javascript'
+				async 
+				src="https://www.googletagmanager.com/gtag/js?id=G-XWZRRN81S5"></Script>
 
 			<motion.div
 				initial={{ opacity: 0.9 }}
