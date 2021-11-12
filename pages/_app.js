@@ -10,9 +10,20 @@ import Script from 'next/script';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'react-phone-input-2/lib/style.css';
+import { useEffect } from 'react';
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps, router }) {
+	useEffect(() => {
+		setTimeout(function() {
+			const headerEl = document.getElementsByTagName("head")[0];
+			const scriptEl = document.createElement('script');
+			scriptEl.type = 'text/javascript';
+			scriptEl.src = '//js-na1.hs-scripts.com/20769226.js';
+			headerEl.appendChild(scriptEl);
+		 }, 10000);
+	}, [])
+
 	return (
 		<>
 			<Script
@@ -52,13 +63,13 @@ export default function MyApp({ Component, pageProps, router }) {
 				}}
 			/>
 
-			<Script
+			{/* <Script
 				strategy='lazyOnload'
 				type='text/javascript'
 				id='hs-script-loader'
 				async
 				defer
-				src='//js-na1.hs-scripts.com/20769226.js'></Script>
+				src='//js-na1.hs-scripts.com/20769226.js'></Script> */}
 
 			<motion.div
 				initial={{ opacity: 0.9 }}
