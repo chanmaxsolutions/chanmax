@@ -2,7 +2,7 @@
 
 import Head from 'next/head';
 
-const SEO = ({ title }) => {
+const SEO = ({ title, desc, img }) => {
 	return (
 		<Head>
 			<title>{title}</title>
@@ -17,6 +17,9 @@ const SEO = ({ title }) => {
 				rel='icon'
 				href='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636590585/Home/favicon_gbzjjm.png'
 			/>
+			<meta property="og:title" content={title} />
+			<meta property="og:description" content={desc || title} />
+			<meta property="og:image" content={img || "https://res.cloudinary.com/dem8lqxhj/image/upload/v1636620911/Home/logo_6_jxem7d.svg"} />
 		</Head>
 	);
 };
