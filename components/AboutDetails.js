@@ -1,11 +1,12 @@
 /** @format */
 import Image from 'next/image';
+import Team from './Team';
 
 const AboutDetails = () => {
 	return (
-		<div className='container pb-5'>
+		<div className='container pb-5 text-center'>
 			<div className='row justify-content-md-center'>
-				<div className='col-md-7 border-radius'>
+				<div className='col-lg-8 col-12 border-radius'>
 					<h3>Our Story</h3>
 					<p>
 						In the dawn of 2018, the foundation for Chanmax Technologies was
@@ -66,6 +67,8 @@ const AboutDetails = () => {
 							<Image src='/images/6.jpg' width='400' height='400' />
 						</div>
 					</div> */}
+
+					<Team />
 				</div>
 			</div>
 		</div>
