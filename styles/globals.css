@@ -121,6 +121,11 @@ div{
   font-size: 18px;
 }
 
+.team-position{
+  font-weight: 500;
+  color: #06B67B;
+}
+
 .sub-head-bg{
   background-color: #fff;
 	display: inline-block;

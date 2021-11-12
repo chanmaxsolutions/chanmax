@@ -3,12 +3,17 @@ import Image from 'next/image';
 
 const Team = () => {
 	return (
-		<div className='text-center'>
-			<div className='row'>
+		<div className='text-center mt-5'>
+			<p className='sub-head'>Meet the team</p>
+			<h3 className=''>
+				Diverse talents united under one roof to <br />
+				fast forward you into the Digital Arena
+			</h3>
+			<div className='row mt-5'>
 				<div className='col-lg-7 order-lg-1 order-2 d-flex'>
 					<div className='justify-content-center align-self-center'>
 						<h3>Raghuraj Balasubramaniam</h3>
-						<h5>Full Stack Developer</h5>
+						<h5 className='team-position'>Full Stack Developer</h5>
 						<p>
 							A self-taught coder with a strong understanding of MERN and JAM
 							Stack technologies. His aptitude to handle complicated challenges
@@ -33,7 +38,7 @@ const Team = () => {
 				<div className='col-lg-7 d-flex'>
 					<div className='justify-content-center align-self-center'>
 						<h3>Tharsha Loganathan</h3>
-						<h5>Business Analyst / QAE</h5>
+						<h5 className='team-position'>Quality Analyst</h5>
 						<p>
 							A critical thinker by nature, which makes her fit for this
 							position. The way she collaborates with the team and tests the
@@ -46,7 +51,7 @@ const Team = () => {
 				<div className='col-lg-7 col-lg-7 order-lg-1 order-2 d-flex'>
 					<div className='justify-content-center align-self-center'>
 						<h3>Vithuzan Ravichandran</h3>
-						<h5>Graphic Designer / Web Developer</h5>
+						<h5 className='team-position'>Graphic Designer / Web Developer</h5>
 						<p>
 							A design enthusiast with a keen eye for good design, as well as a
 							great team player. His design vision allows him to play dual roles
@@ -61,7 +66,7 @@ const Team = () => {
 						src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636661080/team/Vithu_zxu3wi.png'></Image>
 				</div>
 			</div>
-			<div className='row'>
+			<div className='row mb-5'>
 				<div className='col-lg-5'>
 					<Image
 						width={1000}
@@ -71,7 +76,7 @@ const Team = () => {
 				<div className='col-lg-7 d-flex'>
 					<div className='justify-content-center align-self-center'>
 						<h3>Prashankhan Chandrapalan</h3>
-						<h5>Founder / UX Designer</h5>
+						<h5 className='team-position'>Founder / UX Designer</h5>
 						<p>
 							He's a self-taught designer with a lot of practical experience.
 							His desire to form personal connections allows him to empathize

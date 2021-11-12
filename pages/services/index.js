@@ -11,8 +11,8 @@ export default function Services() {
 		<React.Fragment>
 			<SEO title='OUR SERVICES | CHANMAX TECHNOLOGIES' />
 			<PageHeader
-				subHead='TRUSTED AND ENDORSED'
-				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'
+				subHead='Our services '
+				mainHead='Conquer Excellence with top-notch digital software solutions'
 				bgImg='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634895640/page-header-illustrations/service-illlustrator_jgflqe.svg'
 				bgColor='#4187fa'
 				des='We help product vendors create impactful and 
