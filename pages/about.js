@@ -11,8 +11,8 @@ export default function About() {
 		<React.Fragment>
 			<SEO title='ABOUT US | CHANMAX TECHNOLOGIES' />
 			<PageHeader
-				subHead='TRUSTED AND ENDORSED'
-				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'
+				subHead='About Us'
+				mainHead='Discover the World of Tech with Chanmax Technologies'
 				bgImg='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634888717/page-header-illustrations/about-us-illlustrator_dl4r7m.svg'
 				bgColor='#ff3841'
 				des='We help product vendors create impactful and 
