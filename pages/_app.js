@@ -21,7 +21,7 @@ export default function MyApp({ Component, pageProps, router }) {
 			scriptEl.type = 'text/javascript';
 			scriptEl.src = '//js-na1.hs-scripts.com/20769226.js';
 			headerEl.appendChild(scriptEl);
-		 }, 2000);
+		 }, 5000);
 	}, [])
 
 	return (
