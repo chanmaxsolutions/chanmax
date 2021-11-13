@@ -8,7 +8,7 @@ import HomeCallToAction from '../../components/HomeCallToAction';
 const BlogDetails = ({ blogData }) => {
 	return (
 		<div>
-			<SEO title={blogData.title} />
+			<SEO title={blogData.title} img={blogData.image} />
 			<div
 				className='container-fluid blog-details-container-feature-image '
 				style={{ backgroundImage: `url(${blogData.image})` }}>

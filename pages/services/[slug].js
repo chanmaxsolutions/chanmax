@@ -7,7 +7,7 @@ import CallToActionSingle from './../../components/CallToActionSingle';
 const ServiceDetails = ({ ServiceDatas }) => {
 	return (
 		<div className='bg-white'>
-			<SEO title={ServiceDatas.title} />
+			<SEO title={ServiceDatas.title} desc={ServiceDatas.title} img={ServiceDatas.bgImg} />
 			<div
 				className='container-fluid service-details-container-feature-image'
 				style={{ backgroundColor: `${ServiceDatas.bgColor}` }}>

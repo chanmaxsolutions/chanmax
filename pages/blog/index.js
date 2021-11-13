@@ -8,7 +8,7 @@ import HomeCallToAction from '../../components/HomeCallToAction';
 const Blog = () => {
 	return (
 		<div className='bg-white'>
-			<SEO title='OUR BLOG | CHANMAX TECHNOLOGIES' />
+			<SEO title='OUR BLOG | CHANMAX TECHNOLOGIES' img="/images/6.jpg" />
 			<PageHeader
 				subHead='TRUSTED AND ENDORSED'
 				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'
