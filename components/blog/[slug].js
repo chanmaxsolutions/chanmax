@@ -1,9 +1,9 @@
 /** @format */
 
 import BlogsData from '../../data/BlogsData';
-import SEO from '../../components/SEO';
+import SEO from '../SEO';
 import Image from 'next/image';
-import HomeCallToAction from '../../components/HomeCallToAction';
+import HomeCallToAction from '../HomeCallToAction';
 
 const BlogDetails = ({ blogData }) => {
 	return (
