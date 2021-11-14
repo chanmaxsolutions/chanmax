@@ -125,6 +125,18 @@ export default function Header(props) {
 											<li
 												onClick={handleMenuClose}
 												className={`menu-item ${
+													asPath === '/approach' ? 'current-menu-item' : ''
+												}`}>
+												<Link href='/approach'>
+													<a>
+														<span>Approach</span>
+													</a>
+												</Link>
+											</li>
+
+											<li
+												onClick={handleMenuClose}
+												className={`menu-item ${
 													asPath === '/about' ? 'current-menu-item' : ''
 												}`}>
 												<Link href='/about'>
@@ -248,6 +260,17 @@ export default function Header(props) {
 												<Link href='/references'>
 													<a>
 														<span>References</span>
+													</a>
+												</Link>
+											</li>
+
+											<li
+												className={`menu-item ${
+													asPath === '/approach' ? 'current-menu-item' : ''
+												}`}>
+												<Link href='/approach'>
+													<a>
+														<span>Approach</span>
 													</a>
 												</Link>
 											</li>
