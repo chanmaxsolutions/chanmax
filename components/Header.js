@@ -87,6 +87,7 @@ export default function Header(props) {
 
 										<ul className='menu'>
 											<li
+												onClick={handleMenuClose}
 												className={`menu-item  ${
 													asPath === '/' ? 'current-menu-item' : ''
 												}`}>
@@ -98,6 +99,7 @@ export default function Header(props) {
 											</li>
 
 											<li
+												onClick={handleMenuClose}
 												className={`menu-item ${
 													asPath === '/services' ? 'current-menu-item' : ''
 												}`}>
@@ -109,6 +111,7 @@ export default function Header(props) {
 											</li>
 
 											<li
+												onClick={handleMenuClose}
 												className={`menu-item ${
 													asPath === '/references' ? 'current-menu-item' : ''
 												}`}>
@@ -120,6 +123,7 @@ export default function Header(props) {
 											</li>
 
 											<li
+												onClick={handleMenuClose}
 												className={`menu-item ${
 													asPath === '/about' ? 'current-menu-item' : ''
 												}`}>
@@ -131,6 +135,7 @@ export default function Header(props) {
 											</li>
 
 											<li
+												onClick={handleMenuClose}
 												className={`menu-item ${
 													asPath === '/contact' ? 'current-menu-item' : ''
 												}`}>
@@ -154,6 +159,7 @@ export default function Header(props) {
 											</li> */}
 
 											<li
+												onClick={handleMenuClose}
 												className={`menu-item menu-button ${
 													asPath === '/get-quote' ? 'current-menu-item' : ''
 												}`}>

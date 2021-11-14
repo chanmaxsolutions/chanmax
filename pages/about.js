@@ -9,7 +9,7 @@ import AboutDetails from '../components/AboutDetails';
 export default function About() {
 	return (
 		<React.Fragment>
-			<SEO title='ABOUT US | CHANMAX TECHNOLOGIES' desc="Discover the World of Tech with Chanmax Technologies" img="https://res.cloudinary.com/dem8lqxhj/image/upload/v1634888717/page-header-illustrations/about-us-illlustrator_dl4r7m.svg" />
+			<SEO title='ABOUT US | CHANMAX TECHNOLOGIES' desc="Discover the World of Tech with Chanmax Technologies" img="https://res.cloudinary.com/dem8lqxhj/image/upload/v1634888717/page-header-illustrations/about-us-illlustrator_dl4r7m.jpg" />
 			<PageHeader
 				subHead='About Us'
 				mainHead='Discover the World of Tech with Chanmax Technologies'

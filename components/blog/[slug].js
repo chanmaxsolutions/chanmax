@@ -1,14 +1,14 @@
 /** @format */
 
 import BlogsData from '../../data/BlogsData';
-import SEO from '../../components/SEO';
+import SEO from '../SEO';
 import Image from 'next/image';
-import HomeCallToAction from '../../components/HomeCallToAction';
+import HomeCallToAction from '../HomeCallToAction';
 
 const BlogDetails = ({ blogData }) => {
 	return (
 		<div>
-			<SEO title={blogData.title} />
+			<SEO title={blogData.title} img={blogData.image} />
 			<div
 				className='container-fluid blog-details-container-feature-image '
 				style={{ backgroundImage: `url(${blogData.image})` }}>
