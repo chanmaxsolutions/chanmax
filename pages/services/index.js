@@ -9,10 +9,14 @@ import HomeCallToAction from '../../components/HomeCallToAction';
 export default function Services() {
 	return (
 		<React.Fragment>
-			<SEO title='OUR SERVICES | CHANMAX TECHNOLOGIES' desc="Conquer Excellence with top-notch digital software solutions" img="https://res.cloudinary.com/dem8lqxhj/image/upload/v1634895640/page-header-illustrations/service-illlustrator_jgflqe.svg" />
+			<SEO
+				title='OUR SERVICES | CHANMAX TECHNOLOGIES'
+				desc='Conquer Excellence with top-notch digital software solutions'
+				img='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634895640/page-header-illustrations/service-illlustrator_jgflqe.svg'
+			/>
 			<PageHeader
 				subHead='Our services '
-				mainHead='Conquer Excellence with top-notch digital software solutions'
+				mainHead='Conquer Excellence with top-notch digital software solutions.'
 				bgImg='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634895640/page-header-illustrations/service-illlustrator_jgflqe.svg'
 				bgColor='#4187fa'
 				des='We help product vendors create impactful and 
