@@ -6,8 +6,8 @@ const Team = () => {
 		<div className='text-center mt-5'>
 			<p className='sub-head'>Meet the team</p>
 			<h3 className=''>
-				Diverse talents united under one roof to <br />
-				fast forward you into the Digital Arena
+				Diverse talents united under one roof to fast forward you into the
+				Digital Arena
 			</h3>
 			<div className='row mt-5'>
 				<div className='col-lg-7 order-lg-1 order-2 d-flex'>

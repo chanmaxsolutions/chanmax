@@ -8,9 +8,7 @@ const AboutDetails = () => {
 			<div className='row justify-content-md-center'>
 				<div className='col-lg-8 col-12 border-radius'>
 					<p className='sub-head'>Our Works</p>
-					<h3 className=''>
-						We are Building Apps for <br /> Startups to Corporates
-					</h3>
+					<h3 className=''>We are Building Apps for Startups to Corporates</h3>
 					<p className='mb-5'>
 						We are a zealous and dedicated team striving for the speedy
 						development of UX-optimized applications. Passion in our work puts
@@ -19,15 +17,12 @@ const AboutDetails = () => {
 						impactful results.
 					</p>
 					<Image
-						src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636551862/about/corporate-office_orzuzl.webp'
-						width='800'
-						height='400'
+						src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636872794/about/corporate-office_dkruza.jpg'
+						width='960'
+						height='540'
 					/>
 					<p className='sub-head mt-5'>Our Story</p>
-					<h3>
-						A Design Firm to Full-stack <br />
-						Software Solutions Providers
-					</h3>
+					<h3>A Design Firm to Full-stack Software Solutions Providers</h3>
 					<p className='mb-5'>
 						In the dawn of 2018, the foundation for Chanmax Technologies was
 						laid by Prashankhan Chandrapalan. A curious and passionate
@@ -39,9 +34,9 @@ const AboutDetails = () => {
 						WordPress development projects.
 					</p>
 					<Image
-						src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636551862/about/corporate-office_orzuzl.webp'
-						width='800'
-						height='400'
+						src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636873330/about/corporate-office-2_wxf5yi.jpg'
+						width='960'
+						height='540'
 					/>
 					<p className='mt-5'>
 						In 2021, he registered Chanmax Technologies as a full-fledged

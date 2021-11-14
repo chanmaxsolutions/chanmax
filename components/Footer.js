@@ -62,7 +62,7 @@ const Footer = () => {
 
 					<div className='col-md-3'>
 						<p className='mb-4 footer-heading justify-content-md-center ft-menu-mb-mt'>
-							Be in Touch
+							Get in Touch
 						</p>
 						<NewsLetter />
 
@@ -116,8 +116,7 @@ const Footer = () => {
 					<div className='text-center '>
 						<Image src='/images/svg/logo.svg' width={150} height={50} />
 						<p className='footer-copyrights'>
-							© 2018 - 2021 All Rights Reserved to CHANMAX TECHNOLOGIES (PVT)
-							LTD.
+							© 2021 All Rights Reserved to CHANMAX TECHNOLOGIES (PVT) LTD.
 						</p>
 					</div>
 				</div>
