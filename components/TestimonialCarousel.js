@@ -17,7 +17,7 @@ const TestimonialCarousel = () => {
 		autoplay: true,
 		speed: 200,
 		cssEase: 'linear',
-		autoplaySpeed: 2000,
+		autoplaySpeed: 10000,
 		pauseOnHover: true,
 		pauseOnFocus: true,
 
