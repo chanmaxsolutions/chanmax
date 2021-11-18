@@ -14,9 +14,9 @@ const WorkData = [
 		slug: 'noolthettam',
 		product: 'NOOLTHETTAM',
 		homeExcerpt:
-			'We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.',
+			'Our team came forth to develop the electronic digital library - Noolthettam. The technological evolution and people’s knowledge on the availability and increased access to electronic text reinforced the success of this digital transition. The website was furnished to empower an extraordinary user experience and provide convenient access to the ebooks. The site houses several compilations of the author’s work committed to preserving the Tamil Publications.',
 		excerpt:
-			'We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.',
+			'Our team came forth to develop the electronic digital library - Noolthettam. The technological evolution and people’s knowledge on the availability and increased access to electronic text reinforced the success of this digital transition. The website was furnished to empower an extraordinary user experience and provide convenient access to the ebooks. The site houses several compilations of the author’s work committed to preserving the Tamil Publications.',
 		body: [
 			`<div>
 				<div class='row cm-works-details-margin'>
@@ -206,9 +206,9 @@ const WorkData = [
 		slug: 'mgunz',
 		product: 'MGUNZ',
 		homeExcerpt:
-			'We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.',
+			'Our creative team of digital artists inspired a stunning digital experience for MGUNZ, and further molded a new magnetic look rebranding their logo. We built a simple holistic website to showcase their DJ services and integrated immersive features to enable users to make their bookings online. The website is enhanced with eye-catching visuals to create a musical interaction and charismatic journey for users.',
 		excerpt:
-			'We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.',
+			'Our creative team of digital artists inspired a stunning digital experience for MGUNZ, and further molded a new magnetic look rebranding their logo. We built a simple holistic website to showcase their DJ services and integrated immersive features to enable users to make their bookings online. The website is enhanced with eye-catching visuals to create a musical interaction and charismatic journey for users.',
 		body: [
 			`<div>
 				<div class='row cm-works-details-margin'>
@@ -413,9 +413,9 @@ const WorkData = [
 		slug: 'job-board',
 		product: 'JOB BOARD',
 		homeExcerpt:
-			'We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.',
+			'We designed a visually simple but functionally powerful web application to converge the needs of job-seeking individuals and job recruiting employers. The application is optimized for user-friendly interaction and creates an engaging experience. It has a scalable architecture, housing convenient features to query the most relevant results. The application focuses on rendering a seamless flow for applying and seeking jobs with less hassle.',
 		excerpt:
-			'We have always known the powactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that businesses have been talking about for so long.',
+			'We designed a visually simple but functionally powerful web application to converge the needs of job-seeking individuals and job recruiting employers. The application is optimized for user-friendly interaction and creates an engaging experience. It has a scalable architecture, housing convenient features to query the most relevant results. The application focuses on rendering a seamless flow for applying and seeking jobs with less hassle.',
 		body: [
 			`<div>
 				<div class='row cm-works-details-margin'>
