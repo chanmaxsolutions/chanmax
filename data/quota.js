@@ -40,9 +40,9 @@ export const estimateData = [
 		'Other / No idea': { status: false, icon: <Other /> },
 	},
 	{
-		'< $500': { status: false, icon: <Dollar /> },
-		'$500 - $1500': { status: false, icon: <Dollar /> },
-		'$1500 - $6000': { status: false, icon: <Dollar /> },
+		'< $1000': { status: false, icon: <Dollar /> },
+		'$1000 - $3000': { status: false, icon: <Dollar /> },
+		'$3000 - $6000': { status: false, icon: <Dollar /> },
 		'$6000 - $10, 000': { status: false, icon: <Dollar /> },
 		'$10, 000 +': { status: false, icon: <Dollar /> },
 		'Other / No idea': { status: false, icon: <Dollar /> },
