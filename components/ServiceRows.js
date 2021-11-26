@@ -10,10 +10,10 @@ const ServiceRow = () => {
 			{ServiceData &&
 				ServiceData.map((ServiceDataMapped, i) => (
 					<div key={i}>
-						<motion.div
-							whileHover={{ backgroundColor: `${ServiceDataMapped.bgColor}` }}
-							className='container mb-5 service-row-container  mb-md-5 mb-sm-0 '>
-							<Link href={`/services/${ServiceDataMapped.slug}`}>
+						<Link href={`/services/${ServiceDataMapped.slug}`}>
+							<motion.div
+								whileHover={{ backgroundColor: `${ServiceDataMapped.bgColor}` }}
+								className='container mb-5 service-row-container  mb-md-5 mb-sm-0 '>
 								<div className='row '>
 									<div
 										className='col-md-4 service-row-col-small'
@@ -29,8 +29,8 @@ const ServiceRow = () => {
 										</div>
 									</div>
 								</div>
-							</Link>
-						</motion.div>
+							</motion.div>
+						</Link>
 					</div>
 				))}
 		</div>
