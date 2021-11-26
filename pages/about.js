@@ -10,7 +10,7 @@ export default function About() {
 	return (
 		<React.Fragment>
 			<SEO
-				title='ABOUT US | CHANMAX TECHNOLOGIES'
+				title='About Us | Chanmax'
 				desc='Discover the World of Tech with Chanmax Technologies'
 				img='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634888717/page-header-illustrations/about-us-illlustrator_dl4r7m.jpg'
 			/>

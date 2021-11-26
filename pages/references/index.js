@@ -9,7 +9,7 @@ import HomeCallToAction from '../../components/HomeCallToAction';
 export default function Works() {
 	return (
 		<React.Fragment>
-			<SEO title='OUR WORKS | CHANMAX TECHNOLOGIES' />
+			<SEO title='Our Works | Chanmax' />
 			<PageHeader
 				subHead='Case Studies'
 				mainHead='We are problem solvers. Dive into our creative mind of Intelligent Solutions.'

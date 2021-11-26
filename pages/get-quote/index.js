@@ -147,7 +147,7 @@ function GetQuote() {
 					handleClose={() => setToast(false)}
 				/>
 			)}
-			<SEO title='GET QUOTE | CHANMAX TECHNOLOGIES' />
+			<SEO title='Get Quote | Chanmax' />
 			<PageHeader
 				subHead='TRUSTED AND ENDORSED'
 				mainHead='Trusted and endorsed by Chanmax and a lot of company around the world'

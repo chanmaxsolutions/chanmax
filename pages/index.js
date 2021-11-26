@@ -16,7 +16,7 @@ import TestimonialCarousel from '../components/TestimonialCarousel';
 export default function Home() {
 	return (
 		<div>
-			<SEO title='CHANMAX | BUILDING APPS FOR STARTUPS TO CORPORATES' />
+			<SEO title='Chanmax | Building Apps for Startups to Corporates' />
 			<HomeHero />
 			<ClientCarousel />
 			<HomeWhySection />

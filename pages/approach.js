@@ -10,7 +10,7 @@ export default function About() {
 	return (
 		<React.Fragment>
 			<SEO
-				title='OUR APPROACH | CHANMAX TECHNOLOGIES'
+				title='Our Approach | Chanmax'
 				desc='We use an agile software development technique that is both streamlined and efficient.'
 				img='https://res.cloudinary.com/dem8lqxhj/image/upload/v1636898356/page-header-illustrations/approach-illlustrator_rtrbgx.jpg'
 			/>

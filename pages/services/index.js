@@ -10,7 +10,7 @@ export default function Services() {
 	return (
 		<React.Fragment>
 			<SEO
-				title='OUR SERVICES | CHANMAX TECHNOLOGIES'
+				title='Our Services | Chanmax'
 				desc='Conquer Excellence with top-notch digital software solutions'
 				img='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634895640/page-header-illustrations/service-illlustrator_jgflqe.svg'
 			/>
