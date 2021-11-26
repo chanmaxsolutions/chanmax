@@ -4,11 +4,16 @@ import WorkData from '../../data/WorkData';
 import SEO from '../../components/SEO';
 import Link from 'next/link';
 import CallToActionSingle from '../../components/CallToActionSingle';
+import Image from 'next/image';
 
 const ServiceDetails = ({ WorkDatas }) => {
 	return (
 		<div className='bg-white'>
-			<SEO title={`${WorkDatas.product} | ${WorkDatas.title}`} desc={WorkDatas.title} img={WorkDatas.bgImg} />
+			<SEO
+				title={`${WorkDatas.product} | ${WorkDatas.title}`}
+				desc={WorkDatas.title}
+				img={WorkDatas.bgImg}
+			/>
 			<div
 				className='container-fluid service-details-container-feature-image '
 				style={{ backgroundColor: `${WorkDatas.bgColor}` }}>
@@ -24,6 +29,33 @@ const ServiceDetails = ({ WorkDatas }) => {
 					</div>
 				</div>
 			</div>
+
+			<div className='justify-content-center service-data-container mt-5'>
+				<div className='align-items-center service-data-container-inside'>
+					<div
+						className='col-lg-6 text-center p-3 '
+						style={{
+							backgroundColor: '#fff',
+							boxShadow: 'rgb(246 245 245) 0px 0px 20px',
+						}}>
+						<div>
+							<Image
+								src={WorkDatas.clientImg}
+								width='100'
+								height='100'
+								width={90}
+								height={90}
+							/>
+							<h3>{WorkDatas.clientName}</h3>
+							<p className='sub-head'>{WorkDatas.clientCountry}</p>
+						</div>
+						<p>
+							<em>"{WorkDatas.clientReview}"</em>
+						</p>
+					</div>
+				</div>
+			</div>
+
 			<div
 				id={WorkDatas.slug}
 				className='container-fluid bg-white pt-5 pb-5 mb-5'>
@@ -42,6 +74,7 @@ const ServiceDetails = ({ WorkDatas }) => {
 					</div>
 				</div>
 			</div>
+
 			<CallToActionSingle />
 		</div>
 	);

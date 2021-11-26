@@ -6,6 +6,11 @@ const WorkData = [
 	{
 		id: 1,
 		bgColor: '#901513',
+		clientImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_15px_solid_rgb:06b67b/v1636533383/testimonials/selvaraja_xzblsl.png',
+		clientName: 'Nadarajah Selvarajah',
+		clientCountry: 'United Kingdom',
+		clientReview: `I wanted to digitize all of my books and book collections but didn't know how, so I contacted Chanmax, who quickly grasped my requirements and suggested an appropriate solution, as well as building a platform for me. The service was user-friendly. They come highly recommended by me.`,
 		bgImg:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635881813/case-studies/case-study-detail/noolthettam-bg_hbkklr.webp',
 		image:
@@ -198,6 +203,12 @@ const WorkData = [
 	{
 		id: 2,
 		bgColor: '#9013FE',
+		clientImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_15px_solid_rgb:06b67b/v1635454946/testimonials/Mgunz-myu_k95yu7.jpg',
+		clientName: 'Myu Guna',
+		clientCountry: 'Australia',
+		clientReview: `I recently used Chanmax to create my website as part of my rebrand in the business model. These guys were friendly and went above and beyond to ensure my vision was met. I cannot recommend them enough for your next project!`,
+
 		bgImg:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635882158/case-studies/case-study-detail/mgunz-bg_tmqr2o.webp',
 		image:
@@ -405,6 +416,12 @@ const WorkData = [
 	{
 		id: 3,
 		bgColor: '#006AFF',
+		clientImg:
+			'https://res.cloudinary.com/dem8lqxhj/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_15px_solid_rgb:06b67b/v1636534259/testimonials/sujan_k6hqka.png',
+		clientName: 'Sujan Selven',
+		clientCountry: 'Australia',
+		clientReview: `I've been working with Chanmax on various projects for several years, and they've done some incredible work for me. I loved working with Chanmax since they have both creative UX designers and talented coders.`,
+
 		bgImg:
 			'https://res.cloudinary.com/dem8lqxhj/image/upload/v1635882625/case-studies/case-study-detail/jobboard-bg_quvanv.webp',
 		image:
