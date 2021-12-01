@@ -140,28 +140,28 @@ const ClientCarousel = () => {
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/dreamart_omsxih.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761299/client-logos/dreamart_omsxih.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/djmgunz_twfah8.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/client-logos/djmgunz_twfah8.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/betels_hhn4is.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/client-logos/betels_hhn4is.svg'
 						/>
 					</div>
 					<div>
 						<Image
 							width={174}
 							height={32}
-							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/bb_viv2y3.svg'
+							src='https://res.cloudinary.com/dem8lqxhj/image/upload/v1634761297/client-logos/bb_viv2y3.svg'
 						/>
 					</div>
 				</Slider>
