@@ -99,7 +99,7 @@ const ContactForm = () => {
 						<input
 							type='hidden'
 							name='_next'
-							value='http://localhost:4000/contact-thanks'
+							value='http://chanmax.io/contact-thanks'
 						/>
 						<input type='hidden' name='_captcha' value='false' />
 						<input
