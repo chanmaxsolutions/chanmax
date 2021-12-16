@@ -17,29 +17,36 @@ export default function MyApp({ Component, pageProps, router }) {
 	useEffect(() => {
 		// google
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag() {
+			dataLayer.push(arguments);
+		}
 		gtag('js', new Date());
-		gtag('config', 'G-XWZRRN81S5');
+		gtag('config', 'UA-212809488-1');
 
-		setTimeout(function() {
+		setTimeout(function () {
 			// load the chat script
-			const headerEl = document.getElementsByTagName("head")[0];
+			const headerEl = document.getElementsByTagName('head')[0];
 			const scriptEl = document.createElement('script');
 			scriptEl.type = 'text/javascript';
 			scriptEl.src = '//js-na1.hs-scripts.com/20769226.js';
 			headerEl.appendChild(scriptEl);
 
 			// load the hotjar script
-			(function(h,o,t,j,a,r){
-				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-				h._hjSettings={hjid:2695311,hjsv:6};
-				a=o.getElementsByTagName('head')[0];
-				r=o.createElement('script');r.async=1;
-				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			(function (h, o, t, j, a, r) {
+				h.hj =
+					h.hj ||
+					function () {
+						(h.hj.q = h.hj.q || []).push(arguments);
+					};
+				h._hjSettings = { hjid: 2695311, hjsv: 6 };
+				a = o.getElementsByTagName('head')[0];
+				r = o.createElement('script');
+				r.async = 1;
+				r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
 				a.appendChild(r);
-			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-		 }, 10000);
-	}, [])
+			})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+		}, 10000);
+	}, []);
 
 	return (
 		<>
@@ -89,8 +96,8 @@ export default function MyApp({ Component, pageProps, router }) {
 				src='//js-na1.hs-scripts.com/20769226.js'></Script> */}
 			<Script
 				type='text/javascript'
-				async 
-				src="https://www.googletagmanager.com/gtag/js?id=G-XWZRRN81S5"></Script>
+				async
+				src='https://www.googletagmanager.com/gtag/js?id=G-XWZRRN81S5'></Script>
 
 			<motion.div
 				initial={{ opacity: 0.9 }}
