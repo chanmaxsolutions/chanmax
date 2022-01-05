@@ -18,8 +18,8 @@ const MenuOneData = [
 	},
 	{
 		id: 4,
-		title: 'Get a Quote',
-		url: '/get-quote',
+		title: 'Career',
+		url: 'https://career.chanmax.io/',
 	},
 ];
 
